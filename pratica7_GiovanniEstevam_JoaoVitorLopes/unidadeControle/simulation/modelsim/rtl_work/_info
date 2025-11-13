@@ -1,0 +1,491 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\gioes\Documents\GitHub-Projects\university-coursework\2025-2\computer-organization-and-architecture\pratica7_GiovanniEstevam_JoaoVitorLopes\unidadeControle\simulation\modelsim
+vand1bit
+I1QAB>cd_fkOC3LKP]EKkT2
+VoAchGLAJ=@z];OCljkORI2
+Z1 dC:\Users\gioes\Documents\GitHub-Projects\university-coursework\2025-2\computer-organization-and-architecture\pratica7_GiovanniEstevam_JoaoVitorLopes\unidadeControle\simulation\modelsim
+Z2 w1762354808
+8C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica7_GiovanniEstevam_JoaoVitorLopes/unidadeControle/and1bit.v
+FC:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica7_GiovanniEstevam_JoaoVitorLopes/unidadeControle/and1bit.v
+L0 1
+Z3 OV;L;10.1d;51
+r1
+31
+Z4 o-vlog01compat -work work -O0
+Z5 !s92 -vlog01compat -work work +incdir+C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica7_GiovanniEstevam_JoaoVitorLopes/unidadeControle -O0
+!i10b 1
+!s100 ZOO@d3<RS=n07?0WX;1ka3
+!s85 0
+!s108 1762898399.152000
+!s107 C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica7_GiovanniEstevam_JoaoVitorLopes/unidadeControle/and1bit.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica7_GiovanniEstevam_JoaoVitorLopes/unidadeControle|C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica7_GiovanniEstevam_JoaoVitorLopes/unidadeControle/and1bit.v|
+!s101 -O0
+vand32bits
+I>[Ejm5GCn9I1YQkz02=N=1
+V3TR?j[dbb^M<TaT79[i^h0
+R1
+R2
+8C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica7_GiovanniEstevam_JoaoVitorLopes/unidadeControle/and32bits.v
+FC:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica7_GiovanniEstevam_JoaoVitorLopes/unidadeControle/and32bits.v
+L0 1
+R3
+r1
+31
+R4
+R5
+!i10b 1
+!s100 Onh5;W^<7Wej]42SPG7RA3
+!s85 0
+!s108 1762898398.825000
+!s107 C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica7_GiovanniEstevam_JoaoVitorLopes/unidadeControle/and32bits.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica7_GiovanniEstevam_JoaoVitorLopes/unidadeControle|C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica7_GiovanniEstevam_JoaoVitorLopes/unidadeControle/and32bits.v|
+!s101 -O0
+vbancoRegistradores
+IBCNESAUF7`5da7RQ88Z7^2
+VLMP3;hZ1PL7GlhNU44C]D3
+R1
+w1762878379
+8C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica7_GiovanniEstevam_JoaoVitorLopes/unidadeControle/bancoRegistradores.v
+FC:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica7_GiovanniEstevam_JoaoVitorLopes/unidadeControle/bancoRegistradores.v
+L0 1
+R3
+r1
+31
+R4
+R5
+nbanco@registradores
+!i10b 1
+!s100 =d:NL3EB:1UDdi1oG75^>1
+!s85 0
+!s108 1762898398.493000
+!s107 C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica7_GiovanniEstevam_JoaoVitorLopes/unidadeControle/bancoRegistradores.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica7_GiovanniEstevam_JoaoVitorLopes/unidadeControle|C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica7_GiovanniEstevam_JoaoVitorLopes/unidadeControle/bancoRegistradores.v|
+!s101 -O0
+vcountPC
+IHL6GY[k::KA[NY^OP0O4z0
+V6;a[0Il:;0mPdg;6J]]033
+R1
+w1762816127
+8C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica7_GiovanniEstevam_JoaoVitorLopes/unidadeControle/countPC.v
+FC:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica7_GiovanniEstevam_JoaoVitorLopes/unidadeControle/countPC.v
+L0 1
+R3
+r1
+31
+R4
+R5
+ncount@p@c
+!i10b 1
+!s100 PjMX7P:bH9]k@F;]EQ0312
+!s85 0
+!s108 1762898398.079000
+!s107 C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica7_GiovanniEstevam_JoaoVitorLopes/unidadeControle/countPC.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica7_GiovanniEstevam_JoaoVitorLopes/unidadeControle|C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica7_GiovanniEstevam_JoaoVitorLopes/unidadeControle/countPC.v|
+!s101 -O0
+vdecodificador_operacao_hex
+IWzZT5[F_A?LS?eHXLF8Yg3
+Vhlo06gh29<gb6JcJKo5DV0
+R1
+w1762526402
+8C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica7_GiovanniEstevam_JoaoVitorLopes/unidadeControle/decodificador_operacao_hex.v
+FC:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica7_GiovanniEstevam_JoaoVitorLopes/unidadeControle/decodificador_operacao_hex.v
+L0 1
+R3
+r1
+31
+R4
+R5
+!i10b 1
+!s100 H5Ald?A`ZlaK:C]LF1fEe1
+!s85 0
+!s108 1762898397.772000
+!s107 C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica7_GiovanniEstevam_JoaoVitorLopes/unidadeControle/decodificador_operacao_hex.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica7_GiovanniEstevam_JoaoVitorLopes/unidadeControle|C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica7_GiovanniEstevam_JoaoVitorLopes/unidadeControle/decodificador_operacao_hex.v|
+!s101 -O0
+vdivisor_frequencia
+ILNN;]WIc@4AWJ7ZOZfG<X0
+V`z:1L5e?V?Z<b04S2jE5<3
+R1
+w1762898021
+8C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica7_GiovanniEstevam_JoaoVitorLopes/unidadeControle/divisor_frequencia.v
+FC:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica7_GiovanniEstevam_JoaoVitorLopes/unidadeControle/divisor_frequencia.v
+L0 4
+R3
+r1
+31
+R4
+R5
+!i10b 1
+!s100 Gkze_[TLfkQM68[[_dG]T3
+!s85 0
+!s108 1762898397.440000
+!s107 C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica7_GiovanniEstevam_JoaoVitorLopes/unidadeControle/divisor_frequencia.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica7_GiovanniEstevam_JoaoVitorLopes/unidadeControle|C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica7_GiovanniEstevam_JoaoVitorLopes/unidadeControle/divisor_frequencia.v|
+!s101 -O0
+vextensor_sinal
+I4NH3[`]Oo9DoG^4ZgPZ610
+VC@iO_S4<f^5^]_k6jeGM>0
+R1
+Z6 w1762354809
+8C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica7_GiovanniEstevam_JoaoVitorLopes/unidadeControle/extensor_sinal.v
+FC:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica7_GiovanniEstevam_JoaoVitorLopes/unidadeControle/extensor_sinal.v
+L0 1
+R3
+r1
+31
+R4
+R5
+!i10b 1
+!s100 ZL;FkV1XK`g012]i21A7b1
+!s85 0
+!s108 1762898397.091000
+!s107 C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica7_GiovanniEstevam_JoaoVitorLopes/unidadeControle/extensor_sinal.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica7_GiovanniEstevam_JoaoVitorLopes/unidadeControle|C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica7_GiovanniEstevam_JoaoVitorLopes/unidadeControle/extensor_sinal.v|
+!s101 -O0
+vhex_display
+IOc>iBH44M_ebd=`[jXC2;3
+VO76bGU`]D]^aW=zO<L`fC0
+R1
+w1762478799
+8C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica7_GiovanniEstevam_JoaoVitorLopes/unidadeControle/hex_display.v
+FC:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica7_GiovanniEstevam_JoaoVitorLopes/unidadeControle/hex_display.v
+L0 1
+R3
+r1
+31
+R4
+R5
+!i10b 1
+!s100 X;J3c^[2bWP9`7nF:NV4L3
+!s85 0
+!s108 1762898396.739000
+!s107 C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica7_GiovanniEstevam_JoaoVitorLopes/unidadeControle/hex_display.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica7_GiovanniEstevam_JoaoVitorLopes/unidadeControle|C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica7_GiovanniEstevam_JoaoVitorLopes/unidadeControle/hex_display.v|
+!s101 -O0
+vmemoriaInstrucao
+IfZ5[9_bI4z4eJnZNha:W<3
+V0QdciQ9D>1`c^zD>goRf;2
+R1
+w1762881757
+8C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica7_GiovanniEstevam_JoaoVitorLopes/unidadeControle/memoriaInstrucao.v
+FC:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica7_GiovanniEstevam_JoaoVitorLopes/unidadeControle/memoriaInstrucao.v
+L0 1
+R3
+r1
+31
+R4
+R5
+nmemoria@instrucao
+!i10b 1
+!s100 fJZWP_N=JAAAToOUcc2i[2
+!s85 0
+!s108 1762898396.378000
+!s107 C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica7_GiovanniEstevam_JoaoVitorLopes/unidadeControle/memoriaInstrucao.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica7_GiovanniEstevam_JoaoVitorLopes/unidadeControle|C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica7_GiovanniEstevam_JoaoVitorLopes/unidadeControle/memoriaInstrucao.v|
+!s101 -O0
+vmux2por1
+IRg6JHOmnhERa_3K>b4C6:1
+VdW6i69e;3m@>O[E@8A75d0
+R1
+R6
+8C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica7_GiovanniEstevam_JoaoVitorLopes/unidadeControle/mux2por1.v
+FC:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica7_GiovanniEstevam_JoaoVitorLopes/unidadeControle/mux2por1.v
+L0 1
+R3
+r1
+31
+R4
+R5
+!i10b 1
+!s100 mPR^WNN;ENVI;ML?5BlJ`2
+!s85 0
+!s108 1762898395.949000
+!s107 C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica7_GiovanniEstevam_JoaoVitorLopes/unidadeControle/mux2por1.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica7_GiovanniEstevam_JoaoVitorLopes/unidadeControle|C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica7_GiovanniEstevam_JoaoVitorLopes/unidadeControle/mux2por1.v|
+!s101 -O0
+vmux2por1_32bits
+I4]4AAW7z=SC1CVPI8=Y?X3
+VnARNSc6mbE_LB8_IgNeIH3
+R1
+R6
+8C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica7_GiovanniEstevam_JoaoVitorLopes/unidadeControle/mux2por1_32bits.v
+FC:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica7_GiovanniEstevam_JoaoVitorLopes/unidadeControle/mux2por1_32bits.v
+L0 1
+R3
+r1
+31
+R4
+R5
+!i10b 1
+!s100 N;oWo_UG@J@B^O5zAnk0k3
+!s85 0
+!s108 1762898395.609000
+!s107 C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica7_GiovanniEstevam_JoaoVitorLopes/unidadeControle/mux2por1_32bits.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica7_GiovanniEstevam_JoaoVitorLopes/unidadeControle|C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica7_GiovanniEstevam_JoaoVitorLopes/unidadeControle/mux2por1_32bits.v|
+!s101 -O0
+vmux2por1_5bits
+I^FFn7<ScjH4R@SzoFcnRF2
+VSO;@R115A=F^dfBeiSzT]3
+R1
+R6
+8C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica7_GiovanniEstevam_JoaoVitorLopes/unidadeControle/mux2por1_5bits.v
+FC:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica7_GiovanniEstevam_JoaoVitorLopes/unidadeControle/mux2por1_5bits.v
+L0 1
+R3
+r1
+31
+R4
+R5
+!i10b 1
+!s100 C;9ZW[lPYz3bhTOOE9dbS0
+!s85 0
+!s108 1762898395.175000
+!s107 C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica7_GiovanniEstevam_JoaoVitorLopes/unidadeControle/mux2por1_5bits.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica7_GiovanniEstevam_JoaoVitorLopes/unidadeControle|C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica7_GiovanniEstevam_JoaoVitorLopes/unidadeControle/mux2por1_5bits.v|
+!s101 -O0
+vmux8por1_1bit
+I3VLk`=h9ZS3K]ghajY@>f2
+V:CkSnGmZPi;8Jh]QKzLDW0
+R1
+R6
+8C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica7_GiovanniEstevam_JoaoVitorLopes/unidadeControle/mux8por1_1bit.v
+FC:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica7_GiovanniEstevam_JoaoVitorLopes/unidadeControle/mux8por1_1bit.v
+L0 1
+R3
+r1
+31
+R4
+R5
+!i10b 1
+!s100 9Zn[g3=G9K58`bd8BGUN91
+!s85 0
+!s108 1762898394.776000
+!s107 C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica7_GiovanniEstevam_JoaoVitorLopes/unidadeControle/mux8por1_1bit.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica7_GiovanniEstevam_JoaoVitorLopes/unidadeControle|C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica7_GiovanniEstevam_JoaoVitorLopes/unidadeControle/mux8por1_1bit.v|
+!s101 -O0
+vmux8por1_32bits
+IHE]<AWZiT4D?EaQ[S;5o52
+VBN>]XFgORRBaZ41SGL20_0
+R1
+R6
+8C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica7_GiovanniEstevam_JoaoVitorLopes/unidadeControle/mux8por1_32bits.v
+FC:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica7_GiovanniEstevam_JoaoVitorLopes/unidadeControle/mux8por1_32bits.v
+L0 1
+R3
+r1
+31
+R4
+R5
+!i10b 1
+!s100 J6dTl?DceU9iBShf92O6T0
+!s85 0
+!s108 1762898394.466000
+!s107 C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica7_GiovanniEstevam_JoaoVitorLopes/unidadeControle/mux8por1_32bits.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica7_GiovanniEstevam_JoaoVitorLopes/unidadeControle|C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica7_GiovanniEstevam_JoaoVitorLopes/unidadeControle/mux8por1_32bits.v|
+!s101 -O0
+vor1bit
+IT`OKIoMH^`:62d7_:coSU1
+VP747XISBV>iYUV3Y5jm=`0
+R1
+R6
+8C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica7_GiovanniEstevam_JoaoVitorLopes/unidadeControle/or1bit.v
+FC:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica7_GiovanniEstevam_JoaoVitorLopes/unidadeControle/or1bit.v
+L0 1
+R3
+r1
+31
+R4
+R5
+!i10b 1
+!s100 ;`gkSP4oeP21akeUDHB:V3
+!s85 0
+!s108 1762898394.147000
+!s107 C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica7_GiovanniEstevam_JoaoVitorLopes/unidadeControle/or1bit.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica7_GiovanniEstevam_JoaoVitorLopes/unidadeControle|C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica7_GiovanniEstevam_JoaoVitorLopes/unidadeControle/or1bit.v|
+!s101 -O0
+vor32bits
+Ih3^eDZ0OEZnReTTf=<[ME0
+Vg`<Z8:hk>PVNW]@HN:DL>1
+R1
+R6
+8C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica7_GiovanniEstevam_JoaoVitorLopes/unidadeControle/or32bits.v
+FC:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica7_GiovanniEstevam_JoaoVitorLopes/unidadeControle/or32bits.v
+L0 1
+R3
+r1
+31
+R4
+R5
+!i10b 1
+!s100 l8lNm[7PDGD`EIBEYBeDg2
+!s85 0
+!s108 1762898393.826000
+!s107 C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica7_GiovanniEstevam_JoaoVitorLopes/unidadeControle/or32bits.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica7_GiovanniEstevam_JoaoVitorLopes/unidadeControle|C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica7_GiovanniEstevam_JoaoVitorLopes/unidadeControle/or32bits.v|
+!s101 -O0
+vpratica7_top
+Ih6>jB7;P_hb7fl]XS@meB1
+VBTLWWkm@M:?Q2_igH>nF?0
+R1
+w1762816169
+8C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica7_GiovanniEstevam_JoaoVitorLopes/unidadeControle/pratica7_top.v
+FC:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica7_GiovanniEstevam_JoaoVitorLopes/unidadeControle/pratica7_top.v
+L0 20
+R3
+r1
+31
+R4
+R5
+!i10b 1
+!s100 `fCXh@^AmRJA2fH5cMg>J1
+!s85 0
+!s108 1762898400.136000
+!s107 C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica7_GiovanniEstevam_JoaoVitorLopes/unidadeControle/pratica7_top.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica7_GiovanniEstevam_JoaoVitorLopes/unidadeControle|C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica7_GiovanniEstevam_JoaoVitorLopes/unidadeControle/pratica7_top.v|
+!s101 -O0
+vprocessador
+I2CPkjdhi:;[giEbA@E5^T0
+Va][0_PJeSdSHR3;j_:[R[1
+R1
+w1762526846
+8C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica7_GiovanniEstevam_JoaoVitorLopes/unidadeControle/processador.v
+FC:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica7_GiovanniEstevam_JoaoVitorLopes/unidadeControle/processador.v
+L0 1
+R3
+r1
+31
+R4
+R5
+!i10b 1
+!s100 65OYCQI0mg;jGzR8z6RI30
+!s85 0
+!s108 1762898393.422000
+!s107 C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica7_GiovanniEstevam_JoaoVitorLopes/unidadeControle/processador.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica7_GiovanniEstevam_JoaoVitorLopes/unidadeControle|C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica7_GiovanniEstevam_JoaoVitorLopes/unidadeControle/processador.v|
+!s101 -O0
+vprocessador_tb
+!i10b 1
+!s100 5U52nicgLaecImUdL`=N43
+Io?oRJil:a2UmETlOiPK5A2
+VYV9<D=fn?^A7jQ5_WNcT?1
+R1
+w1762898332
+8C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica7_GiovanniEstevam_JoaoVitorLopes/unidadeControle/processador_tb.v
+FC:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica7_GiovanniEstevam_JoaoVitorLopes/unidadeControle/processador_tb.v
+L0 1
+R3
+r1
+!s85 0
+31
+!s108 1762898400.484000
+!s107 C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica7_GiovanniEstevam_JoaoVitorLopes/unidadeControle/processador_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica7_GiovanniEstevam_JoaoVitorLopes/unidadeControle|C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica7_GiovanniEstevam_JoaoVitorLopes/unidadeControle/processador_tb.v|
+!s101 -O0
+R4
+R5
+vsomador1bit
+I3T?N0^hQC@=ihfOTJNLke2
+V2;P?gG?kJQGGPVA5FZgYl3
+R1
+R6
+8C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica7_GiovanniEstevam_JoaoVitorLopes/unidadeControle/somador1bit.v
+FC:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica7_GiovanniEstevam_JoaoVitorLopes/unidadeControle/somador1bit.v
+L0 1
+R3
+r1
+31
+R4
+R5
+!i10b 1
+!s100 3d[ZE@IJ2ZQjE[zM4bKhC2
+!s85 0
+!s108 1762898393.083000
+!s107 C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica7_GiovanniEstevam_JoaoVitorLopes/unidadeControle/somador1bit.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica7_GiovanniEstevam_JoaoVitorLopes/unidadeControle|C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica7_GiovanniEstevam_JoaoVitorLopes/unidadeControle/somador1bit.v|
+!s101 -O0
+vsomador32bits
+I_9=eV_jGgJU=cX<CVBFnl0
+VP9@CNo1flC0Fb`zd_K1XT2
+R1
+R6
+8C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica7_GiovanniEstevam_JoaoVitorLopes/unidadeControle/somador32bits.v
+FC:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica7_GiovanniEstevam_JoaoVitorLopes/unidadeControle/somador32bits.v
+L0 1
+R3
+r1
+31
+R4
+R5
+!i10b 1
+!s100 XSf@DzEOPdhhVI:VeDBMa2
+!s85 0
+!s108 1762898392.764000
+!s107 C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica7_GiovanniEstevam_JoaoVitorLopes/unidadeControle/somador32bits.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica7_GiovanniEstevam_JoaoVitorLopes/unidadeControle|C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica7_GiovanniEstevam_JoaoVitorLopes/unidadeControle/somador32bits.v|
+!s101 -O0
+vULA32bits
+In^Qb=LeoC[Dmh?69eozK71
+VJD6V>nZMC5U9b5n6?mMQG3
+R1
+w1762522039
+8C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica7_GiovanniEstevam_JoaoVitorLopes/unidadeControle/ULA32bits.v
+FC:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica7_GiovanniEstevam_JoaoVitorLopes/unidadeControle/ULA32bits.v
+L0 1
+R3
+r1
+31
+R4
+n@u@l@a32bits
+R5
+!i10b 1
+!s100 S?W8d3<L52W>Bm9R73dL00
+!s85 0
+!s108 1762898392.379000
+!s107 C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica7_GiovanniEstevam_JoaoVitorLopes/unidadeControle/ULA32bits.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica7_GiovanniEstevam_JoaoVitorLopes/unidadeControle|C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica7_GiovanniEstevam_JoaoVitorLopes/unidadeControle/ULA32bits.v|
+!s101 -O0
+vunidadeControlePrincipal
+Io60LOG8A:<:^gR^[aPM1e0
+VOonc[>6F=^HJ;15ZlPiWB2
+R1
+w1762869706
+8C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica7_GiovanniEstevam_JoaoVitorLopes/unidadeControle/unidadeControlePrincipal.v
+FC:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica7_GiovanniEstevam_JoaoVitorLopes/unidadeControle/unidadeControlePrincipal.v
+L0 1
+R3
+r1
+31
+R4
+R5
+nunidade@controle@principal
+!i10b 1
+!s100 @f<?:7d@`V<D2ck7?UdPF2
+!s85 0
+!s108 1762898399.803000
+!s107 C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica7_GiovanniEstevam_JoaoVitorLopes/unidadeControle/unidadeControlePrincipal.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica7_GiovanniEstevam_JoaoVitorLopes/unidadeControle|C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica7_GiovanniEstevam_JoaoVitorLopes/unidadeControle/unidadeControlePrincipal.v|
+!s101 -O0
+vunidadeControleULA
+IUh:Nd<9k6Gn14DGHlT;_21
+V^B1gS1YMZz4L6fimz6>0=0
+R1
+w1762522245
+8C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica7_GiovanniEstevam_JoaoVitorLopes/unidadeControle/unidadeControleULA.v
+FC:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica7_GiovanniEstevam_JoaoVitorLopes/unidadeControle/unidadeControleULA.v
+L0 1
+R3
+r1
+31
+R4
+R5
+nunidade@controle@u@l@a
+!i10b 1
+!s100 <c51amT@lbgEnJl7U;ia10
+!s85 0
+!s108 1762898399.469000
+!s107 C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica7_GiovanniEstevam_JoaoVitorLopes/unidadeControle/unidadeControleULA.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica7_GiovanniEstevam_JoaoVitorLopes/unidadeControle|C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica7_GiovanniEstevam_JoaoVitorLopes/unidadeControle/unidadeControleULA.v|
+!s101 -O0

@@ -1,0 +1,73 @@
+`timescale 1ns / 1ps
+
+module processador_tb;
+
+	// --- Entradas para o processador ---
+	reg clock;
+	reg reset;
+
+	// --- Saídas do processador ---
+	wire [31:0] pcout_out;
+	wire [31:0] instruction_out;
+	wire [31:0] ULA_result_out;
+	wire [31:0] reg1_data_out;
+	wire [31:0] reg2_data_out;
+	wire [31:0] immediate_out;
+	wire [2:0]  op_out;
+	wire zero_out;
+	wire overflow_out;
+	wire ULASrc_out;
+	
+	// --- Instanciação do Processador ---
+	processador uut (
+		.clock(clock),
+		.reset(reset),
+		.pcout_out(pcout_out),
+		.instruction_out(instruction_out),
+		.ULA_result_out(ULA_result_out),
+		.zero_out(zero_out),
+		.overflow_out(overflow_out),
+		.reg1_data_out(reg1_data_out),
+		.reg2_data_out(reg2_data_out),
+		.immediate_out(immediate_out),
+		.op_out(op_out),
+		.ULASrc_out(ULASrc_out)
+	);
+	
+	// 1. Gerador de Clock (Período de 10ns)
+	initial
+	begin
+		clock = 0;
+	end
+	
+	always
+	begin
+		#5 clock = ~clock; // Ciclo de clock de 10ns
+	end
+	
+	// 2. Bloco de Estímulo (Reset e Execução)
+	initial
+	begin
+		// Para visualizar as ondas:
+		// Adicione ao seu ModelSim: clock, reset, pcout_out, instruction_out,
+		// ULA_result_out, RegWrite, ALUSrc, op_out, ULAOp, reg1_data_out, 
+		// reg2_data_out, immediate_out
+		// (NOTA: RegWrite e ULAOp são fios internos do 'processador', 
+		// você precisa adicioná-los hierarquicamente no ModelSim: uut.RegWrite, uut.ULAOp)
+
+		// T=0: Ativa o reset
+		reset = 1;
+		
+		// Espera 3 ciclos de clock para garantir que o reset se propague
+		#30;
+		
+		// Libera o reset
+		reset = 0;
+		
+		// Espera 100ns (10 ciclos) para as 4 instruções executarem
+		#100;
+		
+		$stop; // Para a simulação
+	end
+
+endmodule
