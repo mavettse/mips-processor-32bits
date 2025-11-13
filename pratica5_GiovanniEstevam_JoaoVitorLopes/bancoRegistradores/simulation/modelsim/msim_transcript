@@ -1,0 +1,40 @@
+# Reading C:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do bancoRegistradores_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/gioes/Documents/pratica5_giovanni_joaolopes {C:/Users/gioes/Documents/pratica5_giovanni_joaolopes/bancoRegistradores.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module bancoRegistradores
+# 
+# Top level modules:
+# 	bancoRegistradores
+# 
+vlog -reportprogress 300 -work work C:/Users/gioes/Documents/pratica5_giovanni_joaolopes/bancoRegistradores_tb.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module bancoRegistradores_tb
+# 
+# Top level modules:
+# 	bancoRegistradores_tb
+vsim work.bancoRegistradores_tb
+# vsim work.bancoRegistradores_tb 
+# Loading work.bancoRegistradores_tb
+# Loading work.bancoRegistradores
+add wave  \
+sim:/bancoRegistradores_tb/Read1 \
+sim:/bancoRegistradores_tb/Read2 \
+sim:/bancoRegistradores_tb/WriteReg \
+sim:/bancoRegistradores_tb/WriteData \
+sim:/bancoRegistradores_tb/RegWrite \
+sim:/bancoRegistradores_tb/clock \
+sim:/bancoRegistradores_tb/Data1 \
+sim:/bancoRegistradores_tb/Data2
+run -all
+# Break in Module bancoRegistradores_tb at C:/Users/gioes/Documents/pratica5_giovanni_joaolopes/bancoRegistradores_tb.v line 47
