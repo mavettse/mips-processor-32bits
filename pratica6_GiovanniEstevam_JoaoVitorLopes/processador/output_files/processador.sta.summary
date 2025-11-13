@@ -3,12 +3,12 @@ TimeQuest Timing Analyzer Summary
 ------------------------------------------------------------
 
 Type  : Slow Model Setup 'divisor_frequencia:divisor_clock|Q[25]'
-Slack : -14.875
-TNS   : -530.354
+Slack : -14.559
+TNS   : -516.759
 
 Type  : Slow Model Setup 'CLOCK_50'
-Slack : -2.504
-TNS   : -37.996
+Slack : -2.502
+TNS   : -37.946
 
 Type  : Slow Model Hold 'CLOCK_50'
 Slack : -2.094
@@ -27,8 +27,8 @@ Slack : -0.500
 TNS   : -65.000
 
 Type  : Fast Model Setup 'divisor_frequencia:divisor_clock|Q[25]'
-Slack : -5.926
-TNS   : -198.586
+Slack : -5.755
+TNS   : -191.203
 
 Type  : Fast Model Setup 'CLOCK_50'
 Slack : -0.680

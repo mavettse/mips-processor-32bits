@@ -8,7 +8,12 @@ module countPC(pcin, reset, CLOCK_50, pcout);
 	wire [31:0] pcout_aux;
 	
 	// module somador32bits(a, b, cin, s, cout, overflow);
-	somador32bits adder(pcin, {29'b0, 3'b100}, 0, pcout_aux, cout, overflow);
+	somador32bits adder(pcin, {29'b0, 3'b100}, 1'b0, pcout_aux, cout, overflow);
+	
+	initial
+	begin	
+		pcout <= (32'b0);
+	end
 
 	// bloco always para atribuir pcout = pcin + 4
 	always @(posedge CLOCK_50 or posedge reset)

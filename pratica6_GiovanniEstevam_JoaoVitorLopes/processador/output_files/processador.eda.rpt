@@ -1,5 +1,5 @@
 EDA Netlist Writer report for processador
-Thu Nov 06 22:42:33 2025
+Wed Nov 12 09:56:43 2025
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -36,7 +36,7 @@ applicable agreement for further details.
 +-------------------------------------------------------------------+
 ; EDA Netlist Writer Summary                                        ;
 +---------------------------+---------------------------------------+
-; EDA Netlist Writer Status ; Successful - Thu Nov 06 22:42:33 2025 ;
+; EDA Netlist Writer Status ; Successful - Wed Nov 12 09:56:43 2025 ;
 ; Revision Name             ; processador                           ;
 ; Top-level Entity Name     ; pratica6_top                          ;
 ; Family                    ; Cyclone II                            ;
@@ -66,16 +66,16 @@ applicable agreement for further details.
 +---------------------------------------------------------------------------------------------------+---------------------------+
 
 
-+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Simulation Generated Files                                                                                                                                                                                  ;
-+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Generated Files                                                                                                                                                                                             ;
-+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica6_GiovanniEstevam_JoaoVitorLopes/processador/simulation/modelsim/processador.vo         ;
-; C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica6_GiovanniEstevam_JoaoVitorLopes/processador/simulation/modelsim/processador_fast.vo    ;
-; C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica6_GiovanniEstevam_JoaoVitorLopes/processador/simulation/modelsim/processador_v.sdo      ;
-; C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica6_GiovanniEstevam_JoaoVitorLopes/processador/simulation/modelsim/processador_v_fast.sdo ;
-+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++-----------------------------------------------------------------------------------------------------------------------+
+; Simulation Generated Files                                                                                            ;
++-----------------------------------------------------------------------------------------------------------------------+
+; Generated Files                                                                                                       ;
++-----------------------------------------------------------------------------------------------------------------------+
+; C:/Users/aluno/Desktop/pratica6_GiovanniEstevam_JoaoVitorLopes/processador/simulation/modelsim/processador.vo         ;
+; C:/Users/aluno/Desktop/pratica6_GiovanniEstevam_JoaoVitorLopes/processador/simulation/modelsim/processador_fast.vo    ;
+; C:/Users/aluno/Desktop/pratica6_GiovanniEstevam_JoaoVitorLopes/processador/simulation/modelsim/processador_v.sdo      ;
+; C:/Users/aluno/Desktop/pratica6_GiovanniEstevam_JoaoVitorLopes/processador/simulation/modelsim/processador_v_fast.sdo ;
++-----------------------------------------------------------------------------------------------------------------------+
 
 
 +-----------------------------+
@@ -84,13 +84,13 @@ applicable agreement for further details.
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit EDA Netlist Writer
     Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
-    Info: Processing started: Thu Nov 06 22:42:31 2025
+    Info: Processing started: Wed Nov 12 09:56:42 2025
 Info: Command: quartus_eda --read_settings_files=off --write_settings_files=off processador -c processador
-Info (204026): Generated files "processador.vo", "processador_fast.vo", "processador_v.sdo" and "processador_v_fast.sdo" in directory "C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica6_GiovanniEstevam_JoaoVitorLopes/processador/simulation/modelsim/" for EDA simulation tool
+Info (204026): Generated files "processador.vo", "processador_fast.vo", "processador_v.sdo" and "processador_v_fast.sdo" in directory "C:/Users/aluno/Desktop/pratica6_GiovanniEstevam_JoaoVitorLopes/processador/simulation/modelsim/" for EDA simulation tool
 Info: Quartus II 64-Bit EDA Netlist Writer was successful. 0 errors, 0 warnings
-    Info: Peak virtual memory: 4540 megabytes
-    Info: Processing ended: Thu Nov 06 22:42:33 2025
-    Info: Elapsed time: 00:00:02
-    Info: Total CPU time (on all processors): 00:00:02
+    Info: Peak virtual memory: 4536 megabytes
+    Info: Processing ended: Wed Nov 12 09:56:43 2025
+    Info: Elapsed time: 00:00:01
+    Info: Total CPU time (on all processors): 00:00:01
 
 

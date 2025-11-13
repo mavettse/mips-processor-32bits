@@ -1,5 +1,5 @@
 Analysis & Synthesis report for processador
-Thu Nov 06 22:42:05 2025
+Wed Nov 12 09:56:31 2025
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -82,7 +82,7 @@ applicable agreement for further details.
 +--------------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                         ;
 +------------------------------------+-------------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Thu Nov 06 22:42:05 2025           ;
+; Analysis & Synthesis Status        ; Successful - Wed Nov 12 09:56:31 2025           ;
 ; Quartus II 64-Bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition ;
 ; Revision Name                      ; processador                                     ;
 ; Top-level Entity Name              ; pratica6_top                                    ;
@@ -195,33 +195,33 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +----------------------------+--------+
 
 
-+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                                                                                                                                                ;
-+----------------------------------+-----------------+------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type              ; File Name with Absolute Path                                                                                                                                                                  ; Library ;
-+----------------------------------+-----------------+------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------+
-; ULA32bits.v                      ; yes             ; User Verilog HDL File  ; C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica6_GiovanniEstevam_JoaoVitorLopes/processador/ULA32bits.v                  ;         ;
-; somador32bits.v                  ; yes             ; User Verilog HDL File  ; C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica6_GiovanniEstevam_JoaoVitorLopes/processador/somador32bits.v              ;         ;
-; somador1bit.v                    ; yes             ; User Verilog HDL File  ; C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica6_GiovanniEstevam_JoaoVitorLopes/processador/somador1bit.v                ;         ;
-; or32bits.v                       ; yes             ; User Verilog HDL File  ; C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica6_GiovanniEstevam_JoaoVitorLopes/processador/or32bits.v                   ;         ;
-; or1bit.v                         ; yes             ; User Verilog HDL File  ; C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica6_GiovanniEstevam_JoaoVitorLopes/processador/or1bit.v                     ;         ;
-; mux8por1_32bits.v                ; yes             ; User Verilog HDL File  ; C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica6_GiovanniEstevam_JoaoVitorLopes/processador/mux8por1_32bits.v            ;         ;
-; mux8por1_1bit.v                  ; yes             ; User Verilog HDL File  ; C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica6_GiovanniEstevam_JoaoVitorLopes/processador/mux8por1_1bit.v              ;         ;
-; mux2por1.v                       ; yes             ; User Verilog HDL File  ; C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica6_GiovanniEstevam_JoaoVitorLopes/processador/mux2por1.v                   ;         ;
-; memoriaInstrucao.v               ; yes             ; User Verilog HDL File  ; C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica6_GiovanniEstevam_JoaoVitorLopes/processador/memoriaInstrucao.v           ;         ;
-; hex_display.v                    ; yes             ; User Verilog HDL File  ; C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica6_GiovanniEstevam_JoaoVitorLopes/processador/hex_display.v                ;         ;
-; extensor_sinal.v                 ; yes             ; User Verilog HDL File  ; C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica6_GiovanniEstevam_JoaoVitorLopes/processador/extensor_sinal.v             ;         ;
-; divisor_frequencia.v             ; yes             ; User Verilog HDL File  ; C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica6_GiovanniEstevam_JoaoVitorLopes/processador/divisor_frequencia.v         ;         ;
-; bancoRegistradores.v             ; yes             ; User Verilog HDL File  ; C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica6_GiovanniEstevam_JoaoVitorLopes/processador/bancoRegistradores.v         ;         ;
-; and32bits.v                      ; yes             ; User Verilog HDL File  ; C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica6_GiovanniEstevam_JoaoVitorLopes/processador/and32bits.v                  ;         ;
-; and1bit.v                        ; yes             ; User Verilog HDL File  ; C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica6_GiovanniEstevam_JoaoVitorLopes/processador/and1bit.v                    ;         ;
-; countPC.v                        ; yes             ; User Verilog HDL File  ; C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica6_GiovanniEstevam_JoaoVitorLopes/processador/countPC.v                    ;         ;
-; processador.v                    ; yes             ; User Verilog HDL File  ; C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica6_GiovanniEstevam_JoaoVitorLopes/processador/processador.v                ;         ;
-; mux2por1_5bits.v                 ; yes             ; User Verilog HDL File  ; C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica6_GiovanniEstevam_JoaoVitorLopes/processador/mux2por1_5bits.v             ;         ;
-; mux2por1_32bits.v                ; yes             ; User Verilog HDL File  ; C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica6_GiovanniEstevam_JoaoVitorLopes/processador/mux2por1_32bits.v            ;         ;
-; pratica6_top.v                   ; yes             ; User Verilog HDL File  ; C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica6_GiovanniEstevam_JoaoVitorLopes/processador/pratica6_top.v               ;         ;
-; decodificador_operacao_hex.v     ; yes             ; User Verilog HDL File  ; C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica6_GiovanniEstevam_JoaoVitorLopes/processador/decodificador_operacao_hex.v ;         ;
-+----------------------------------+-----------------+------------------------+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------+
++-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                                          ;
++----------------------------------+-----------------+------------------------+---------------------------------------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type              ; File Name with Absolute Path                                                                            ; Library ;
++----------------------------------+-----------------+------------------------+---------------------------------------------------------------------------------------------------------+---------+
+; ULA32bits.v                      ; yes             ; User Verilog HDL File  ; C:/Users/aluno/Desktop/pratica6_GiovanniEstevam_JoaoVitorLopes/processador/ULA32bits.v                  ;         ;
+; somador32bits.v                  ; yes             ; User Verilog HDL File  ; C:/Users/aluno/Desktop/pratica6_GiovanniEstevam_JoaoVitorLopes/processador/somador32bits.v              ;         ;
+; somador1bit.v                    ; yes             ; User Verilog HDL File  ; C:/Users/aluno/Desktop/pratica6_GiovanniEstevam_JoaoVitorLopes/processador/somador1bit.v                ;         ;
+; or32bits.v                       ; yes             ; User Verilog HDL File  ; C:/Users/aluno/Desktop/pratica6_GiovanniEstevam_JoaoVitorLopes/processador/or32bits.v                   ;         ;
+; or1bit.v                         ; yes             ; User Verilog HDL File  ; C:/Users/aluno/Desktop/pratica6_GiovanniEstevam_JoaoVitorLopes/processador/or1bit.v                     ;         ;
+; mux8por1_32bits.v                ; yes             ; User Verilog HDL File  ; C:/Users/aluno/Desktop/pratica6_GiovanniEstevam_JoaoVitorLopes/processador/mux8por1_32bits.v            ;         ;
+; mux8por1_1bit.v                  ; yes             ; User Verilog HDL File  ; C:/Users/aluno/Desktop/pratica6_GiovanniEstevam_JoaoVitorLopes/processador/mux8por1_1bit.v              ;         ;
+; mux2por1.v                       ; yes             ; User Verilog HDL File  ; C:/Users/aluno/Desktop/pratica6_GiovanniEstevam_JoaoVitorLopes/processador/mux2por1.v                   ;         ;
+; memoriaInstrucao.v               ; yes             ; User Verilog HDL File  ; C:/Users/aluno/Desktop/pratica6_GiovanniEstevam_JoaoVitorLopes/processador/memoriaInstrucao.v           ;         ;
+; hex_display.v                    ; yes             ; User Verilog HDL File  ; C:/Users/aluno/Desktop/pratica6_GiovanniEstevam_JoaoVitorLopes/processador/hex_display.v                ;         ;
+; extensor_sinal.v                 ; yes             ; User Verilog HDL File  ; C:/Users/aluno/Desktop/pratica6_GiovanniEstevam_JoaoVitorLopes/processador/extensor_sinal.v             ;         ;
+; divisor_frequencia.v             ; yes             ; User Verilog HDL File  ; C:/Users/aluno/Desktop/pratica6_GiovanniEstevam_JoaoVitorLopes/processador/divisor_frequencia.v         ;         ;
+; bancoRegistradores.v             ; yes             ; User Verilog HDL File  ; C:/Users/aluno/Desktop/pratica6_GiovanniEstevam_JoaoVitorLopes/processador/bancoRegistradores.v         ;         ;
+; and32bits.v                      ; yes             ; User Verilog HDL File  ; C:/Users/aluno/Desktop/pratica6_GiovanniEstevam_JoaoVitorLopes/processador/and32bits.v                  ;         ;
+; and1bit.v                        ; yes             ; User Verilog HDL File  ; C:/Users/aluno/Desktop/pratica6_GiovanniEstevam_JoaoVitorLopes/processador/and1bit.v                    ;         ;
+; countPC.v                        ; yes             ; User Verilog HDL File  ; C:/Users/aluno/Desktop/pratica6_GiovanniEstevam_JoaoVitorLopes/processador/countPC.v                    ;         ;
+; processador.v                    ; yes             ; User Verilog HDL File  ; C:/Users/aluno/Desktop/pratica6_GiovanniEstevam_JoaoVitorLopes/processador/processador.v                ;         ;
+; mux2por1_5bits.v                 ; yes             ; User Verilog HDL File  ; C:/Users/aluno/Desktop/pratica6_GiovanniEstevam_JoaoVitorLopes/processador/mux2por1_5bits.v             ;         ;
+; mux2por1_32bits.v                ; yes             ; User Verilog HDL File  ; C:/Users/aluno/Desktop/pratica6_GiovanniEstevam_JoaoVitorLopes/processador/mux2por1_32bits.v            ;         ;
+; pratica6_top.v                   ; yes             ; User Verilog HDL File  ; C:/Users/aluno/Desktop/pratica6_GiovanniEstevam_JoaoVitorLopes/processador/pratica6_top.v               ;         ;
+; decodificador_operacao_hex.v     ; yes             ; User Verilog HDL File  ; C:/Users/aluno/Desktop/pratica6_GiovanniEstevam_JoaoVitorLopes/processador/decodificador_operacao_hex.v ;         ;
++----------------------------------+-----------------+------------------------+---------------------------------------------------------------------------------------------------------+---------+
 
 
 +--------------------------------------------------------------------------------------------------------------+
@@ -249,7 +249,7 @@ Parallel compilation was disabled, but you have multiple processors available. E
 ; Embedded Multiplier 9-bit elements          ; 0                                                              ;
 ; Maximum fan-out node                        ; processador:processador_placa|memoriaInstrucao:memInstr|Mux1~1 ;
 ; Maximum fan-out                             ; 92                                                             ;
-; Total fan-out                               ; 980                                                            ;
+; Total fan-out                               ; 982                                                            ;
 ; Average fan-out                             ; 2.71                                                           ;
 +---------------------------------------------+----------------------------------------------------------------+
 
@@ -2063,19 +2063,18 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +----------+-------+----------+-----------------------------------------------------+
 
 
-+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port Connectivity Checks: "processador:processador_placa|countPC:pc|somador32bits:adder"                                                                                                                          ;
-+----------+--------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Port     ; Type   ; Severity ; Details                                                                                                                                                                            ;
-+----------+--------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; b[31..3] ; Input  ; Info     ; Stuck at GND                                                                                                                                                                       ;
-; b[1..0]  ; Input  ; Info     ; Stuck at GND                                                                                                                                                                       ;
-; b[2]     ; Input  ; Info     ; Stuck at VCC                                                                                                                                                                       ;
-; cin      ; Input  ; Warning  ; Input port expression (32 bits) is wider than the input port (1 bits) it drives.  The 31 most-significant bit(s) in the expression will be dangling if they have no other fanouts. ;
-; cin[-1]  ; Input  ; Info     ; Stuck at GND                                                                                                                                                                       ;
-; cout     ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed.                                                                                                ;
-; overflow ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed.                                                                                                ;
-+----------+--------+----------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
++--------------------------------------------------------------------------------------------------------------------+
+; Port Connectivity Checks: "processador:processador_placa|countPC:pc|somador32bits:adder"                           ;
++----------+--------+----------+-------------------------------------------------------------------------------------+
+; Port     ; Type   ; Severity ; Details                                                                             ;
++----------+--------+----------+-------------------------------------------------------------------------------------+
+; b[31..3] ; Input  ; Info     ; Stuck at GND                                                                        ;
+; b[1..0]  ; Input  ; Info     ; Stuck at GND                                                                        ;
+; b[2]     ; Input  ; Info     ; Stuck at VCC                                                                        ;
+; cin      ; Input  ; Info     ; Stuck at GND                                                                        ;
+; cout     ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; overflow ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
++----------+--------+----------+-------------------------------------------------------------------------------------+
 
 
 +----------------------------------------------------------------------------------------------------------------------------------+
@@ -2107,7 +2106,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Analysis & Synthesis
     Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
-    Info: Processing started: Thu Nov 06 22:42:00 2025
+    Info: Processing started: Wed Nov 12 09:56:28 2025
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off processador -c processador
 Warning (20028): Parallel compilation is not licensed and has been disabled
 Info (12021): Found 1 design units, including 1 entities, in source file valor_absoluto.v
@@ -2183,21 +2182,20 @@ Info (12128): Elaborating entity "mux8por1_1bit" for hierarchy "processador:proc
 Info (12128): Elaborating entity "mux2por1" for hierarchy "processador:processador_placa|ULA32bits:ula|mux8por1_32bits:op|mux8por1_1bit:ripple[0].op|mux2por1:mux1"
 Info (12128): Elaborating entity "hex_display" for hierarchy "hex_display:disp0"
 Info (12128): Elaborating entity "decodificador_operacao_hex" for hierarchy "decodificador_operacao_hex:dec_hex6"
-Warning (12241): 1 hierarchies have connectivity warnings - see the Connectivity Checks report folder
 Warning (13024): Output pins are stuck at VCC or GND
-    Warning (13410): Pin "HEX0[1]" is stuck at GND
-    Warning (13410): Pin "HEX4[1]" is stuck at GND
-    Warning (13410): Pin "HEX4[4]" is stuck at GND
+    Warning (13410): Pin "HEX0[5]" is stuck at GND
     Warning (13410): Pin "HEX4[5]" is stuck at GND
-    Warning (13410): Pin "HEX5[1]" is stuck at GND
-    Warning (13410): Pin "HEX6[0]" is stuck at GND
-    Warning (13410): Pin "HEX6[1]" is stuck at GND
-    Warning (13410): Pin "HEX6[2]" is stuck at GND
-    Warning (13410): Pin "HEX6[3]" is stuck at VCC
-    Warning (13410): Pin "HEX6[4]" is stuck at GND
-    Warning (13410): Pin "HEX6[5]" is stuck at GND
+    Warning (13410): Pin "HEX4[2]" is stuck at GND
+    Warning (13410): Pin "HEX4[1]" is stuck at GND
+    Warning (13410): Pin "HEX5[5]" is stuck at GND
     Warning (13410): Pin "HEX6[6]" is stuck at GND
-    Warning (13410): Pin "HEX7[1]" is stuck at GND
+    Warning (13410): Pin "HEX6[5]" is stuck at GND
+    Warning (13410): Pin "HEX6[4]" is stuck at GND
+    Warning (13410): Pin "HEX6[3]" is stuck at VCC
+    Warning (13410): Pin "HEX6[2]" is stuck at GND
+    Warning (13410): Pin "HEX6[1]" is stuck at GND
+    Warning (13410): Pin "HEX6[0]" is stuck at GND
+    Warning (13410): Pin "HEX7[5]" is stuck at GND
     Warning (13410): Pin "LEDR[3]" is stuck at GND
     Warning (13410): Pin "LEDR[4]" is stuck at GND
     Warning (13410): Pin "LEDR[5]" is stuck at GND
@@ -2211,8 +2209,6 @@ Warning (13024): Output pins are stuck at VCC or GND
     Warning (13410): Pin "LEDR[13]" is stuck at GND
     Warning (13410): Pin "LEDR[14]" is stuck at GND
     Warning (13410): Pin "LEDR[15]" is stuck at GND
-    Warning (13410): Pin "LEDR[16]" is stuck at GND
-    Warning (13410): Pin "LEDR[17]" is stuck at GND
     Warning (13410): Pin "LEDG[1]" is stuck at GND
     Warning (13410): Pin "LEDG[2]" is stuck at GND
     Warning (13410): Pin "LEDG[3]" is stuck at GND
@@ -2245,10 +2241,10 @@ Info (21057): Implemented 332 device resources after synthesis - the final resou
     Info (21058): Implemented 19 input pins
     Info (21059): Implemented 82 output pins
     Info (21061): Implemented 231 logic cells
-Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 58 warnings
-    Info: Peak virtual memory: 4622 megabytes
-    Info: Processing ended: Thu Nov 06 22:42:05 2025
-    Info: Elapsed time: 00:00:05
-    Info: Total CPU time (on all processors): 00:00:06
+Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 55 warnings
+    Info: Peak virtual memory: 4603 megabytes
+    Info: Processing ended: Wed Nov 12 09:56:31 2025
+    Info: Elapsed time: 00:00:03
+    Info: Total CPU time (on all processors): 00:00:03
 
 

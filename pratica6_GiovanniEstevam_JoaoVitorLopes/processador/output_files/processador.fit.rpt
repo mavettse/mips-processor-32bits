@@ -1,5 +1,5 @@
 Fitter report for processador
-Thu Nov 06 22:42:18 2025
+Wed Nov 12 09:56:37 2025
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -63,14 +63,14 @@ applicable agreement for further details.
 +--------------------------------------------------------------------------------------+
 ; Fitter Summary                                                                       ;
 +------------------------------------+-------------------------------------------------+
-; Fitter Status                      ; Successful - Thu Nov 06 22:42:18 2025           ;
+; Fitter Status                      ; Successful - Wed Nov 12 09:56:37 2025           ;
 ; Quartus II 64-Bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition ;
 ; Revision Name                      ; processador                                     ;
 ; Top-level Entity Name              ; pratica6_top                                    ;
 ; Family                             ; Cyclone II                                      ;
 ; Device                             ; EP2C35F672C6                                    ;
 ; Timing Models                      ; Final                                           ;
-; Total logic elements               ; 175 / 33,216 ( < 1 % )                          ;
+; Total logic elements               ; 174 / 33,216 ( < 1 % )                          ;
 ;     Total combinational functions  ; 170 / 33,216 ( < 1 % )                          ;
 ;     Dedicated logic registers      ; 91 / 33,216 ( < 1 % )                           ;
 ; Total registers                    ; 91                                              ;
@@ -91,6 +91,7 @@ applicable agreement for further details.
 ; Minimum Core Junction Temperature                                          ; 0                              ;                                ;
 ; Maximum Core Junction Temperature                                          ; 85                             ;                                ;
 ; Fit Attempts to Skip                                                       ; 0                              ; 0.0                            ;
+; Device I/O Standard                                                        ; 3.3-V LVTTL                    ;                                ;
 ; Use smart compilation                                                      ; Off                            ; Off                            ;
 ; Enable parallel Assembler and TimeQuest Timing Analyzer during compilation ; On                             ; On                             ;
 ; Enable compact report table                                                ; Off                            ; Off                            ;
@@ -513,7 +514,7 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +--------------+
 ; Pin-Out File ;
 +--------------+
-The pin-out file can be found in C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica6_GiovanniEstevam_JoaoVitorLopes/processador/output_files/processador.pin.
+The pin-out file can be found in C:/Users/aluno/Desktop/pratica6_GiovanniEstevam_JoaoVitorLopes/processador/output_files/processador.pin.
 
 
 +----------------------------------------------------------------------+
@@ -521,16 +522,16 @@ The pin-out file can be found in C:/Users/gioes/Documents/GitHub-Projects/univer
 +---------------------------------------------+------------------------+
 ; Resource                                    ; Usage                  ;
 +---------------------------------------------+------------------------+
-; Total logic elements                        ; 175 / 33,216 ( < 1 % ) ;
-;     -- Combinational with no register       ; 84                     ;
-;     -- Register only                        ; 5                      ;
-;     -- Combinational with a register        ; 86                     ;
+; Total logic elements                        ; 174 / 33,216 ( < 1 % ) ;
+;     -- Combinational with no register       ; 83                     ;
+;     -- Register only                        ; 4                      ;
+;     -- Combinational with a register        ; 87                     ;
 ;                                             ;                        ;
 ; Logic element usage by number of LUT inputs ;                        ;
 ;     -- 4 input functions                    ; 129                    ;
 ;     -- 3 input functions                    ; 5                      ;
 ;     -- <=2 input functions                  ; 36                     ;
-;     -- Register only                        ; 5                      ;
+;     -- Register only                        ; 4                      ;
 ;                                             ;                        ;
 ; Logic elements by mode                      ;                        ;
 ;     -- normal mode                          ; 146                    ;
@@ -540,7 +541,7 @@ The pin-out file can be found in C:/Users/gioes/Documents/GitHub-Projects/univer
 ;     -- Dedicated logic registers            ; 91 / 33,216 ( < 1 % )  ;
 ;     -- I/O registers                        ; 0 / 1,377 ( 0 % )      ;
 ;                                             ;                        ;
-; Total LABs:  partially or completely used   ; 15 / 2,076 ( < 1 % )   ;
+; Total LABs:  partially or completely used   ; 13 / 2,076 ( < 1 % )   ;
 ; Virtual pins                                ; 0                      ;
 ; I/O pins                                    ; 101 / 475 ( 21 % )     ;
 ;     -- Clock pins                           ; 8 / 8 ( 100 % )        ;
@@ -556,11 +557,11 @@ The pin-out file can be found in C:/Users/gioes/Documents/GitHub-Projects/univer
 ; ASMI blocks                                 ; 0 / 1 ( 0 % )          ;
 ; CRC blocks                                  ; 0 / 1 ( 0 % )          ;
 ; Average interconnect usage (total/H/V)      ; 0% / 0% / 0%           ;
-; Peak interconnect usage (total/H/V)         ; 2% / 2% / 1%           ;
+; Peak interconnect usage (total/H/V)         ; 2% / 2% / 2%           ;
 ; Maximum fan-out                             ; 92                     ;
 ; Highest non-global fan-out                  ; 92                     ;
-; Total fan-out                               ; 983                    ;
-; Average fan-out                             ; 2.67                   ;
+; Total fan-out                               ; 985                    ;
+; Average fan-out                             ; 2.68                   ;
 +---------------------------------------------+------------------------+
 *  Register count does not include registers inside RAM blocks or DSP blocks.
 
@@ -573,16 +574,16 @@ The pin-out file can be found in C:/Users/gioes/Documents/GitHub-Projects/univer
 +---------------------------------------------+-----------------------+--------------------------------+
 ; Difficulty Clustering Region                ; Low                   ; Low                            ;
 ;                                             ;                       ;                                ;
-; Total logic elements                        ; 175 / 33216 ( < 1 % ) ; 0 / 33216 ( 0 % )              ;
-;     -- Combinational with no register       ; 84                    ; 0                              ;
-;     -- Register only                        ; 5                     ; 0                              ;
-;     -- Combinational with a register        ; 86                    ; 0                              ;
+; Total logic elements                        ; 174 / 33216 ( < 1 % ) ; 0 / 33216 ( 0 % )              ;
+;     -- Combinational with no register       ; 83                    ; 0                              ;
+;     -- Register only                        ; 4                     ; 0                              ;
+;     -- Combinational with a register        ; 87                    ; 0                              ;
 ;                                             ;                       ;                                ;
 ; Logic element usage by number of LUT inputs ;                       ;                                ;
 ;     -- 4 input functions                    ; 129                   ; 0                              ;
 ;     -- 3 input functions                    ; 5                     ; 0                              ;
 ;     -- <=2 input functions                  ; 36                    ; 0                              ;
-;     -- Register only                        ; 5                     ; 0                              ;
+;     -- Register only                        ; 4                     ; 0                              ;
 ;                                             ;                       ;                                ;
 ; Logic elements by mode                      ;                       ;                                ;
 ;     -- normal mode                          ; 146                   ; 0                              ;
@@ -591,7 +592,7 @@ The pin-out file can be found in C:/Users/gioes/Documents/GitHub-Projects/univer
 ; Total registers                             ; 91                    ; 0                              ;
 ;     -- Dedicated logic registers            ; 91 / 33216 ( < 1 % )  ; 0 / 33216 ( 0 % )              ;
 ;                                             ;                       ;                                ;
-; Total LABs:  partially or completely used   ; 15 / 2076 ( < 1 % )   ; 0 / 2076 ( 0 % )               ;
+; Total LABs:  partially or completely used   ; 13 / 2076 ( < 1 % )   ; 0 / 2076 ( 0 % )               ;
 ;                                             ;                       ;                                ;
 ; Virtual pins                                ; 0                     ; 0                              ;
 ; I/O pins                                    ; 101                   ; 0                              ;
@@ -607,8 +608,8 @@ The pin-out file can be found in C:/Users/gioes/Documents/GitHub-Projects/univer
 ;     -- Registered Output Connections        ; 0                     ; 0                              ;
 ;                                             ;                       ;                                ;
 ; Internal Connections                        ;                       ;                                ;
-;     -- Total Connections                    ; 983                   ; 0                              ;
-;     -- Registered Connections               ; 157                   ; 0                              ;
+;     -- Total Connections                    ; 985                   ; 0                              ;
+;     -- Registered Connections               ; 159                   ; 0                              ;
 ;                                             ;                       ;                                ;
 ; External Connections                        ;                       ;                                ;
 ;     -- Top                                  ; 0                     ; 0                              ;
@@ -1491,25 +1492,25 @@ Note: User assignments will override these defaults. The user specified values a
 +----------------------------------------------+-------------+---------------------------+---------------+-------------+------+--------------+---------+-----------+------+--------------+--------------+-------------------+------------------+----------------------------------------------------------------------------------------------------------------+--------------+
 ; Compilation Hierarchy Node                   ; Logic Cells ; Dedicated Logic Registers ; I/O Registers ; Memory Bits ; M4Ks ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; LUT-Only LCs ; Register-Only LCs ; LUT/Register LCs ; Full Hierarchy Name                                                                                            ; Library Name ;
 +----------------------------------------------+-------------+---------------------------+---------------+-------------+------+--------------+---------+-----------+------+--------------+--------------+-------------------+------------------+----------------------------------------------------------------------------------------------------------------+--------------+
-; |pratica6_top                                ; 175 (0)     ; 91 (0)                    ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 101  ; 0            ; 84 (0)       ; 5 (0)             ; 86 (0)           ; |pratica6_top                                                                                                  ; work         ;
+; |pratica6_top                                ; 174 (0)     ; 91 (0)                    ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 101  ; 0            ; 83 (0)       ; 4 (0)             ; 87 (0)           ; |pratica6_top                                                                                                  ; work         ;
 ;    |divisor_frequencia:divisor_clock|        ; 26 (26)     ; 26 (26)                   ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 26 (26)          ; |pratica6_top|divisor_frequencia:divisor_clock                                                                 ; work         ;
 ;    |hex_display:disp0|                       ; 3 (3)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 3 (3)        ; 0 (0)             ; 0 (0)            ; |pratica6_top|hex_display:disp0                                                                                ; work         ;
 ;    |hex_display:disp1|                       ; 7 (7)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 7 (7)        ; 0 (0)             ; 0 (0)            ; |pratica6_top|hex_display:disp1                                                                                ; work         ;
 ;    |hex_display:disp2|                       ; 7 (7)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 7 (7)        ; 0 (0)             ; 0 (0)            ; |pratica6_top|hex_display:disp2                                                                                ; work         ;
 ;    |hex_display:disp3|                       ; 7 (7)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 7 (7)        ; 0 (0)             ; 0 (0)            ; |pratica6_top|hex_display:disp3                                                                                ; work         ;
 ;    |hex_display:disp5|                       ; 3 (3)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 3 (3)        ; 0 (0)             ; 0 (0)            ; |pratica6_top|hex_display:disp5                                                                                ; work         ;
-;    |hex_display:disp7|                       ; 3 (3)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 3 (3)            ; |pratica6_top|hex_display:disp7                                                                                ; work         ;
-;    |processador:processador_placa|           ; 122 (0)     ; 65 (0)                    ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 57 (0)       ; 5 (0)             ; 60 (0)           ; |pratica6_top|processador:processador_placa                                                                    ; work         ;
-;       |ULA32bits:ula|                        ; 74 (11)     ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 51 (7)       ; 0 (0)             ; 23 (4)           ; |pratica6_top|processador:processador_placa|ULA32bits:ula                                                      ; work         ;
-;          |somador32bits:op_soma|             ; 63 (1)      ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 44 (1)       ; 0 (0)             ; 19 (0)           ; |pratica6_top|processador:processador_placa|ULA32bits:ula|somador32bits:op_soma                                ; work         ;
+;    |hex_display:disp7|                       ; 3 (3)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 2 (2)        ; 0 (0)             ; 1 (1)            ; |pratica6_top|hex_display:disp7                                                                                ; work         ;
+;    |processador:processador_placa|           ; 119 (0)     ; 65 (0)                    ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 54 (0)       ; 4 (0)             ; 61 (0)           ; |pratica6_top|processador:processador_placa                                                                    ; work         ;
+;       |ULA32bits:ula|                        ; 74 (11)     ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 47 (9)       ; 0 (0)             ; 27 (2)           ; |pratica6_top|processador:processador_placa|ULA32bits:ula                                                      ; work         ;
+;          |somador32bits:op_soma|             ; 63 (1)      ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 38 (1)       ; 0 (0)             ; 25 (0)           ; |pratica6_top|processador:processador_placa|ULA32bits:ula|somador32bits:op_soma                                ; work         ;
 ;             |somador1bit:ripple[10].op_soma| ; 2 (2)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 1 (1)        ; 0 (0)             ; 1 (1)            ; |pratica6_top|processador:processador_placa|ULA32bits:ula|somador32bits:op_soma|somador1bit:ripple[10].op_soma ; work         ;
-;             |somador1bit:ripple[11].op_soma| ; 2 (2)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 2 (2)        ; 0 (0)             ; 0 (0)            ; |pratica6_top|processador:processador_placa|ULA32bits:ula|somador32bits:op_soma|somador1bit:ripple[11].op_soma ; work         ;
+;             |somador1bit:ripple[11].op_soma| ; 2 (2)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 1 (1)        ; 0 (0)             ; 1 (1)            ; |pratica6_top|processador:processador_placa|ULA32bits:ula|somador32bits:op_soma|somador1bit:ripple[11].op_soma ; work         ;
 ;             |somador1bit:ripple[12].op_soma| ; 2 (2)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 2 (2)        ; 0 (0)             ; 0 (0)            ; |pratica6_top|processador:processador_placa|ULA32bits:ula|somador32bits:op_soma|somador1bit:ripple[12].op_soma ; work         ;
 ;             |somador1bit:ripple[13].op_soma| ; 2 (2)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 1 (1)        ; 0 (0)             ; 1 (1)            ; |pratica6_top|processador:processador_placa|ULA32bits:ula|somador32bits:op_soma|somador1bit:ripple[13].op_soma ; work         ;
 ;             |somador1bit:ripple[14].op_soma| ; 2 (2)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 2 (2)        ; 0 (0)             ; 0 (0)            ; |pratica6_top|processador:processador_placa|ULA32bits:ula|somador32bits:op_soma|somador1bit:ripple[14].op_soma ; work         ;
 ;             |somador1bit:ripple[15].op_soma| ; 2 (2)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 1 (1)        ; 0 (0)             ; 1 (1)            ; |pratica6_top|processador:processador_placa|ULA32bits:ula|somador32bits:op_soma|somador1bit:ripple[15].op_soma ; work         ;
 ;             |somador1bit:ripple[16].op_soma| ; 2 (2)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 2 (2)        ; 0 (0)             ; 0 (0)            ; |pratica6_top|processador:processador_placa|ULA32bits:ula|somador32bits:op_soma|somador1bit:ripple[16].op_soma ; work         ;
-;             |somador1bit:ripple[17].op_soma| ; 2 (2)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 2 (2)        ; 0 (0)             ; 0 (0)            ; |pratica6_top|processador:processador_placa|ULA32bits:ula|somador32bits:op_soma|somador1bit:ripple[17].op_soma ; work         ;
+;             |somador1bit:ripple[17].op_soma| ; 2 (2)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 1 (1)        ; 0 (0)             ; 1 (1)            ; |pratica6_top|processador:processador_placa|ULA32bits:ula|somador32bits:op_soma|somador1bit:ripple[17].op_soma ; work         ;
 ;             |somador1bit:ripple[18].op_soma| ; 2 (2)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 1 (1)        ; 0 (0)             ; 1 (1)            ; |pratica6_top|processador:processador_placa|ULA32bits:ula|somador32bits:op_soma|somador1bit:ripple[18].op_soma ; work         ;
 ;             |somador1bit:ripple[19].op_soma| ; 2 (2)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 1 (1)        ; 0 (0)             ; 1 (1)            ; |pratica6_top|processador:processador_placa|ULA32bits:ula|somador32bits:op_soma|somador1bit:ripple[19].op_soma ; work         ;
 ;             |somador1bit:ripple[20].op_soma| ; 2 (2)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 1 (1)        ; 0 (0)             ; 1 (1)            ; |pratica6_top|processador:processador_placa|ULA32bits:ula|somador32bits:op_soma|somador1bit:ripple[20].op_soma ; work         ;
@@ -1522,18 +1523,18 @@ Note: User assignments will override these defaults. The user specified values a
 ;             |somador1bit:ripple[27].op_soma| ; 2 (2)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 1 (1)        ; 0 (0)             ; 1 (1)            ; |pratica6_top|processador:processador_placa|ULA32bits:ula|somador32bits:op_soma|somador1bit:ripple[27].op_soma ; work         ;
 ;             |somador1bit:ripple[28].op_soma| ; 2 (2)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 1 (1)        ; 0 (0)             ; 1 (1)            ; |pratica6_top|processador:processador_placa|ULA32bits:ula|somador32bits:op_soma|somador1bit:ripple[28].op_soma ; work         ;
 ;             |somador1bit:ripple[29].op_soma| ; 2 (2)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 1 (1)        ; 0 (0)             ; 1 (1)            ; |pratica6_top|processador:processador_placa|ULA32bits:ula|somador32bits:op_soma|somador1bit:ripple[29].op_soma ; work         ;
-;             |somador1bit:ripple[2].op_soma|  ; 2 (2)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 1 (1)        ; 0 (0)             ; 1 (1)            ; |pratica6_top|processador:processador_placa|ULA32bits:ula|somador32bits:op_soma|somador1bit:ripple[2].op_soma  ; work         ;
+;             |somador1bit:ripple[2].op_soma|  ; 2 (2)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 2 (2)        ; 0 (0)             ; 0 (0)            ; |pratica6_top|processador:processador_placa|ULA32bits:ula|somador32bits:op_soma|somador1bit:ripple[2].op_soma  ; work         ;
 ;             |somador1bit:ripple[30].op_soma| ; 3 (3)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 2 (2)        ; 0 (0)             ; 1 (1)            ; |pratica6_top|processador:processador_placa|ULA32bits:ula|somador32bits:op_soma|somador1bit:ripple[30].op_soma ; work         ;
 ;             |somador1bit:ripple[31].op_soma| ; 2 (2)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 1 (1)        ; 0 (0)             ; 1 (1)            ; |pratica6_top|processador:processador_placa|ULA32bits:ula|somador32bits:op_soma|somador1bit:ripple[31].op_soma ; work         ;
 ;             |somador1bit:ripple[3].op_soma|  ; 2 (2)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 2 (2)        ; 0 (0)             ; 0 (0)            ; |pratica6_top|processador:processador_placa|ULA32bits:ula|somador32bits:op_soma|somador1bit:ripple[3].op_soma  ; work         ;
-;             |somador1bit:ripple[4].op_soma|  ; 3 (3)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 2 (2)        ; 0 (0)             ; 1 (1)            ; |pratica6_top|processador:processador_placa|ULA32bits:ula|somador32bits:op_soma|somador1bit:ripple[4].op_soma  ; work         ;
+;             |somador1bit:ripple[4].op_soma|  ; 3 (3)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 1 (1)        ; 0 (0)             ; 2 (2)            ; |pratica6_top|processador:processador_placa|ULA32bits:ula|somador32bits:op_soma|somador1bit:ripple[4].op_soma  ; work         ;
 ;             |somador1bit:ripple[5].op_soma|  ; 2 (2)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 2 (2)        ; 0 (0)             ; 0 (0)            ; |pratica6_top|processador:processador_placa|ULA32bits:ula|somador32bits:op_soma|somador1bit:ripple[5].op_soma  ; work         ;
-;             |somador1bit:ripple[6].op_soma|  ; 2 (2)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 2 (2)        ; 0 (0)             ; 0 (0)            ; |pratica6_top|processador:processador_placa|ULA32bits:ula|somador32bits:op_soma|somador1bit:ripple[6].op_soma  ; work         ;
-;             |somador1bit:ripple[7].op_soma|  ; 2 (2)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 2 (2)        ; 0 (0)             ; 0 (0)            ; |pratica6_top|processador:processador_placa|ULA32bits:ula|somador32bits:op_soma|somador1bit:ripple[7].op_soma  ; work         ;
-;             |somador1bit:ripple[8].op_soma|  ; 2 (2)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 2 (2)        ; 0 (0)             ; 0 (0)            ; |pratica6_top|processador:processador_placa|ULA32bits:ula|somador32bits:op_soma|somador1bit:ripple[8].op_soma  ; work         ;
-;             |somador1bit:ripple[9].op_soma|  ; 2 (2)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 2 (2)        ; 0 (0)             ; 0 (0)            ; |pratica6_top|processador:processador_placa|ULA32bits:ula|somador32bits:op_soma|somador1bit:ripple[9].op_soma  ; work         ;
-;       |bancoRegistradores:bReg|              ; 61 (61)     ; 60 (60)                   ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 1 (1)        ; 5 (5)             ; 55 (55)          ; |pratica6_top|processador:processador_placa|bancoRegistradores:bReg                                            ; work         ;
-;       |countPC:pc|                           ; 6 (6)       ; 5 (5)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 6 (6)            ; |pratica6_top|processador:processador_placa|countPC:pc                                                         ; work         ;
+;             |somador1bit:ripple[6].op_soma|  ; 2 (2)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 1 (1)        ; 0 (0)             ; 1 (1)            ; |pratica6_top|processador:processador_placa|ULA32bits:ula|somador32bits:op_soma|somador1bit:ripple[6].op_soma  ; work         ;
+;             |somador1bit:ripple[7].op_soma|  ; 2 (2)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 1 (1)        ; 0 (0)             ; 1 (1)            ; |pratica6_top|processador:processador_placa|ULA32bits:ula|somador32bits:op_soma|somador1bit:ripple[7].op_soma  ; work         ;
+;             |somador1bit:ripple[8].op_soma|  ; 2 (2)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 1 (1)        ; 0 (0)             ; 1 (1)            ; |pratica6_top|processador:processador_placa|ULA32bits:ula|somador32bits:op_soma|somador1bit:ripple[8].op_soma  ; work         ;
+;             |somador1bit:ripple[9].op_soma|  ; 2 (2)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 1 (1)        ; 0 (0)             ; 1 (1)            ; |pratica6_top|processador:processador_placa|ULA32bits:ula|somador32bits:op_soma|somador1bit:ripple[9].op_soma  ; work         ;
+;       |bancoRegistradores:bReg|              ; 62 (62)     ; 60 (60)                   ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 2 (2)        ; 4 (4)             ; 56 (56)          ; |pratica6_top|processador:processador_placa|bancoRegistradores:bReg                                            ; work         ;
+;       |countPC:pc|                           ; 5 (5)       ; 5 (5)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 0 (0)        ; 0 (0)             ; 5 (5)            ; |pratica6_top|processador:processador_placa|countPC:pc                                                         ; work         ;
 ;       |memoriaInstrucao:memInstr|            ; 5 (5)       ; 0 (0)                     ; 0 (0)         ; 0           ; 0    ; 0            ; 0       ; 0         ; 0    ; 0            ; 5 (5)        ; 0 (0)             ; 0 (0)            ; |pratica6_top|processador:processador_placa|memoriaInstrucao:memInstr                                          ; work         ;
 +----------------------------------------------+-------------+---------------------------+---------------+-------------+------+--------------+---------+-----------+------+--------------+--------------+-------------------+------------------+----------------------------------------------------------------------------------------------------------------+--------------+
 Note: For table entries with two numbers listed, the numbers in parentheses indicate the number of resources of the given type used by the specific entity alone. The numbers listed outside of parentheses indicate the total resources of the given type used by the specific entity and all of its sub-entities in the hierarchy.
@@ -1561,62 +1562,62 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; SW[14]   ; Input    ; (0) 171 ps    ; (0) 171 ps    ; --                    ; --  ;
 ; SW[15]   ; Input    ; (0) 171 ps    ; (0) 171 ps    ; --                    ; --  ;
 ; SW[16]   ; Input    ; (0) 171 ps    ; (0) 171 ps    ; --                    ; --  ;
-; HEX0[0]  ; Output   ; --            ; --            ; --                    ; --  ;
-; HEX0[1]  ; Output   ; --            ; --            ; --                    ; --  ;
-; HEX0[2]  ; Output   ; --            ; --            ; --                    ; --  ;
-; HEX0[3]  ; Output   ; --            ; --            ; --                    ; --  ;
-; HEX0[4]  ; Output   ; --            ; --            ; --                    ; --  ;
-; HEX0[5]  ; Output   ; --            ; --            ; --                    ; --  ;
 ; HEX0[6]  ; Output   ; --            ; --            ; --                    ; --  ;
-; HEX1[0]  ; Output   ; --            ; --            ; --                    ; --  ;
-; HEX1[1]  ; Output   ; --            ; --            ; --                    ; --  ;
-; HEX1[2]  ; Output   ; --            ; --            ; --                    ; --  ;
-; HEX1[3]  ; Output   ; --            ; --            ; --                    ; --  ;
-; HEX1[4]  ; Output   ; --            ; --            ; --                    ; --  ;
-; HEX1[5]  ; Output   ; --            ; --            ; --                    ; --  ;
+; HEX0[5]  ; Output   ; --            ; --            ; --                    ; --  ;
+; HEX0[4]  ; Output   ; --            ; --            ; --                    ; --  ;
+; HEX0[3]  ; Output   ; --            ; --            ; --                    ; --  ;
+; HEX0[2]  ; Output   ; --            ; --            ; --                    ; --  ;
+; HEX0[1]  ; Output   ; --            ; --            ; --                    ; --  ;
+; HEX0[0]  ; Output   ; --            ; --            ; --                    ; --  ;
 ; HEX1[6]  ; Output   ; --            ; --            ; --                    ; --  ;
-; HEX2[0]  ; Output   ; --            ; --            ; --                    ; --  ;
-; HEX2[1]  ; Output   ; --            ; --            ; --                    ; --  ;
-; HEX2[2]  ; Output   ; --            ; --            ; --                    ; --  ;
-; HEX2[3]  ; Output   ; --            ; --            ; --                    ; --  ;
-; HEX2[4]  ; Output   ; --            ; --            ; --                    ; --  ;
-; HEX2[5]  ; Output   ; --            ; --            ; --                    ; --  ;
+; HEX1[5]  ; Output   ; --            ; --            ; --                    ; --  ;
+; HEX1[4]  ; Output   ; --            ; --            ; --                    ; --  ;
+; HEX1[3]  ; Output   ; --            ; --            ; --                    ; --  ;
+; HEX1[2]  ; Output   ; --            ; --            ; --                    ; --  ;
+; HEX1[1]  ; Output   ; --            ; --            ; --                    ; --  ;
+; HEX1[0]  ; Output   ; --            ; --            ; --                    ; --  ;
 ; HEX2[6]  ; Output   ; --            ; --            ; --                    ; --  ;
-; HEX3[0]  ; Output   ; --            ; --            ; --                    ; --  ;
-; HEX3[1]  ; Output   ; --            ; --            ; --                    ; --  ;
-; HEX3[2]  ; Output   ; --            ; --            ; --                    ; --  ;
-; HEX3[3]  ; Output   ; --            ; --            ; --                    ; --  ;
-; HEX3[4]  ; Output   ; --            ; --            ; --                    ; --  ;
-; HEX3[5]  ; Output   ; --            ; --            ; --                    ; --  ;
+; HEX2[5]  ; Output   ; --            ; --            ; --                    ; --  ;
+; HEX2[4]  ; Output   ; --            ; --            ; --                    ; --  ;
+; HEX2[3]  ; Output   ; --            ; --            ; --                    ; --  ;
+; HEX2[2]  ; Output   ; --            ; --            ; --                    ; --  ;
+; HEX2[1]  ; Output   ; --            ; --            ; --                    ; --  ;
+; HEX2[0]  ; Output   ; --            ; --            ; --                    ; --  ;
 ; HEX3[6]  ; Output   ; --            ; --            ; --                    ; --  ;
-; HEX4[0]  ; Output   ; --            ; --            ; --                    ; --  ;
-; HEX4[1]  ; Output   ; --            ; --            ; --                    ; --  ;
-; HEX4[2]  ; Output   ; --            ; --            ; --                    ; --  ;
-; HEX4[3]  ; Output   ; --            ; --            ; --                    ; --  ;
-; HEX4[4]  ; Output   ; --            ; --            ; --                    ; --  ;
-; HEX4[5]  ; Output   ; --            ; --            ; --                    ; --  ;
+; HEX3[5]  ; Output   ; --            ; --            ; --                    ; --  ;
+; HEX3[4]  ; Output   ; --            ; --            ; --                    ; --  ;
+; HEX3[3]  ; Output   ; --            ; --            ; --                    ; --  ;
+; HEX3[2]  ; Output   ; --            ; --            ; --                    ; --  ;
+; HEX3[1]  ; Output   ; --            ; --            ; --                    ; --  ;
+; HEX3[0]  ; Output   ; --            ; --            ; --                    ; --  ;
 ; HEX4[6]  ; Output   ; --            ; --            ; --                    ; --  ;
-; HEX5[0]  ; Output   ; --            ; --            ; --                    ; --  ;
-; HEX5[1]  ; Output   ; --            ; --            ; --                    ; --  ;
-; HEX5[2]  ; Output   ; --            ; --            ; --                    ; --  ;
-; HEX5[3]  ; Output   ; --            ; --            ; --                    ; --  ;
-; HEX5[4]  ; Output   ; --            ; --            ; --                    ; --  ;
-; HEX5[5]  ; Output   ; --            ; --            ; --                    ; --  ;
+; HEX4[5]  ; Output   ; --            ; --            ; --                    ; --  ;
+; HEX4[4]  ; Output   ; --            ; --            ; --                    ; --  ;
+; HEX4[3]  ; Output   ; --            ; --            ; --                    ; --  ;
+; HEX4[2]  ; Output   ; --            ; --            ; --                    ; --  ;
+; HEX4[1]  ; Output   ; --            ; --            ; --                    ; --  ;
+; HEX4[0]  ; Output   ; --            ; --            ; --                    ; --  ;
 ; HEX5[6]  ; Output   ; --            ; --            ; --                    ; --  ;
-; HEX6[0]  ; Output   ; --            ; --            ; --                    ; --  ;
-; HEX6[1]  ; Output   ; --            ; --            ; --                    ; --  ;
-; HEX6[2]  ; Output   ; --            ; --            ; --                    ; --  ;
-; HEX6[3]  ; Output   ; --            ; --            ; --                    ; --  ;
-; HEX6[4]  ; Output   ; --            ; --            ; --                    ; --  ;
-; HEX6[5]  ; Output   ; --            ; --            ; --                    ; --  ;
+; HEX5[5]  ; Output   ; --            ; --            ; --                    ; --  ;
+; HEX5[4]  ; Output   ; --            ; --            ; --                    ; --  ;
+; HEX5[3]  ; Output   ; --            ; --            ; --                    ; --  ;
+; HEX5[2]  ; Output   ; --            ; --            ; --                    ; --  ;
+; HEX5[1]  ; Output   ; --            ; --            ; --                    ; --  ;
+; HEX5[0]  ; Output   ; --            ; --            ; --                    ; --  ;
 ; HEX6[6]  ; Output   ; --            ; --            ; --                    ; --  ;
-; HEX7[0]  ; Output   ; --            ; --            ; --                    ; --  ;
-; HEX7[1]  ; Output   ; --            ; --            ; --                    ; --  ;
-; HEX7[2]  ; Output   ; --            ; --            ; --                    ; --  ;
-; HEX7[3]  ; Output   ; --            ; --            ; --                    ; --  ;
-; HEX7[4]  ; Output   ; --            ; --            ; --                    ; --  ;
-; HEX7[5]  ; Output   ; --            ; --            ; --                    ; --  ;
+; HEX6[5]  ; Output   ; --            ; --            ; --                    ; --  ;
+; HEX6[4]  ; Output   ; --            ; --            ; --                    ; --  ;
+; HEX6[3]  ; Output   ; --            ; --            ; --                    ; --  ;
+; HEX6[2]  ; Output   ; --            ; --            ; --                    ; --  ;
+; HEX6[1]  ; Output   ; --            ; --            ; --                    ; --  ;
+; HEX6[0]  ; Output   ; --            ; --            ; --                    ; --  ;
 ; HEX7[6]  ; Output   ; --            ; --            ; --                    ; --  ;
+; HEX7[5]  ; Output   ; --            ; --            ; --                    ; --  ;
+; HEX7[4]  ; Output   ; --            ; --            ; --                    ; --  ;
+; HEX7[3]  ; Output   ; --            ; --            ; --                    ; --  ;
+; HEX7[2]  ; Output   ; --            ; --            ; --                    ; --  ;
+; HEX7[1]  ; Output   ; --            ; --            ; --                    ; --  ;
+; HEX7[0]  ; Output   ; --            ; --            ; --                    ; --  ;
 ; LEDR[0]  ; Output   ; --            ; --            ; --                    ; --  ;
 ; LEDR[1]  ; Output   ; --            ; --            ; --                    ; --  ;
 ; LEDR[2]  ; Output   ; --            ; --            ; --                    ; --  ;
@@ -1774,9 +1775,9 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +------------------------------------------------------------------+-------------------+---------+--------------+--------+----------------------+------------------+---------------------------+
 ; CLOCK_50                                                         ; PIN_N2            ; 26      ; Clock        ; yes    ; Global Clock         ; GCLK2            ; --                        ;
 ; SW[17]                                                           ; PIN_V2            ; 92      ; Async. clear ; no     ; --                   ; --               ; --                        ;
-; divisor_frequencia:divisor_clock|Q[25]                           ; LCFF_X34_Y1_N25   ; 65      ; Clock        ; yes    ; Global Clock         ; GCLK13           ; --                        ;
-; processador:processador_placa|bancoRegistradores:bReg|Decoder0~0 ; LCCOMB_X61_Y5_N16 ; 30      ; Clock enable ; no     ; --                   ; --               ; --                        ;
-; processador:processador_placa|memoriaInstrucao:memInstr|Mux1~1   ; LCCOMB_X60_Y5_N12 ; 92      ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; divisor_frequencia:divisor_clock|Q[25]                           ; LCFF_X34_Y1_N25   ; 65      ; Clock        ; yes    ; Global Clock         ; GCLK14           ; --                        ;
+; processador:processador_placa|bancoRegistradores:bReg|Decoder0~0 ; LCCOMB_X61_Y5_N18 ; 30      ; Clock enable ; no     ; --                   ; --               ; --                        ;
+; processador:processador_placa|memoriaInstrucao:memInstr|Mux1~1   ; LCCOMB_X61_Y5_N4  ; 92      ; Clock enable ; no     ; --                   ; --               ; --                        ;
 +------------------------------------------------------------------+-------------------+---------+--------------+--------+----------------------+------------------+---------------------------+
 
 
@@ -1786,7 +1787,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; Name                                   ; Location        ; Fan-Out ; Global Resource Used ; Global Line Name ; Enable Signal Source Name ;
 +----------------------------------------+-----------------+---------+----------------------+------------------+---------------------------+
 ; CLOCK_50                               ; PIN_N2          ; 26      ; Global Clock         ; GCLK2            ; --                        ;
-; divisor_frequencia:divisor_clock|Q[25] ; LCFF_X34_Y1_N25 ; 65      ; Global Clock         ; GCLK13           ; --                        ;
+; divisor_frequencia:divisor_clock|Q[25] ; LCFF_X34_Y1_N25 ; 65      ; Global Clock         ; GCLK14           ; --                        ;
 +----------------------------------------+-----------------+---------+----------------------+------------------+---------------------------+
 
 
@@ -1801,6 +1802,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; processador:processador_placa|countPC:pc|pcout[6]                                                       ; 39      ;
 ; processador:processador_placa|bancoRegistradores:bReg|Decoder0~0                                        ; 30      ;
 ; processador:processador_placa|memoriaInstrucao:memInstr|Mux7~0                                          ; 30      ;
+; processador:processador_placa|countPC:pc|pcout[2]                                                       ; 11      ;
 ; processador:processador_placa|ULA32bits:ula|somador32bits:op_soma|somador1bit:ripple[15].op_soma|s      ; 10      ;
 ; processador:processador_placa|ULA32bits:ula|somador32bits:op_soma|somador1bit:ripple[14].op_soma|s      ; 10      ;
 ; processador:processador_placa|ULA32bits:ula|somador32bits:op_soma|somador1bit:ripple[13].op_soma|s      ; 10      ;
@@ -1813,8 +1815,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; processador:processador_placa|ULA32bits:ula|somador32bits:op_soma|somador1bit:ripple[6].op_soma|s       ; 10      ;
 ; processador:processador_placa|ULA32bits:ula|somador32bits:op_soma|somador1bit:ripple[5].op_soma|s       ; 10      ;
 ; processador:processador_placa|ULA32bits:ula|somador32bits:op_soma|somador1bit:ripple[4].op_soma|s       ; 10      ;
-; processador:processador_placa|countPC:pc|pcout[2]                                                       ; 10      ;
-; processador:processador_placa|countPC:pc|pcout[3]                                                       ; 8       ;
+; processador:processador_placa|countPC:pc|pcout[3]                                                       ; 9       ;
 ; processador:processador_placa|memoriaInstrucao:memInstr|Mux1~0                                          ; 7       ;
 ; processador:processador_placa|ULA32bits:ula|somador32bits:op_soma|somador1bit:ripple[2].op_soma|s       ; 6       ;
 ; processador:processador_placa|ULA32bits:ula|somador32bits:op_soma|somador1bit:ripple[3].op_soma|s       ; 6       ;
@@ -2089,33 +2090,33 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +-----------------------------+------------------------+
 ; Other Routing Resource Type ; Usage                  ;
 +-----------------------------+------------------------+
-; Block interconnects         ; 265 / 94,460 ( < 1 % ) ;
-; C16 interconnects           ; 7 / 3,315 ( < 1 % )    ;
-; C4 interconnects            ; 95 / 60,840 ( < 1 % )  ;
-; Direct links                ; 80 / 94,460 ( < 1 % )  ;
+; Block interconnects         ; 252 / 94,460 ( < 1 % ) ;
+; C16 interconnects           ; 9 / 3,315 ( < 1 % )    ;
+; C4 interconnects            ; 129 / 60,840 ( < 1 % ) ;
+; Direct links                ; 71 / 94,460 ( < 1 % )  ;
 ; Global clocks               ; 2 / 16 ( 13 % )        ;
-; Local interconnects         ; 113 / 33,216 ( < 1 % ) ;
-; R24 interconnects           ; 26 / 3,091 ( < 1 % )   ;
-; R4 interconnects            ; 179 / 81,294 ( < 1 % ) ;
+; Local interconnects         ; 106 / 33,216 ( < 1 % ) ;
+; R24 interconnects           ; 21 / 3,091 ( < 1 % )   ;
+; R4 interconnects            ; 191 / 81,294 ( < 1 % ) ;
 +-----------------------------+------------------------+
 
 
 +----------------------------------------------------------------------------+
 ; LAB Logic Elements                                                         ;
 +---------------------------------------------+------------------------------+
-; Number of Logic Elements  (Average = 11.67) ; Number of LABs  (Total = 15) ;
+; Number of Logic Elements  (Average = 13.38) ; Number of LABs  (Total = 13) ;
 +---------------------------------------------+------------------------------+
-; 1                                           ; 2                            ;
+; 1                                           ; 1                            ;
 ; 2                                           ; 0                            ;
-; 3                                           ; 1                            ;
+; 3                                           ; 0                            ;
 ; 4                                           ; 0                            ;
 ; 5                                           ; 0                            ;
 ; 6                                           ; 0                            ;
-; 7                                           ; 1                            ;
-; 8                                           ; 0                            ;
-; 9                                           ; 1                            ;
+; 7                                           ; 0                            ;
+; 8                                           ; 1                            ;
+; 9                                           ; 0                            ;
 ; 10                                          ; 0                            ;
-; 11                                          ; 0                            ;
+; 11                                          ; 1                            ;
 ; 12                                          ; 0                            ;
 ; 13                                          ; 2                            ;
 ; 14                                          ; 0                            ;
@@ -2127,113 +2128,106 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +-------------------------------------------------------------------+
 ; LAB-wide Signals                                                  ;
 +------------------------------------+------------------------------+
-; LAB-wide Signals  (Average = 1.87) ; Number of LABs  (Total = 15) ;
+; LAB-wide Signals  (Average = 2.08) ; Number of LABs  (Total = 13) ;
 +------------------------------------+------------------------------+
 ; 1 Async. clear                     ; 10                           ;
 ; 1 Clock                            ; 10                           ;
-; 1 Clock enable                     ; 6                            ;
-; 2 Clock enables                    ; 2                            ;
+; 1 Clock enable                     ; 7                            ;
 +------------------------------------+------------------------------+
 
 
 +-----------------------------------------------------------------------------+
 ; LAB Signals Sourced                                                         ;
 +----------------------------------------------+------------------------------+
-; Number of Signals Sourced  (Average = 17.47) ; Number of LABs  (Total = 15) ;
+; Number of Signals Sourced  (Average = 20.15) ; Number of LABs  (Total = 13) ;
 +----------------------------------------------+------------------------------+
 ; 0                                            ; 0                            ;
-; 1                                            ; 2                            ;
+; 1                                            ; 1                            ;
 ; 2                                            ; 0                            ;
-; 3                                            ; 1                            ;
+; 3                                            ; 0                            ;
 ; 4                                            ; 0                            ;
 ; 5                                            ; 0                            ;
 ; 6                                            ; 0                            ;
-; 7                                            ; 1                            ;
-; 8                                            ; 0                            ;
-; 9                                            ; 1                            ;
+; 7                                            ; 0                            ;
+; 8                                            ; 1                            ;
+; 9                                            ; 0                            ;
 ; 10                                           ; 0                            ;
-; 11                                           ; 0                            ;
+; 11                                           ; 1                            ;
 ; 12                                           ; 0                            ;
 ; 13                                           ; 0                            ;
 ; 14                                           ; 0                            ;
 ; 15                                           ; 0                            ;
 ; 16                                           ; 0                            ;
 ; 17                                           ; 0                            ;
-; 18                                           ; 1                            ;
-; 19                                           ; 1                            ;
-; 20                                           ; 1                            ;
+; 18                                           ; 2                            ;
+; 19                                           ; 0                            ;
+; 20                                           ; 0                            ;
 ; 21                                           ; 0                            ;
 ; 22                                           ; 0                            ;
-; 23                                           ; 2                            ;
-; 24                                           ; 0                            ;
+; 23                                           ; 0                            ;
+; 24                                           ; 3                            ;
 ; 25                                           ; 0                            ;
-; 26                                           ; 3                            ;
-; 27                                           ; 0                            ;
-; 28                                           ; 0                            ;
-; 29                                           ; 1                            ;
-; 30                                           ; 0                            ;
-; 31                                           ; 1                            ;
+; 26                                           ; 2                            ;
+; 27                                           ; 2                            ;
+; 28                                           ; 1                            ;
 +----------------------------------------------+------------------------------+
 
 
 +--------------------------------------------------------------------------------+
 ; LAB Signals Sourced Out                                                        ;
 +-------------------------------------------------+------------------------------+
-; Number of Signals Sourced Out  (Average = 9.60) ; Number of LABs  (Total = 15) ;
+; Number of Signals Sourced Out  (Average = 9.46) ; Number of LABs  (Total = 13) ;
 +-------------------------------------------------+------------------------------+
 ; 0                                               ; 1                            ;
-; 1                                               ; 3                            ;
+; 1                                               ; 2                            ;
 ; 2                                               ; 0                            ;
-; 3                                               ; 1                            ;
+; 3                                               ; 0                            ;
 ; 4                                               ; 0                            ;
 ; 5                                               ; 0                            ;
 ; 6                                               ; 0                            ;
-; 7                                               ; 1                            ;
+; 7                                               ; 0                            ;
 ; 8                                               ; 1                            ;
-; 9                                               ; 0                            ;
-; 10                                              ; 0                            ;
-; 11                                              ; 0                            ;
-; 12                                              ; 1                            ;
-; 13                                              ; 0                            ;
-; 14                                              ; 1                            ;
-; 15                                              ; 2                            ;
-; 16                                              ; 2                            ;
-; 17                                              ; 1                            ;
-; 18                                              ; 1                            ;
+; 9                                               ; 1                            ;
+; 10                                              ; 1                            ;
+; 11                                              ; 2                            ;
+; 12                                              ; 0                            ;
+; 13                                              ; 1                            ;
+; 14                                              ; 2                            ;
+; 15                                              ; 1                            ;
+; 16                                              ; 1                            ;
 +-------------------------------------------------+------------------------------+
 
 
 +-----------------------------------------------------------------------------+
 ; LAB Distinct Inputs                                                         ;
 +----------------------------------------------+------------------------------+
-; Number of Distinct Inputs  (Average = 12.00) ; Number of LABs  (Total = 15) ;
+; Number of Distinct Inputs  (Average = 11.77) ; Number of LABs  (Total = 13) ;
 +----------------------------------------------+------------------------------+
 ; 0                                            ; 0                            ;
 ; 1                                            ; 0                            ;
 ; 2                                            ; 2                            ;
-; 3                                            ; 2                            ;
-; 4                                            ; 2                            ;
-; 5                                            ; 0                            ;
-; 6                                            ; 0                            ;
+; 3                                            ; 1                            ;
+; 4                                            ; 0                            ;
+; 5                                            ; 1                            ;
+; 6                                            ; 1                            ;
 ; 7                                            ; 0                            ;
-; 8                                            ; 1                            ;
-; 9                                            ; 0                            ;
-; 10                                           ; 1                            ;
+; 8                                            ; 0                            ;
+; 9                                            ; 1                            ;
+; 10                                           ; 0                            ;
 ; 11                                           ; 0                            ;
 ; 12                                           ; 1                            ;
 ; 13                                           ; 0                            ;
 ; 14                                           ; 0                            ;
-; 15                                           ; 0                            ;
-; 16                                           ; 1                            ;
-; 17                                           ; 0                            ;
-; 18                                           ; 0                            ;
+; 15                                           ; 1                            ;
+; 16                                           ; 0                            ;
+; 17                                           ; 1                            ;
+; 18                                           ; 1                            ;
 ; 19                                           ; 0                            ;
-; 20                                           ; 1                            ;
+; 20                                           ; 2                            ;
 ; 21                                           ; 0                            ;
 ; 22                                           ; 0                            ;
-; 23                                           ; 1                            ;
-; 24                                           ; 2                            ;
-; 25                                           ; 1                            ;
+; 23                                           ; 0                            ;
+; 24                                           ; 1                            ;
 +----------------------------------------------+------------------------------+
 
 
@@ -2620,7 +2614,7 @@ Warning (15705): Ignored locations or region assignments to the following nodes
     Warning (15706): Node "VGA_R[9]" is assigned to location or region, but does not exist in design
     Warning (15706): Node "VGA_SYNC" is assigned to location or region, but does not exist in design
     Warning (15706): Node "VGA_VS" is assigned to location or region, but does not exist in design
-Info (171121): Fitter preparation operations ending: elapsed time is 00:00:01
+Info (171121): Fitter preparation operations ending: elapsed time is 00:00:00
 Info (170189): Fitter placement preparation operations beginning
 Info (170190): Fitter placement preparation operations ending: elapsed time is 00:00:00
 Info (170191): Fitter placement operations beginning
@@ -2632,65 +2626,65 @@ Info (170195): Router estimated average interconnect usage is 0% of the availabl
 Info (170194): Fitter routing operations ending: elapsed time is 00:00:01
 Info (170199): The Fitter performed an Auto Fit compilation.  Optimizations were skipped to reduce compilation time.
     Info (170201): Optimizations that may affect the design's routability were skipped
-Info (11888): Total time spent on timing analysis during the Fitter is 0.45 seconds.
+Info (11888): Total time spent on timing analysis during the Fitter is 0.20 seconds.
 Info (306004): Started post-fitting delay annotation
 Warning (306006): Found 82 output pins without output pin load capacitance assignment
-    Info (306007): Pin "HEX0[0]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
-    Info (306007): Pin "HEX0[1]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
-    Info (306007): Pin "HEX0[2]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
-    Info (306007): Pin "HEX0[3]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
-    Info (306007): Pin "HEX0[4]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
-    Info (306007): Pin "HEX0[5]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
     Info (306007): Pin "HEX0[6]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
-    Info (306007): Pin "HEX1[0]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
-    Info (306007): Pin "HEX1[1]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
-    Info (306007): Pin "HEX1[2]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
-    Info (306007): Pin "HEX1[3]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
-    Info (306007): Pin "HEX1[4]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
-    Info (306007): Pin "HEX1[5]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info (306007): Pin "HEX0[5]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info (306007): Pin "HEX0[4]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info (306007): Pin "HEX0[3]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info (306007): Pin "HEX0[2]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info (306007): Pin "HEX0[1]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info (306007): Pin "HEX0[0]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
     Info (306007): Pin "HEX1[6]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
-    Info (306007): Pin "HEX2[0]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
-    Info (306007): Pin "HEX2[1]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
-    Info (306007): Pin "HEX2[2]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
-    Info (306007): Pin "HEX2[3]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
-    Info (306007): Pin "HEX2[4]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
-    Info (306007): Pin "HEX2[5]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info (306007): Pin "HEX1[5]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info (306007): Pin "HEX1[4]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info (306007): Pin "HEX1[3]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info (306007): Pin "HEX1[2]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info (306007): Pin "HEX1[1]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info (306007): Pin "HEX1[0]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
     Info (306007): Pin "HEX2[6]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
-    Info (306007): Pin "HEX3[0]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
-    Info (306007): Pin "HEX3[1]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
-    Info (306007): Pin "HEX3[2]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
-    Info (306007): Pin "HEX3[3]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
-    Info (306007): Pin "HEX3[4]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
-    Info (306007): Pin "HEX3[5]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info (306007): Pin "HEX2[5]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info (306007): Pin "HEX2[4]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info (306007): Pin "HEX2[3]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info (306007): Pin "HEX2[2]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info (306007): Pin "HEX2[1]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info (306007): Pin "HEX2[0]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
     Info (306007): Pin "HEX3[6]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
-    Info (306007): Pin "HEX4[0]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
-    Info (306007): Pin "HEX4[1]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
-    Info (306007): Pin "HEX4[2]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
-    Info (306007): Pin "HEX4[3]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
-    Info (306007): Pin "HEX4[4]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
-    Info (306007): Pin "HEX4[5]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info (306007): Pin "HEX3[5]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info (306007): Pin "HEX3[4]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info (306007): Pin "HEX3[3]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info (306007): Pin "HEX3[2]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info (306007): Pin "HEX3[1]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info (306007): Pin "HEX3[0]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
     Info (306007): Pin "HEX4[6]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
-    Info (306007): Pin "HEX5[0]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
-    Info (306007): Pin "HEX5[1]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
-    Info (306007): Pin "HEX5[2]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
-    Info (306007): Pin "HEX5[3]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
-    Info (306007): Pin "HEX5[4]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
-    Info (306007): Pin "HEX5[5]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info (306007): Pin "HEX4[5]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info (306007): Pin "HEX4[4]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info (306007): Pin "HEX4[3]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info (306007): Pin "HEX4[2]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info (306007): Pin "HEX4[1]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info (306007): Pin "HEX4[0]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
     Info (306007): Pin "HEX5[6]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
-    Info (306007): Pin "HEX6[0]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
-    Info (306007): Pin "HEX6[1]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
-    Info (306007): Pin "HEX6[2]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
-    Info (306007): Pin "HEX6[3]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
-    Info (306007): Pin "HEX6[4]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
-    Info (306007): Pin "HEX6[5]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info (306007): Pin "HEX5[5]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info (306007): Pin "HEX5[4]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info (306007): Pin "HEX5[3]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info (306007): Pin "HEX5[2]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info (306007): Pin "HEX5[1]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info (306007): Pin "HEX5[0]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
     Info (306007): Pin "HEX6[6]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
-    Info (306007): Pin "HEX7[0]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
-    Info (306007): Pin "HEX7[1]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
-    Info (306007): Pin "HEX7[2]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
-    Info (306007): Pin "HEX7[3]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
-    Info (306007): Pin "HEX7[4]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
-    Info (306007): Pin "HEX7[5]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info (306007): Pin "HEX6[5]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info (306007): Pin "HEX6[4]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info (306007): Pin "HEX6[3]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info (306007): Pin "HEX6[2]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info (306007): Pin "HEX6[1]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info (306007): Pin "HEX6[0]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
     Info (306007): Pin "HEX7[6]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info (306007): Pin "HEX7[5]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info (306007): Pin "HEX7[4]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info (306007): Pin "HEX7[3]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info (306007): Pin "HEX7[2]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info (306007): Pin "HEX7[1]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
+    Info (306007): Pin "HEX7[0]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
     Info (306007): Pin "LEDR[0]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
     Info (306007): Pin "LEDR[1]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
     Info (306007): Pin "LEDR[2]" has no specified output pin load capacitance -- assuming default load capacitance of 0 pF for timing analysis
@@ -2720,20 +2714,20 @@ Warning (306006): Found 82 output pins without output pin load capacitance assig
 Info (306005): Delay annotation completed successfully
 Info (306004): Started post-fitting delay annotation
 Info (306005): Delay annotation completed successfully
-Info (11218): Fitter post-fit operations ending: elapsed time is 00:00:01
+Info (11218): Fitter post-fit operations ending: elapsed time is 00:00:00
 Warning (171167): Found invalid Fitter assignments. See the Ignored Assignments panel in the Fitter Compilation Report for more information.
 Warning (169174): The Reserve All Unused Pins setting has not been specified, and will default to 'As output driving ground'.
-Info (144001): Generated suppressed messages file C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica6_GiovanniEstevam_JoaoVitorLopes/processador/output_files/processador.fit.smsg
+Info (144001): Generated suppressed messages file C:/Users/aluno/Desktop/pratica6_GiovanniEstevam_JoaoVitorLopes/processador/output_files/processador.fit.smsg
 Info: Quartus II 64-Bit Fitter was successful. 0 errors, 331 warnings
-    Info: Peak virtual memory: 4881 megabytes
-    Info: Processing ended: Thu Nov 06 22:42:19 2025
-    Info: Elapsed time: 00:00:12
-    Info: Total CPU time (on all processors): 00:00:12
+    Info: Peak virtual memory: 4876 megabytes
+    Info: Processing ended: Wed Nov 12 09:56:37 2025
+    Info: Elapsed time: 00:00:05
+    Info: Total CPU time (on all processors): 00:00:06
 
 
 +----------------------------+
 ; Fitter Suppressed Messages ;
 +----------------------------+
-The suppressed messages can be found in C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica6_GiovanniEstevam_JoaoVitorLopes/processador/output_files/processador.fit.smsg.
+The suppressed messages can be found in C:/Users/aluno/Desktop/pratica6_GiovanniEstevam_JoaoVitorLopes/processador/output_files/processador.fit.smsg.
 
 

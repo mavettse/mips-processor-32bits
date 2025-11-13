@@ -510,7 +510,7 @@ set_global_assignment -name LL_ROOT_REGION ON -section_id "Root Region"
 set_global_assignment -name LL_MEMBER_STATE LOCKED -section_id "Root Region"
 set_global_assignment -name EDA_TIME_SCALE "1 ps" -section_id eda_simulation
 set_global_assignment -name EDA_TEST_BENCH_ENABLE_STATUS TEST_BENCH_MODE -section_id eda_simulation
-set_global_assignment -name EDA_NATIVELINK_SIMULATION_TEST_BENCH tb_pratica6_top -section_id eda_simulation
+set_global_assignment -name EDA_NATIVELINK_SIMULATION_TEST_BENCH processador_tb -section_id eda_simulation
 set_global_assignment -name EDA_TEST_BENCH_NAME tb_pratica6_top -section_id eda_simulation
 set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id tb_pratica6_top
 set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME tb_pratica6_top -section_id tb_pratica6_top
@@ -519,4 +519,5 @@ set_global_assignment -name EDA_DESIGN_INSTANCE_NAME NA -section_id processador_
 set_global_assignment -name EDA_TEST_BENCH_MODULE_NAME processador_tb -section_id processador_tb
 set_global_assignment -name EDA_TEST_BENCH_FILE tb_pratica6_top.v -section_id tb_pratica6_top
 set_global_assignment -name EDA_TEST_BENCH_FILE processador_tb.v -section_id processador_tb
+set_global_assignment -name STRATIX_DEVICE_IO_STANDARD "3.3-V LVTTL"
 set_instance_assignment -name PARTITION_HIERARCHY root_partition -to | -section_id Top

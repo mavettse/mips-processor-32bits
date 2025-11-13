@@ -20,7 +20,7 @@
 module pratica6_top(SW, CLOCK_50, HEX0, HEX1, HEX2, HEX3, HEX4, HEX5, HEX6, HEX7, LEDR, LEDG);
 	input CLOCK_50;
 	input [17:0] SW;
-	output [6:0] HEX0, HEX1, HEX2, HEX3, HEX4, HEX5, HEX6, HEX7;
+	output [0:6] HEX0, HEX1, HEX2, HEX3, HEX4, HEX5, HEX6, HEX7;
 	output [17:0] LEDR;
 	output [7:0] LEDG;
 	
@@ -55,7 +55,8 @@ module pratica6_top(SW, CLOCK_50, HEX0, HEX1, HEX2, HEX3, HEX4, HEX5, HEX6, HEX7
 	);
 	
 	// LOGICA SAIDA
-	assign LEDR = {15'b0, zero_flag, reset, clock};
+	assign LEDR[17:14] = pc_valor[3:0];
+	assign LEDR[13:0] = {10'b0, zero_flag, reset, clock};
 	assign LEDG = {7'b0, overflow_flag};
 		
 	hex_display disp0 (ULA_valor[3:0], HEX0);
