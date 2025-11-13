@@ -1,0 +1,42 @@
+processador_tb; // testbench para testar as duas instrucoes
+	reg clock, reset;
+	wire [31:0] pcout_out, instruction_out, alu_result_out;
+	wire zero_out, overflow_out;
+	
+	// instancia o prcocssador 
+	processador teste(
+		.clock(clock),
+		.reset(reset),
+		.pcout_out(pcout_out),
+		.instruction_out(instruction_out),
+		.alu_result_out(alu_result_out),
+		.zero_out(zero_out),
+		.overflow_out(overflow_out)
+	);
+	
+	// zera o clock
+	initial
+	begin
+		clock = 0;
+	end
+	
+	// seta o ciclo do clock
+	always
+	begin
+		#5 clock = ~clock;
+	end
+	
+	initial
+		begin
+			// comeca com reset e espera o clock
+			reset = 1;
+			#10;
+			
+			// libera o reset e espera o processador 
+			reset = 0;
+			#20;
+			
+			$stop;
+		end
+	
+endmodule
