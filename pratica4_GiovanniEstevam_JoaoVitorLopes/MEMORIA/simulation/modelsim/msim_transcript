@@ -1,0 +1,60 @@
+# Reading C:/altera/13.0sp1/modelsim_ase/tcl/vsim/pref.tcl 
+# do memoriaDados_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Copying C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# ** Warning: Copied C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
+#          Updated modelsim.ini.
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/gioes/Documents/pratica4_giovanni_joaolopes/pratica4_giovanni_joaolopes/MEMORIA {C:/Users/gioes/Documents/pratica4_giovanni_joaolopes/pratica4_giovanni_joaolopes/MEMORIA/memoriaDados.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module memoriaDados
+# 
+# Top level modules:
+# 	memoriaDados
+# 
+vlog -reportprogress 300 -work work C:/Users/gioes/Documents/pratica4_giovanni_joaolopes/pratica4_giovanni_joaolopes/MEMORIA/memoriaDados.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module memoriaDados
+# 
+# Top level modules:
+# 	memoriaDados
+vlog -reportprogress 300 -work work C:/Users/gioes/Documents/pratica4_giovanni_joaolopes/pratica4_giovanni_joaolopes/MEMORIA/memoriaDados_tb.v
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module memoriaDados_tb
+# 
+# Top level modules:
+# 	memoriaDados_tb
+vsim +altera -do memoriaDados_run_msim_rtl_verilog.do -l msim_transcript -gui work.memoriaDados_tb
+# vsim +altera -do memoriaDados_run_msim_rtl_verilog.do -l msim_transcript -gui work.memoriaDados_tb 
+# Loading work.memoriaDados_tb
+# Loading work.memoriaDados
+# do memoriaDados_run_msim_rtl_verilog.do 
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/gioes/Documents/pratica4_giovanni_joaolopes/pratica4_giovanni_joaolopes/MEMORIA {C:/Users/gioes/Documents/pratica4_giovanni_joaolopes/pratica4_giovanni_joaolopes/MEMORIA/memoriaDados.v}
+# Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
+# -- Compiling module memoriaDados
+# 
+# Top level modules:
+# 	memoriaDados
+# 
+add wave  \
+sim:/memoriaDados_tb/clock \
+sim:/memoriaDados_tb/memWrite \
+sim:/memoriaDados_tb/memRead \
+sim:/memoriaDados_tb/address \
+sim:/memoriaDados_tb/writeData \
+sim:/memoriaDados_tb/readData
+run -all
+# >>> SUCESSO! O valor lido esta correto.
+# Break in Module memoriaDados_tb at C:/Users/gioes/Documents/pratica4_giovanni_joaolopes/pratica4_giovanni_joaolopes/MEMORIA/memoriaDados_tb.v line 49

@@ -1,0 +1,26 @@
+m255
+K3
+13
+cModel Technology
+Z0 dC:\Users\gioes\Documents\pratica4_giovanni_joaolopes\pratica4_giovanni_joaolopes\MEMORIA\simulation\modelsim
+vmemoriaDados
+!i10b 1
+!s100 j]S^UzihA2Pf7`HnV;ZJb3
+I`j__zU[YfR90]ZTh3j_TW1
+Vk[Xe?IBjH3m@1oO4M@o7A3
+Z1 dC:\Users\gioes\Documents\pratica4_giovanni_joaolopes\pratica4_giovanni_joaolopes\MEMORIA\simulation\modelsim
+w1760536388
+8C:/Users/gioes/Documents/pratica4_giovanni_joaolopes/pratica4_giovanni_joaolopes/MEMORIA/memoriaDados.v
+FC:/Users/gioes/Documents/pratica4_giovanni_joaolopes/pratica4_giovanni_joaolopes/MEMORIA/memoriaDados.v
+L0 1
+OV;L;10.1d;51
+r1
+!s85 0
+31
+!s108 1760538003.376000
+!s107 C:/Users/gioes/Documents/pratica4_giovanni_joaolopes/pratica4_giovanni_joaolopes/MEMORIA/memoriaDados.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gioes/Documents/pratica4_giovanni_joaolopes/pratica4_giovanni_joaolopes/MEMORIA|C:/Users/gioes/Documents/pratica4_giovanni_joaolopes/pratica4_giovanni_joaolopes/MEMORIA/memoriaDados.v|
+!s101 -O0
+o-vlog01compat -work work -O0
+!s92 -vlog01compat -work work +incdir+C:/Users/gioes/Documents/pratica4_giovanni_joaolopes/pratica4_giovanni_joaolopes/MEMORIA -O0
+nmemoria@dados
