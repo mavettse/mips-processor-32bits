@@ -28,7 +28,26 @@ module memoriaDados(address, memWrite, memRead, clock, writeData, readData);
 			// lê da memória 4 bytes (32 bits); na ordem contraria à ordem lida como é feito no mips
 			readData <= {memory[address + 3], memory[address + 2], memory[address + 1], memory[address]};
 		end
+	
+	end
+	
+	integer i;
+	
+	// inicializa todos os valores dos enderecos com 0 e memory[16:19] = 32'd4
+	initial
+	begin 
 		
+		// zera os valores dos enderecos
+		for(i = 0; i < 64; i = i + 1)
+		begin
+			memory[i] = 8'b0;
+		end
+	
+		// inicialização byte a byte do número 4 no endereco 16
+		memory[16] = 8'd4; // LSB
+		memory[17] = 8'd0;
+		memory[18] = 8'd0;
+		memory[19] = 8'd0; // MSB
 	end
 	
 endmodule
