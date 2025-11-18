@@ -41,7 +41,7 @@ module memoriaInstrucao(readAddress, instruction);
 		mem[16] = 8'b10001110;
 		mem[17] = 8'b00001001;
 		mem[18] = 8'b00000000;
-		mem[19] = 8'b00000000;
+		mem[19] = 8'b00000100;
 		
 		// zera o conteudo dos outros enderecos da memoria
 		for(i = 20; i < 128; i = i + 1)

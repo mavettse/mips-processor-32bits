@@ -124,7 +124,7 @@ module processador(clock, reset, pcout_out, instruction_out, ULA_result_out, zer
 	);
 	
 	memoriaDados memoria(
-		.address(ULA_result), 
+		.address(ULA_result[5:0]), 
 		.memWrite(MemWrite), 
 		.memRead(MemRead), 
 		.clock(clock), 
