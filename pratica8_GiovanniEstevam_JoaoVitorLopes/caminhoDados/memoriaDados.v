@@ -10,11 +10,11 @@ module memoriaDados(address, memWrite, memRead, clock, writeData, readData);
 	// cada posicao guarda 8 bits (1 byte); bloco de memória de 64 bytes = 512 bits; 
 	reg [7:0] memory [0:63];
 	
-	// quando o clock estiver na borda de subida, faz a verificação dos blocos condicionais
+	// faz a escrita na borda de subida
 	always @(posedge clock)
 	begin
 	
-		if(memWrite)
+		if(memWrite) // escreve se o sinal estiver ativo
 		begin
 			// escreve na memória 4 bytes (32 bits); 1o byte em address, 2o byte em address + 1 e assmi por diante
 			memory[address] <= writeData[7:0];
@@ -22,8 +22,14 @@ module memoriaDados(address, memWrite, memRead, clock, writeData, readData);
 			memory[address + 2] <= writeData[23:16];
 			memory[address + 3] <= writeData[31:24];
 		end
-			
-		if(memRead)
+	
+	end
+	
+	// faz a leitura na borda de descida
+	always @(negedge clock)
+	begin
+	
+		if(memRead) // lê se o sinal estiver ativo
 		begin
 			// lê da memória 4 bytes (32 bits); na ordem contraria à ordem lida como é feito no mips
 			readData <= {memory[address + 3], memory[address + 2], memory[address + 1], memory[address]};
