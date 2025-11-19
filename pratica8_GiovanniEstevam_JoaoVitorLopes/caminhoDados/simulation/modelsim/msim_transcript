@@ -10,152 +10,152 @@
 # ** Warning: Copied C:\altera\13.0sp1\modelsim_ase\win32aloem/../modelsim.ini to modelsim.ini.
 #          Updated modelsim.ini.
 # 
-# vlog -vlog01compat -work work +incdir+C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados {C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/unidadeControleULA.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados {C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/unidadeControleULA.v}
 # Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 # -- Compiling module unidadeControleULA
 # 
 # Top level modules:
 # 	unidadeControleULA
-# vlog -vlog01compat -work work +incdir+C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados {C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/unidadeControlePrincipal.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados {C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/unidadeControlePrincipal.v}
 # Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 # -- Compiling module unidadeControlePrincipal
 # 
 # Top level modules:
 # 	unidadeControlePrincipal
-# vlog -vlog01compat -work work +incdir+C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados {C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/ULA32bits.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados {C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/ULA32bits.v}
 # Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 # -- Compiling module ULA32bits
 # 
 # Top level modules:
 # 	ULA32bits
-# vlog -vlog01compat -work work +incdir+C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados {C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/somador32bits.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados {C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/somador32bits.v}
 # Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 # -- Compiling module somador32bits
 # 
 # Top level modules:
 # 	somador32bits
-# vlog -vlog01compat -work work +incdir+C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados {C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/somador1bit.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados {C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/somador1bit.v}
 # Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 # -- Compiling module somador1bit
 # 
 # Top level modules:
 # 	somador1bit
-# vlog -vlog01compat -work work +incdir+C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados {C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/processador.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados {C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/processador.v}
 # Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 # -- Compiling module processador
 # 
 # Top level modules:
 # 	processador
-# vlog -vlog01compat -work work +incdir+C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados {C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/or32bits.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados {C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/or32bits.v}
 # Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 # -- Compiling module or32bits
 # 
 # Top level modules:
 # 	or32bits
-# vlog -vlog01compat -work work +incdir+C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados {C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/or1bit.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados {C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/or1bit.v}
 # Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 # -- Compiling module or1bit
 # 
 # Top level modules:
 # 	or1bit
-# vlog -vlog01compat -work work +incdir+C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados {C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/mux8por1_32bits.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados {C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/mux8por1_32bits.v}
 # Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 # -- Compiling module mux8por1_32bits
 # 
 # Top level modules:
 # 	mux8por1_32bits
-# vlog -vlog01compat -work work +incdir+C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados {C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/mux8por1_1bit.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados {C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/mux8por1_1bit.v}
 # Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 # -- Compiling module mux8por1_1bit
 # 
 # Top level modules:
 # 	mux8por1_1bit
-# vlog -vlog01compat -work work +incdir+C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados {C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/mux2por1_5bits.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados {C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/mux2por1_5bits.v}
 # Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 # -- Compiling module mux2por1_5bits
 # 
 # Top level modules:
 # 	mux2por1_5bits
-# vlog -vlog01compat -work work +incdir+C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados {C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/mux2por1_32bits.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados {C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/mux2por1_32bits.v}
 # Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 # -- Compiling module mux2por1_32bits
 # 
 # Top level modules:
 # 	mux2por1_32bits
-# vlog -vlog01compat -work work +incdir+C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados {C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/mux2por1.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados {C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/mux2por1.v}
 # Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 # -- Compiling module mux2por1
 # 
 # Top level modules:
 # 	mux2por1
-# vlog -vlog01compat -work work +incdir+C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados {C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/memoriaInstrucao.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados {C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/memoriaInstrucao.v}
 # Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 # -- Compiling module memoriaInstrucao
 # 
 # Top level modules:
 # 	memoriaInstrucao
-# vlog -vlog01compat -work work +incdir+C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados {C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/memoriaDados.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados {C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/memoriaDados.v}
 # Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 # -- Compiling module memoriaDados
 # 
 # Top level modules:
 # 	memoriaDados
-# vlog -vlog01compat -work work +incdir+C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados {C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/hex_display.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados {C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/hex_display.v}
 # Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 # -- Compiling module hex_display
 # 
 # Top level modules:
 # 	hex_display
-# vlog -vlog01compat -work work +incdir+C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados {C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/extensor_sinal.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados {C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/extensor_sinal.v}
 # Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 # -- Compiling module extensor_sinal
 # 
 # Top level modules:
 # 	extensor_sinal
-# vlog -vlog01compat -work work +incdir+C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados {C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/divisor_frequencia.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados {C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/divisor_frequencia.v}
 # Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 # -- Compiling module divisor_frequencia
 # 
 # Top level modules:
 # 	divisor_frequencia
-# vlog -vlog01compat -work work +incdir+C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados {C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/decodificador_operacao_hex.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados {C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/decodificador_operacao_hex.v}
 # Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 # -- Compiling module decodificador_operacao_hex
 # 
 # Top level modules:
 # 	decodificador_operacao_hex
-# vlog -vlog01compat -work work +incdir+C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados {C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/countPC.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados {C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/countPC.v}
 # Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 # -- Compiling module countPC
 # 
 # Top level modules:
 # 	countPC
-# vlog -vlog01compat -work work +incdir+C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados {C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/bancoRegistradores.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados {C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/bancoRegistradores.v}
 # Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 # -- Compiling module bancoRegistradores
 # 
 # Top level modules:
 # 	bancoRegistradores
-# vlog -vlog01compat -work work +incdir+C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados {C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/and32bits.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados {C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/and32bits.v}
 # Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 # -- Compiling module and32bits
 # 
 # Top level modules:
 # 	and32bits
-# vlog -vlog01compat -work work +incdir+C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados {C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/and1bit.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados {C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/and1bit.v}
 # Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 # -- Compiling module and1bit
 # 
 # Top level modules:
 # 	and1bit
-# vlog -vlog01compat -work work +incdir+C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados {C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/pratica8_top.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados {C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/pratica8_top.v}
 # Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 # -- Compiling module pratica8_top
 # 
 # Top level modules:
 # 	pratica8_top
 # 
-# vlog -vlog01compat -work work +incdir+C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados {C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/processador_tb.v}
+# vlog -vlog01compat -work work +incdir+C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados {C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/processador_tb.v}
 # Model Technology ModelSim ALTERA vlog 10.1d Compiler 2012.11 Nov  2 2012
 # -- Compiling module processador_tb
 # 
@@ -192,6 +192,6 @@
 # view signals
 # .main_pane.objects.interior.cs.body.tree
 # run -all
-# Break in Module processador_tb at C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/processador_tb.v line 49
-# Simulation Breakpoint: Break in Module processador_tb at C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/processador_tb.v line 49
+# Break in Module processador_tb at C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/processador_tb.v line 59
+# Simulation Breakpoint: Break in Module processador_tb at C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/processador_tb.v line 59
 # MACRO ./caminhoDados_run_msim_rtl_verilog.do PAUSED at line 40

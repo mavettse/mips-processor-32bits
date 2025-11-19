@@ -1,10 +1,10 @@
 module processador(clock, reset, pcout_out, instruction_out, ULA_result_out, zero_out, overflow_out, reg1_data_out,
-						 reg2_data_out, immediate_out, op_out, ULASrc_out);
+						 reg2_data_out, immediate_out, op_out, ULASrc_out, WriteData_out, MemRead_out);
 	
 	input clock, reset;
-	output [31:0] pcout_out, instruction_out, ULA_result_out, reg1_data_out, reg2_data_out, immediate_out;
+	output [31:0] pcout_out, instruction_out, ULA_result_out, reg1_data_out, reg2_data_out, immediate_out, WriteData_out;
 	output [2:0] op_out;
-	output zero_out, overflow_out, ULASrc_out;
+	output zero_out, overflow_out, ULASrc_out, MemRead_out;
 	
 	//				---- FIOS INTERNOS ----
 	
@@ -153,5 +153,7 @@ module processador(clock, reset, pcout_out, instruction_out, ULA_result_out, zer
 	assign immediate_out = immediate_32bits; // valor do imediato estendido
 	assign op_out = op; // sinal de controle da ULA
 	assign ULASrc_out = ULASrc;
+	assign WriteData_out = WriteData; // valor que sera gravado no registrador destinoa
+	assign MemRead_out = MemRead;
 	
 endmodule

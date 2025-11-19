@@ -1,5 +1,5 @@
 Analysis & Synthesis report for caminhoDados
-Tue Nov 18 14:56:19 2025
+Tue Nov 18 20:37:10 2025
 Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
 
 
@@ -57,6 +57,7 @@ Quartus II 64-Bit Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edit
  49. Port Connectivity Checks: "processador:processador_placa"
  50. Elapsed Time Per Partition
  51. Analysis & Synthesis Messages
+ 52. Analysis & Synthesis Suppressed Messages
 
 
 
@@ -82,13 +83,13 @@ applicable agreement for further details.
 +--------------------------------------------------------------------------------------+
 ; Analysis & Synthesis Summary                                                         ;
 +------------------------------------+-------------------------------------------------+
-; Analysis & Synthesis Status        ; Successful - Tue Nov 18 14:56:19 2025           ;
+; Analysis & Synthesis Status        ; Successful - Tue Nov 18 20:37:10 2025           ;
 ; Quartus II 64-Bit Version          ; 13.0.1 Build 232 06/12/2013 SP 1 SJ Web Edition ;
 ; Revision Name                      ; caminhoDados                                    ;
 ; Top-level Entity Name              ; pratica8_top                                    ;
 ; Family                             ; Cyclone II                                      ;
-; Total logic elements               ; 2,202                                           ;
-;     Total combinational functions  ; 2,141                                           ;
+; Total logic elements               ; 2,208                                           ;
+;     Total combinational functions  ; 2,147                                           ;
 ;     Dedicated logic registers      ; 671                                             ;
 ; Total registers                    ; 671                                             ;
 ; Total pins                         ; 101                                             ;
@@ -195,36 +196,36 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +----------------------------+--------+
 
 
-+----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
-; Analysis & Synthesis Source Files Read                                                                                                                                                                                                                                                 ;
-+----------------------------------+-----------------+------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------+
-; File Name with User-Entered Path ; Used in Netlist ; File Type              ; File Name with Absolute Path                                                                                                                                                                   ; Library ;
-+----------------------------------+-----------------+------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------+
-; unidadeControleULA.v             ; yes             ; User Verilog HDL File  ; C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/unidadeControleULA.v         ;         ;
-; unidadeControlePrincipal.v       ; yes             ; User Verilog HDL File  ; C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/unidadeControlePrincipal.v   ;         ;
-; ULA32bits.v                      ; yes             ; User Verilog HDL File  ; C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/ULA32bits.v                  ;         ;
-; somador32bits.v                  ; yes             ; User Verilog HDL File  ; C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/somador32bits.v              ;         ;
-; somador1bit.v                    ; yes             ; User Verilog HDL File  ; C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/somador1bit.v                ;         ;
-; processador.v                    ; yes             ; User Verilog HDL File  ; C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/processador.v                ;         ;
-; or32bits.v                       ; yes             ; User Verilog HDL File  ; C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/or32bits.v                   ;         ;
-; or1bit.v                         ; yes             ; User Verilog HDL File  ; C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/or1bit.v                     ;         ;
-; mux8por1_32bits.v                ; yes             ; User Verilog HDL File  ; C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/mux8por1_32bits.v            ;         ;
-; mux8por1_1bit.v                  ; yes             ; User Verilog HDL File  ; C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/mux8por1_1bit.v              ;         ;
-; mux2por1_5bits.v                 ; yes             ; User Verilog HDL File  ; C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/mux2por1_5bits.v             ;         ;
-; mux2por1_32bits.v                ; yes             ; User Verilog HDL File  ; C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/mux2por1_32bits.v            ;         ;
-; mux2por1.v                       ; yes             ; User Verilog HDL File  ; C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/mux2por1.v                   ;         ;
-; memoriaInstrucao.v               ; yes             ; User Verilog HDL File  ; C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/memoriaInstrucao.v           ;         ;
-; memoriaDados.v                   ; yes             ; User Verilog HDL File  ; C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/memoriaDados.v               ;         ;
-; hex_display.v                    ; yes             ; User Verilog HDL File  ; C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/hex_display.v                ;         ;
-; extensor_sinal.v                 ; yes             ; User Verilog HDL File  ; C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/extensor_sinal.v             ;         ;
-; divisor_frequencia.v             ; yes             ; User Verilog HDL File  ; C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/divisor_frequencia.v         ;         ;
-; decodificador_operacao_hex.v     ; yes             ; User Verilog HDL File  ; C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/decodificador_operacao_hex.v ;         ;
-; countPC.v                        ; yes             ; User Verilog HDL File  ; C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/countPC.v                    ;         ;
-; bancoRegistradores.v             ; yes             ; User Verilog HDL File  ; C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/bancoRegistradores.v         ;         ;
-; and32bits.v                      ; yes             ; User Verilog HDL File  ; C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/and32bits.v                  ;         ;
-; and1bit.v                        ; yes             ; User Verilog HDL File  ; C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/and1bit.v                    ;         ;
-; pratica8_top.v                   ; yes             ; User Verilog HDL File  ; C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/pratica8_top.v               ;         ;
-+----------------------------------+-----------------+------------------------+------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+---------+
++----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------+
+; Analysis & Synthesis Source Files Read                                                                                                                                                                                     ;
++----------------------------------+-----------------+------------------------+------------------------------------------------------------------------------------------------------------------------------------+---------+
+; File Name with User-Entered Path ; Used in Netlist ; File Type              ; File Name with Absolute Path                                                                                                       ; Library ;
++----------------------------------+-----------------+------------------------+------------------------------------------------------------------------------------------------------------------------------------+---------+
+; unidadeControleULA.v             ; yes             ; User Verilog HDL File  ; C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/unidadeControleULA.v         ;         ;
+; unidadeControlePrincipal.v       ; yes             ; User Verilog HDL File  ; C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/unidadeControlePrincipal.v   ;         ;
+; ULA32bits.v                      ; yes             ; User Verilog HDL File  ; C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/ULA32bits.v                  ;         ;
+; somador32bits.v                  ; yes             ; User Verilog HDL File  ; C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/somador32bits.v              ;         ;
+; somador1bit.v                    ; yes             ; User Verilog HDL File  ; C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/somador1bit.v                ;         ;
+; processador.v                    ; yes             ; User Verilog HDL File  ; C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/processador.v                ;         ;
+; or32bits.v                       ; yes             ; User Verilog HDL File  ; C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/or32bits.v                   ;         ;
+; or1bit.v                         ; yes             ; User Verilog HDL File  ; C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/or1bit.v                     ;         ;
+; mux8por1_32bits.v                ; yes             ; User Verilog HDL File  ; C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/mux8por1_32bits.v            ;         ;
+; mux8por1_1bit.v                  ; yes             ; User Verilog HDL File  ; C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/mux8por1_1bit.v              ;         ;
+; mux2por1_5bits.v                 ; yes             ; User Verilog HDL File  ; C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/mux2por1_5bits.v             ;         ;
+; mux2por1_32bits.v                ; yes             ; User Verilog HDL File  ; C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/mux2por1_32bits.v            ;         ;
+; mux2por1.v                       ; yes             ; User Verilog HDL File  ; C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/mux2por1.v                   ;         ;
+; memoriaInstrucao.v               ; yes             ; User Verilog HDL File  ; C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/memoriaInstrucao.v           ;         ;
+; memoriaDados.v                   ; yes             ; User Verilog HDL File  ; C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/memoriaDados.v               ;         ;
+; hex_display.v                    ; yes             ; User Verilog HDL File  ; C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/hex_display.v                ;         ;
+; extensor_sinal.v                 ; yes             ; User Verilog HDL File  ; C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/extensor_sinal.v             ;         ;
+; divisor_frequencia.v             ; yes             ; User Verilog HDL File  ; C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/divisor_frequencia.v         ;         ;
+; decodificador_operacao_hex.v     ; yes             ; User Verilog HDL File  ; C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/decodificador_operacao_hex.v ;         ;
+; countPC.v                        ; yes             ; User Verilog HDL File  ; C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/countPC.v                    ;         ;
+; bancoRegistradores.v             ; yes             ; User Verilog HDL File  ; C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/bancoRegistradores.v         ;         ;
+; and32bits.v                      ; yes             ; User Verilog HDL File  ; C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/and32bits.v                  ;         ;
+; and1bit.v                        ; yes             ; User Verilog HDL File  ; C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/and1bit.v                    ;         ;
+; pratica8_top.v                   ; yes             ; User Verilog HDL File  ; C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/pratica8_top.v               ;         ;
++----------------------------------+-----------------+------------------------+------------------------------------------------------------------------------------------------------------------------------------+---------+
 
 
 +--------------------------------------------------------------------------------------+
@@ -232,16 +233,16 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +---------------------------------------------+----------------------------------------+
 ; Resource                                    ; Usage                                  ;
 +---------------------------------------------+----------------------------------------+
-; Estimated Total logic elements              ; 2,202                                  ;
+; Estimated Total logic elements              ; 2,208                                  ;
 ;                                             ;                                        ;
-; Total combinational functions               ; 2141                                   ;
+; Total combinational functions               ; 2147                                   ;
 ; Logic element usage by number of LUT inputs ;                                        ;
-;     -- 4 input functions                    ; 1839                                   ;
-;     -- 3 input functions                    ; 228                                    ;
-;     -- <=2 input functions                  ; 74                                     ;
+;     -- 4 input functions                    ; 1838                                   ;
+;     -- 3 input functions                    ; 234                                    ;
+;     -- <=2 input functions                  ; 75                                     ;
 ;                                             ;                                        ;
 ; Logic elements by mode                      ;                                        ;
-;     -- normal mode                          ; 2117                                   ;
+;     -- normal mode                          ; 2123                                   ;
 ;     -- arithmetic mode                      ; 24                                     ;
 ;                                             ;                                        ;
 ; Total registers                             ; 671                                    ;
@@ -252,7 +253,7 @@ Parallel compilation was disabled, but you have multiple processors available. E
 ; Embedded Multiplier 9-bit elements          ; 0                                      ;
 ; Maximum fan-out node                        ; divisor_frequencia:divisor_clock|Q[25] ;
 ; Maximum fan-out                             ; 647                                    ;
-; Total fan-out                               ; 10362                                  ;
+; Total fan-out                               ; 10379                                  ;
 ; Average fan-out                             ; 3.56                                   ;
 +---------------------------------------------+----------------------------------------+
 
@@ -262,7 +263,7 @@ Parallel compilation was disabled, but you have multiple processors available. E
 +----------------------------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+------------------------------------------------------------------------------------------------------------------------------+--------------+
 ; Compilation Hierarchy Node                         ; LC Combinationals ; LC Registers ; Memory Bits ; DSP Elements ; DSP 9x9 ; DSP 18x18 ; Pins ; Virtual Pins ; Full Hierarchy Name                                                                                                          ; Library Name ;
 +----------------------------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+------------------------------------------------------------------------------------------------------------------------------+--------------+
-; |pratica8_top                                      ; 2141 (1)          ; 671 (0)      ; 0           ; 0            ; 0       ; 0         ; 101  ; 0            ; |pratica8_top                                                                                                                ; work         ;
+; |pratica8_top                                      ; 2147 (1)          ; 671 (0)      ; 0           ; 0            ; 0       ; 0         ; 101  ; 0            ; |pratica8_top                                                                                                                ; work         ;
 ;    |divisor_frequencia:divisor_clock|              ; 26 (26)           ; 26 (26)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |pratica8_top|divisor_frequencia:divisor_clock                                                                               ; work         ;
 ;    |hex_display:disp0|                             ; 7 (7)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |pratica8_top|hex_display:disp0                                                                                              ; work         ;
 ;    |hex_display:disp1|                             ; 7 (7)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |pratica8_top|hex_display:disp1                                                                                              ; work         ;
@@ -270,10 +271,10 @@ Parallel compilation was disabled, but you have multiple processors available. E
 ;    |hex_display:disp3|                             ; 7 (7)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |pratica8_top|hex_display:disp3                                                                                              ; work         ;
 ;    |hex_display:disp4|                             ; 7 (7)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |pratica8_top|hex_display:disp4                                                                                              ; work         ;
 ;    |hex_display:disp5|                             ; 7 (7)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |pratica8_top|hex_display:disp5                                                                                              ; work         ;
-;    |hex_display:disp7|                             ; 3 (3)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |pratica8_top|hex_display:disp7                                                                                              ; work         ;
-;    |processador:processador_placa|                 ; 2069 (0)          ; 645 (0)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |pratica8_top|processador:processador_placa                                                                                  ; work         ;
-;       |ULA32bits:ula|                              ; 132 (19)          ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |pratica8_top|processador:processador_placa|ULA32bits:ula                                                                    ; work         ;
-;          |mux8por1_32bits:operacao|                ; 71 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |pratica8_top|processador:processador_placa|ULA32bits:ula|mux8por1_32bits:operacao                                           ; work         ;
+;    |hex_display:disp7|                             ; 7 (7)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |pratica8_top|hex_display:disp7                                                                                              ; work         ;
+;    |processador:processador_placa|                 ; 2071 (0)          ; 645 (0)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |pratica8_top|processador:processador_placa                                                                                  ; work         ;
+;       |ULA32bits:ula|                              ; 135 (20)          ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |pratica8_top|processador:processador_placa|ULA32bits:ula                                                                    ; work         ;
+;          |mux8por1_32bits:operacao|                ; 70 (0)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |pratica8_top|processador:processador_placa|ULA32bits:ula|mux8por1_32bits:operacao                                           ; work         ;
 ;             |mux8por1_1bit:ripple[0].op|           ; 2 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |pratica8_top|processador:processador_placa|ULA32bits:ula|mux8por1_32bits:operacao|mux8por1_1bit:ripple[0].op                ; work         ;
 ;                |mux2por1:mux1|                     ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |pratica8_top|processador:processador_placa|ULA32bits:ula|mux8por1_32bits:operacao|mux8por1_1bit:ripple[0].op|mux2por1:mux1  ; work         ;
 ;                |mux2por1:mux5|                     ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |pratica8_top|processador:processador_placa|ULA32bits:ula|mux8por1_32bits:operacao|mux8por1_1bit:ripple[0].op|mux2por1:mux5  ; work         ;
@@ -289,26 +290,25 @@ Parallel compilation was disabled, but you have multiple processors available. E
 ;                |mux2por1:mux5|                     ; 4 (4)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |pratica8_top|processador:processador_placa|ULA32bits:ula|mux8por1_32bits:operacao|mux8por1_1bit:ripple[14].op|mux2por1:mux5 ; work         ;
 ;             |mux8por1_1bit:ripple[15].op|          ; 3 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |pratica8_top|processador:processador_placa|ULA32bits:ula|mux8por1_32bits:operacao|mux8por1_1bit:ripple[15].op               ; work         ;
 ;                |mux2por1:mux5|                     ; 3 (3)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |pratica8_top|processador:processador_placa|ULA32bits:ula|mux8por1_32bits:operacao|mux8por1_1bit:ripple[15].op|mux2por1:mux5 ; work         ;
-;             |mux8por1_1bit:ripple[16].op|          ; 2 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |pratica8_top|processador:processador_placa|ULA32bits:ula|mux8por1_32bits:operacao|mux8por1_1bit:ripple[16].op               ; work         ;
+;             |mux8por1_1bit:ripple[16].op|          ; 3 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |pratica8_top|processador:processador_placa|ULA32bits:ula|mux8por1_32bits:operacao|mux8por1_1bit:ripple[16].op               ; work         ;
 ;                |mux2por1:mux1|                     ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |pratica8_top|processador:processador_placa|ULA32bits:ula|mux8por1_32bits:operacao|mux8por1_1bit:ripple[16].op|mux2por1:mux1 ; work         ;
-;                |mux2por1:mux5|                     ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |pratica8_top|processador:processador_placa|ULA32bits:ula|mux8por1_32bits:operacao|mux8por1_1bit:ripple[16].op|mux2por1:mux5 ; work         ;
+;                |mux2por1:mux5|                     ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |pratica8_top|processador:processador_placa|ULA32bits:ula|mux8por1_32bits:operacao|mux8por1_1bit:ripple[16].op|mux2por1:mux5 ; work         ;
 ;             |mux8por1_1bit:ripple[17].op|          ; 2 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |pratica8_top|processador:processador_placa|ULA32bits:ula|mux8por1_32bits:operacao|mux8por1_1bit:ripple[17].op               ; work         ;
 ;                |mux2por1:mux1|                     ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |pratica8_top|processador:processador_placa|ULA32bits:ula|mux8por1_32bits:operacao|mux8por1_1bit:ripple[17].op|mux2por1:mux1 ; work         ;
 ;                |mux2por1:mux5|                     ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |pratica8_top|processador:processador_placa|ULA32bits:ula|mux8por1_32bits:operacao|mux8por1_1bit:ripple[17].op|mux2por1:mux5 ; work         ;
-;             |mux8por1_1bit:ripple[18].op|          ; 1 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |pratica8_top|processador:processador_placa|ULA32bits:ula|mux8por1_32bits:operacao|mux8por1_1bit:ripple[18].op               ; work         ;
+;             |mux8por1_1bit:ripple[18].op|          ; 3 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |pratica8_top|processador:processador_placa|ULA32bits:ula|mux8por1_32bits:operacao|mux8por1_1bit:ripple[18].op               ; work         ;
 ;                |mux2por1:mux1|                     ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |pratica8_top|processador:processador_placa|ULA32bits:ula|mux8por1_32bits:operacao|mux8por1_1bit:ripple[18].op|mux2por1:mux1 ; work         ;
-;             |mux8por1_1bit:ripple[19].op|          ; 2 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |pratica8_top|processador:processador_placa|ULA32bits:ula|mux8por1_32bits:operacao|mux8por1_1bit:ripple[19].op               ; work         ;
+;                |mux2por1:mux5|                     ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |pratica8_top|processador:processador_placa|ULA32bits:ula|mux8por1_32bits:operacao|mux8por1_1bit:ripple[18].op|mux2por1:mux5 ; work         ;
+;             |mux8por1_1bit:ripple[19].op|          ; 1 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |pratica8_top|processador:processador_placa|ULA32bits:ula|mux8por1_32bits:operacao|mux8por1_1bit:ripple[19].op               ; work         ;
 ;                |mux2por1:mux1|                     ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |pratica8_top|processador:processador_placa|ULA32bits:ula|mux8por1_32bits:operacao|mux8por1_1bit:ripple[19].op|mux2por1:mux1 ; work         ;
-;                |mux2por1:mux5|                     ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |pratica8_top|processador:processador_placa|ULA32bits:ula|mux8por1_32bits:operacao|mux8por1_1bit:ripple[19].op|mux2por1:mux5 ; work         ;
 ;             |mux8por1_1bit:ripple[1].op|           ; 2 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |pratica8_top|processador:processador_placa|ULA32bits:ula|mux8por1_32bits:operacao|mux8por1_1bit:ripple[1].op                ; work         ;
 ;                |mux2por1:mux1|                     ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |pratica8_top|processador:processador_placa|ULA32bits:ula|mux8por1_32bits:operacao|mux8por1_1bit:ripple[1].op|mux2por1:mux1  ; work         ;
 ;                |mux2por1:mux5|                     ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |pratica8_top|processador:processador_placa|ULA32bits:ula|mux8por1_32bits:operacao|mux8por1_1bit:ripple[1].op|mux2por1:mux5  ; work         ;
-;             |mux8por1_1bit:ripple[20].op|          ; 3 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |pratica8_top|processador:processador_placa|ULA32bits:ula|mux8por1_32bits:operacao|mux8por1_1bit:ripple[20].op               ; work         ;
+;             |mux8por1_1bit:ripple[20].op|          ; 1 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |pratica8_top|processador:processador_placa|ULA32bits:ula|mux8por1_32bits:operacao|mux8por1_1bit:ripple[20].op               ; work         ;
 ;                |mux2por1:mux1|                     ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |pratica8_top|processador:processador_placa|ULA32bits:ula|mux8por1_32bits:operacao|mux8por1_1bit:ripple[20].op|mux2por1:mux1 ; work         ;
-;                |mux2por1:mux5|                     ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |pratica8_top|processador:processador_placa|ULA32bits:ula|mux8por1_32bits:operacao|mux8por1_1bit:ripple[20].op|mux2por1:mux5 ; work         ;
-;             |mux8por1_1bit:ripple[21].op|          ; 3 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |pratica8_top|processador:processador_placa|ULA32bits:ula|mux8por1_32bits:operacao|mux8por1_1bit:ripple[21].op               ; work         ;
+;             |mux8por1_1bit:ripple[21].op|          ; 2 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |pratica8_top|processador:processador_placa|ULA32bits:ula|mux8por1_32bits:operacao|mux8por1_1bit:ripple[21].op               ; work         ;
 ;                |mux2por1:mux1|                     ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |pratica8_top|processador:processador_placa|ULA32bits:ula|mux8por1_32bits:operacao|mux8por1_1bit:ripple[21].op|mux2por1:mux1 ; work         ;
-;                |mux2por1:mux5|                     ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |pratica8_top|processador:processador_placa|ULA32bits:ula|mux8por1_32bits:operacao|mux8por1_1bit:ripple[21].op|mux2por1:mux5 ; work         ;
+;                |mux2por1:mux5|                     ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |pratica8_top|processador:processador_placa|ULA32bits:ula|mux8por1_32bits:operacao|mux8por1_1bit:ripple[21].op|mux2por1:mux5 ; work         ;
 ;             |mux8por1_1bit:ripple[22].op|          ; 2 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |pratica8_top|processador:processador_placa|ULA32bits:ula|mux8por1_32bits:operacao|mux8por1_1bit:ripple[22].op               ; work         ;
 ;                |mux2por1:mux1|                     ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |pratica8_top|processador:processador_placa|ULA32bits:ula|mux8por1_32bits:operacao|mux8por1_1bit:ripple[22].op|mux2por1:mux1 ; work         ;
 ;                |mux2por1:mux5|                     ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |pratica8_top|processador:processador_placa|ULA32bits:ula|mux8por1_32bits:operacao|mux8por1_1bit:ripple[22].op|mux2por1:mux5 ; work         ;
@@ -318,30 +318,27 @@ Parallel compilation was disabled, but you have multiple processors available. E
 ;             |mux8por1_1bit:ripple[24].op|          ; 2 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |pratica8_top|processador:processador_placa|ULA32bits:ula|mux8por1_32bits:operacao|mux8por1_1bit:ripple[24].op               ; work         ;
 ;                |mux2por1:mux1|                     ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |pratica8_top|processador:processador_placa|ULA32bits:ula|mux8por1_32bits:operacao|mux8por1_1bit:ripple[24].op|mux2por1:mux1 ; work         ;
 ;                |mux2por1:mux5|                     ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |pratica8_top|processador:processador_placa|ULA32bits:ula|mux8por1_32bits:operacao|mux8por1_1bit:ripple[24].op|mux2por1:mux5 ; work         ;
-;             |mux8por1_1bit:ripple[25].op|          ; 2 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |pratica8_top|processador:processador_placa|ULA32bits:ula|mux8por1_32bits:operacao|mux8por1_1bit:ripple[25].op               ; work         ;
+;             |mux8por1_1bit:ripple[25].op|          ; 1 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |pratica8_top|processador:processador_placa|ULA32bits:ula|mux8por1_32bits:operacao|mux8por1_1bit:ripple[25].op               ; work         ;
 ;                |mux2por1:mux1|                     ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |pratica8_top|processador:processador_placa|ULA32bits:ula|mux8por1_32bits:operacao|mux8por1_1bit:ripple[25].op|mux2por1:mux1 ; work         ;
-;                |mux2por1:mux5|                     ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |pratica8_top|processador:processador_placa|ULA32bits:ula|mux8por1_32bits:operacao|mux8por1_1bit:ripple[25].op|mux2por1:mux5 ; work         ;
 ;             |mux8por1_1bit:ripple[26].op|          ; 2 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |pratica8_top|processador:processador_placa|ULA32bits:ula|mux8por1_32bits:operacao|mux8por1_1bit:ripple[26].op               ; work         ;
 ;                |mux2por1:mux1|                     ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |pratica8_top|processador:processador_placa|ULA32bits:ula|mux8por1_32bits:operacao|mux8por1_1bit:ripple[26].op|mux2por1:mux1 ; work         ;
 ;                |mux2por1:mux5|                     ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |pratica8_top|processador:processador_placa|ULA32bits:ula|mux8por1_32bits:operacao|mux8por1_1bit:ripple[26].op|mux2por1:mux5 ; work         ;
-;             |mux8por1_1bit:ripple[27].op|          ; 2 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |pratica8_top|processador:processador_placa|ULA32bits:ula|mux8por1_32bits:operacao|mux8por1_1bit:ripple[27].op               ; work         ;
+;             |mux8por1_1bit:ripple[27].op|          ; 1 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |pratica8_top|processador:processador_placa|ULA32bits:ula|mux8por1_32bits:operacao|mux8por1_1bit:ripple[27].op               ; work         ;
 ;                |mux2por1:mux1|                     ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |pratica8_top|processador:processador_placa|ULA32bits:ula|mux8por1_32bits:operacao|mux8por1_1bit:ripple[27].op|mux2por1:mux1 ; work         ;
-;                |mux2por1:mux5|                     ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |pratica8_top|processador:processador_placa|ULA32bits:ula|mux8por1_32bits:operacao|mux8por1_1bit:ripple[27].op|mux2por1:mux5 ; work         ;
-;             |mux8por1_1bit:ripple[28].op|          ; 2 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |pratica8_top|processador:processador_placa|ULA32bits:ula|mux8por1_32bits:operacao|mux8por1_1bit:ripple[28].op               ; work         ;
+;             |mux8por1_1bit:ripple[28].op|          ; 1 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |pratica8_top|processador:processador_placa|ULA32bits:ula|mux8por1_32bits:operacao|mux8por1_1bit:ripple[28].op               ; work         ;
 ;                |mux2por1:mux1|                     ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |pratica8_top|processador:processador_placa|ULA32bits:ula|mux8por1_32bits:operacao|mux8por1_1bit:ripple[28].op|mux2por1:mux1 ; work         ;
-;                |mux2por1:mux5|                     ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |pratica8_top|processador:processador_placa|ULA32bits:ula|mux8por1_32bits:operacao|mux8por1_1bit:ripple[28].op|mux2por1:mux5 ; work         ;
 ;             |mux8por1_1bit:ripple[29].op|          ; 1 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |pratica8_top|processador:processador_placa|ULA32bits:ula|mux8por1_32bits:operacao|mux8por1_1bit:ripple[29].op               ; work         ;
 ;                |mux2por1:mux1|                     ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |pratica8_top|processador:processador_placa|ULA32bits:ula|mux8por1_32bits:operacao|mux8por1_1bit:ripple[29].op|mux2por1:mux1 ; work         ;
-;             |mux8por1_1bit:ripple[2].op|           ; 3 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |pratica8_top|processador:processador_placa|ULA32bits:ula|mux8por1_32bits:operacao|mux8por1_1bit:ripple[2].op                ; work         ;
+;             |mux8por1_1bit:ripple[2].op|           ; 4 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |pratica8_top|processador:processador_placa|ULA32bits:ula|mux8por1_32bits:operacao|mux8por1_1bit:ripple[2].op                ; work         ;
 ;                |mux2por1:mux1|                     ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |pratica8_top|processador:processador_placa|ULA32bits:ula|mux8por1_32bits:operacao|mux8por1_1bit:ripple[2].op|mux2por1:mux1  ; work         ;
-;                |mux2por1:mux5|                     ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |pratica8_top|processador:processador_placa|ULA32bits:ula|mux8por1_32bits:operacao|mux8por1_1bit:ripple[2].op|mux2por1:mux5  ; work         ;
+;                |mux2por1:mux5|                     ; 3 (3)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |pratica8_top|processador:processador_placa|ULA32bits:ula|mux8por1_32bits:operacao|mux8por1_1bit:ripple[2].op|mux2por1:mux5  ; work         ;
 ;             |mux8por1_1bit:ripple[30].op|          ; 1 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |pratica8_top|processador:processador_placa|ULA32bits:ula|mux8por1_32bits:operacao|mux8por1_1bit:ripple[30].op               ; work         ;
 ;                |mux2por1:mux1|                     ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |pratica8_top|processador:processador_placa|ULA32bits:ula|mux8por1_32bits:operacao|mux8por1_1bit:ripple[30].op|mux2por1:mux1 ; work         ;
 ;             |mux8por1_1bit:ripple[31].op|          ; 1 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |pratica8_top|processador:processador_placa|ULA32bits:ula|mux8por1_32bits:operacao|mux8por1_1bit:ripple[31].op               ; work         ;
 ;                |mux2por1:mux1|                     ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |pratica8_top|processador:processador_placa|ULA32bits:ula|mux8por1_32bits:operacao|mux8por1_1bit:ripple[31].op|mux2por1:mux1 ; work         ;
-;             |mux8por1_1bit:ripple[3].op|           ; 2 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |pratica8_top|processador:processador_placa|ULA32bits:ula|mux8por1_32bits:operacao|mux8por1_1bit:ripple[3].op                ; work         ;
+;             |mux8por1_1bit:ripple[3].op|           ; 4 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |pratica8_top|processador:processador_placa|ULA32bits:ula|mux8por1_32bits:operacao|mux8por1_1bit:ripple[3].op                ; work         ;
 ;                |mux2por1:mux1|                     ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |pratica8_top|processador:processador_placa|ULA32bits:ula|mux8por1_32bits:operacao|mux8por1_1bit:ripple[3].op|mux2por1:mux1  ; work         ;
-;                |mux2por1:mux5|                     ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |pratica8_top|processador:processador_placa|ULA32bits:ula|mux8por1_32bits:operacao|mux8por1_1bit:ripple[3].op|mux2por1:mux5  ; work         ;
+;                |mux2por1:mux5|                     ; 3 (3)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |pratica8_top|processador:processador_placa|ULA32bits:ula|mux8por1_32bits:operacao|mux8por1_1bit:ripple[3].op|mux2por1:mux5  ; work         ;
 ;             |mux8por1_1bit:ripple[4].op|           ; 2 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |pratica8_top|processador:processador_placa|ULA32bits:ula|mux8por1_32bits:operacao|mux8por1_1bit:ripple[4].op                ; work         ;
 ;                |mux2por1:mux1|                     ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |pratica8_top|processador:processador_placa|ULA32bits:ula|mux8por1_32bits:operacao|mux8por1_1bit:ripple[4].op|mux2por1:mux1  ; work         ;
 ;                |mux2por1:mux5|                     ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |pratica8_top|processador:processador_placa|ULA32bits:ula|mux8por1_32bits:operacao|mux8por1_1bit:ripple[4].op|mux2por1:mux5  ; work         ;
@@ -360,7 +357,7 @@ Parallel compilation was disabled, but you have multiple processors available. E
 ;             |mux8por1_1bit:ripple[9].op|           ; 2 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |pratica8_top|processador:processador_placa|ULA32bits:ula|mux8por1_32bits:operacao|mux8por1_1bit:ripple[9].op                ; work         ;
 ;                |mux2por1:mux1|                     ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |pratica8_top|processador:processador_placa|ULA32bits:ula|mux8por1_32bits:operacao|mux8por1_1bit:ripple[9].op|mux2por1:mux1  ; work         ;
 ;                |mux2por1:mux5|                     ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |pratica8_top|processador:processador_placa|ULA32bits:ula|mux8por1_32bits:operacao|mux8por1_1bit:ripple[9].op|mux2por1:mux5  ; work         ;
-;          |somador32bits:op_soma|                   ; 42 (1)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |pratica8_top|processador:processador_placa|ULA32bits:ula|somador32bits:op_soma                                              ; work         ;
+;          |somador32bits:op_soma|                   ; 45 (1)            ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |pratica8_top|processador:processador_placa|ULA32bits:ula|somador32bits:op_soma                                              ; work         ;
 ;             |somador1bit:ripple[10].op_soma|       ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |pratica8_top|processador:processador_placa|ULA32bits:ula|somador32bits:op_soma|somador1bit:ripple[10].op_soma               ; work         ;
 ;             |somador1bit:ripple[11].op_soma|       ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |pratica8_top|processador:processador_placa|ULA32bits:ula|somador32bits:op_soma|somador1bit:ripple[11].op_soma               ; work         ;
 ;             |somador1bit:ripple[12].op_soma|       ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |pratica8_top|processador:processador_placa|ULA32bits:ula|somador32bits:op_soma|somador1bit:ripple[12].op_soma               ; work         ;
@@ -369,35 +366,37 @@ Parallel compilation was disabled, but you have multiple processors available. E
 ;             |somador1bit:ripple[15].op_soma|       ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |pratica8_top|processador:processador_placa|ULA32bits:ula|somador32bits:op_soma|somador1bit:ripple[15].op_soma               ; work         ;
 ;             |somador1bit:ripple[16].op_soma|       ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |pratica8_top|processador:processador_placa|ULA32bits:ula|somador32bits:op_soma|somador1bit:ripple[16].op_soma               ; work         ;
 ;             |somador1bit:ripple[17].op_soma|       ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |pratica8_top|processador:processador_placa|ULA32bits:ula|somador32bits:op_soma|somador1bit:ripple[17].op_soma               ; work         ;
-;             |somador1bit:ripple[18].op_soma|       ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |pratica8_top|processador:processador_placa|ULA32bits:ula|somador32bits:op_soma|somador1bit:ripple[18].op_soma               ; work         ;
-;             |somador1bit:ripple[19].op_soma|       ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |pratica8_top|processador:processador_placa|ULA32bits:ula|somador32bits:op_soma|somador1bit:ripple[19].op_soma               ; work         ;
+;             |somador1bit:ripple[18].op_soma|       ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |pratica8_top|processador:processador_placa|ULA32bits:ula|somador32bits:op_soma|somador1bit:ripple[18].op_soma               ; work         ;
+;             |somador1bit:ripple[19].op_soma|       ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |pratica8_top|processador:processador_placa|ULA32bits:ula|somador32bits:op_soma|somador1bit:ripple[19].op_soma               ; work         ;
 ;             |somador1bit:ripple[1].op_soma|        ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |pratica8_top|processador:processador_placa|ULA32bits:ula|somador32bits:op_soma|somador1bit:ripple[1].op_soma                ; work         ;
-;             |somador1bit:ripple[20].op_soma|       ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |pratica8_top|processador:processador_placa|ULA32bits:ula|somador32bits:op_soma|somador1bit:ripple[20].op_soma               ; work         ;
+;             |somador1bit:ripple[20].op_soma|       ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |pratica8_top|processador:processador_placa|ULA32bits:ula|somador32bits:op_soma|somador1bit:ripple[20].op_soma               ; work         ;
 ;             |somador1bit:ripple[21].op_soma|       ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |pratica8_top|processador:processador_placa|ULA32bits:ula|somador32bits:op_soma|somador1bit:ripple[21].op_soma               ; work         ;
 ;             |somador1bit:ripple[22].op_soma|       ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |pratica8_top|processador:processador_placa|ULA32bits:ula|somador32bits:op_soma|somador1bit:ripple[22].op_soma               ; work         ;
 ;             |somador1bit:ripple[23].op_soma|       ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |pratica8_top|processador:processador_placa|ULA32bits:ula|somador32bits:op_soma|somador1bit:ripple[23].op_soma               ; work         ;
 ;             |somador1bit:ripple[24].op_soma|       ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |pratica8_top|processador:processador_placa|ULA32bits:ula|somador32bits:op_soma|somador1bit:ripple[24].op_soma               ; work         ;
-;             |somador1bit:ripple[25].op_soma|       ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |pratica8_top|processador:processador_placa|ULA32bits:ula|somador32bits:op_soma|somador1bit:ripple[25].op_soma               ; work         ;
+;             |somador1bit:ripple[25].op_soma|       ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |pratica8_top|processador:processador_placa|ULA32bits:ula|somador32bits:op_soma|somador1bit:ripple[25].op_soma               ; work         ;
 ;             |somador1bit:ripple[26].op_soma|       ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |pratica8_top|processador:processador_placa|ULA32bits:ula|somador32bits:op_soma|somador1bit:ripple[26].op_soma               ; work         ;
-;             |somador1bit:ripple[27].op_soma|       ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |pratica8_top|processador:processador_placa|ULA32bits:ula|somador32bits:op_soma|somador1bit:ripple[27].op_soma               ; work         ;
-;             |somador1bit:ripple[28].op_soma|       ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |pratica8_top|processador:processador_placa|ULA32bits:ula|somador32bits:op_soma|somador1bit:ripple[28].op_soma               ; work         ;
+;             |somador1bit:ripple[27].op_soma|       ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |pratica8_top|processador:processador_placa|ULA32bits:ula|somador32bits:op_soma|somador1bit:ripple[27].op_soma               ; work         ;
+;             |somador1bit:ripple[28].op_soma|       ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |pratica8_top|processador:processador_placa|ULA32bits:ula|somador32bits:op_soma|somador1bit:ripple[28].op_soma               ; work         ;
 ;             |somador1bit:ripple[29].op_soma|       ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |pratica8_top|processador:processador_placa|ULA32bits:ula|somador32bits:op_soma|somador1bit:ripple[29].op_soma               ; work         ;
 ;             |somador1bit:ripple[2].op_soma|        ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |pratica8_top|processador:processador_placa|ULA32bits:ula|somador32bits:op_soma|somador1bit:ripple[2].op_soma                ; work         ;
 ;             |somador1bit:ripple[30].op_soma|       ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |pratica8_top|processador:processador_placa|ULA32bits:ula|somador32bits:op_soma|somador1bit:ripple[30].op_soma               ; work         ;
 ;             |somador1bit:ripple[31].op_soma|       ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |pratica8_top|processador:processador_placa|ULA32bits:ula|somador32bits:op_soma|somador1bit:ripple[31].op_soma               ; work         ;
-;             |somador1bit:ripple[3].op_soma|        ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |pratica8_top|processador:processador_placa|ULA32bits:ula|somador32bits:op_soma|somador1bit:ripple[3].op_soma                ; work         ;
+;             |somador1bit:ripple[3].op_soma|        ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |pratica8_top|processador:processador_placa|ULA32bits:ula|somador32bits:op_soma|somador1bit:ripple[3].op_soma                ; work         ;
 ;             |somador1bit:ripple[4].op_soma|        ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |pratica8_top|processador:processador_placa|ULA32bits:ula|somador32bits:op_soma|somador1bit:ripple[4].op_soma                ; work         ;
 ;             |somador1bit:ripple[5].op_soma|        ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |pratica8_top|processador:processador_placa|ULA32bits:ula|somador32bits:op_soma|somador1bit:ripple[5].op_soma                ; work         ;
 ;             |somador1bit:ripple[6].op_soma|        ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |pratica8_top|processador:processador_placa|ULA32bits:ula|somador32bits:op_soma|somador1bit:ripple[6].op_soma                ; work         ;
 ;             |somador1bit:ripple[7].op_soma|        ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |pratica8_top|processador:processador_placa|ULA32bits:ula|somador32bits:op_soma|somador1bit:ripple[7].op_soma                ; work         ;
 ;             |somador1bit:ripple[8].op_soma|        ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |pratica8_top|processador:processador_placa|ULA32bits:ula|somador32bits:op_soma|somador1bit:ripple[8].op_soma                ; work         ;
 ;             |somador1bit:ripple[9].op_soma|        ; 2 (2)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |pratica8_top|processador:processador_placa|ULA32bits:ula|somador32bits:op_soma|somador1bit:ripple[9].op_soma                ; work         ;
-;       |bancoRegistradores:bReg|                    ; 110 (110)         ; 96 (96)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |pratica8_top|processador:processador_placa|bancoRegistradores:bReg                                                          ; work         ;
-;       |countPC:pc|                                 ; 4 (4)             ; 5 (5)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |pratica8_top|processador:processador_placa|countPC:pc                                                                       ; work         ;
-;       |memoriaDados:memoria|                       ; 1742 (1742)       ; 544 (544)    ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |pratica8_top|processador:processador_placa|memoriaDados:memoria                                                             ; work         ;
-;       |memoriaInstrucao:memInstr|                  ; 11 (11)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |pratica8_top|processador:processador_placa|memoriaInstrucao:memInstr                                                        ; work         ;
+;       |bancoRegistradores:bReg|                    ; 107 (107)         ; 96 (96)      ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |pratica8_top|processador:processador_placa|bancoRegistradores:bReg                                                          ; work         ;
+;       |countPC:pc|                                 ; 6 (5)             ; 5 (5)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |pratica8_top|processador:processador_placa|countPC:pc                                                                       ; work         ;
+;          |somador32bits:adder|                     ; 1 (0)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |pratica8_top|processador:processador_placa|countPC:pc|somador32bits:adder                                                   ; work         ;
+;             |somador1bit:ripple[5].op_soma|        ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |pratica8_top|processador:processador_placa|countPC:pc|somador32bits:adder|somador1bit:ripple[5].op_soma                     ; work         ;
+;       |memoriaDados:memoria|                       ; 1746 (1746)       ; 544 (544)    ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |pratica8_top|processador:processador_placa|memoriaDados:memoria                                                             ; work         ;
+;       |memoriaInstrucao:memInstr|                  ; 12 (12)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |pratica8_top|processador:processador_placa|memoriaInstrucao:memInstr                                                        ; work         ;
 ;       |mux2por1_32bits:muxDataMem|                 ; 49 (49)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |pratica8_top|processador:processador_placa|mux2por1_32bits:muxDataMem                                                       ; work         ;
-;       |mux2por1_32bits:muxULA|                     ; 17 (17)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |pratica8_top|processador:processador_placa|mux2por1_32bits:muxULA                                                           ; work         ;
+;       |mux2por1_32bits:muxULA|                     ; 12 (12)           ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |pratica8_top|processador:processador_placa|mux2por1_32bits:muxULA                                                           ; work         ;
 ;       |unidadeControlePrincipal:controlePrincipal| ; 3 (3)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |pratica8_top|processador:processador_placa|unidadeControlePrincipal:controlePrincipal                                       ; work         ;
 ;       |unidadeControleULA:controleULA|             ; 1 (1)             ; 0 (0)        ; 0           ; 0            ; 0       ; 0         ; 0    ; 0            ; |pratica8_top|processador:processador_placa|unidadeControleULA:controleULA                                                   ; work         ;
 +----------------------------------------------------+-------------------+--------------+-------------+--------------+---------+-----------+------+--------------+------------------------------------------------------------------------------------------------------------------------------+--------------+
@@ -1377,7 +1376,6 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[2][6],   ;
 ;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[2][5],   ;
 ;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[2][4],   ;
-;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[2][3],   ;
 ;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[2][2],   ;
 ;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[2][1],   ;
 ;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[2][0],   ;
@@ -1409,7 +1407,6 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[3][6],   ;
 ;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[3][5],   ;
 ;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[3][4],   ;
-;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[3][3],   ;
 ;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[3][2],   ;
 ;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[3][1],   ;
 ;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[3][0],   ;
@@ -1441,7 +1438,6 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[4][6],   ;
 ;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[4][5],   ;
 ;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[4][4],   ;
-;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[4][3],   ;
 ;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[4][2],   ;
 ;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[4][1],   ;
 ;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[4][0],   ;
@@ -1473,7 +1469,6 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[5][6],   ;
 ;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[5][5],   ;
 ;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[5][4],   ;
-;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[5][3],   ;
 ;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[5][2],   ;
 ;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[5][1],   ;
 ;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[5][0],   ;
@@ -1505,7 +1500,6 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[6][6],   ;
 ;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[6][5],   ;
 ;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[6][4],   ;
-;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[6][3],   ;
 ;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[6][2],   ;
 ;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[6][1],   ;
 ;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[6][0],   ;
@@ -1537,7 +1531,6 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[7][6],   ;
 ;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[7][5],   ;
 ;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[7][4],   ;
-;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[7][3],   ;
 ;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[7][2],   ;
 ;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[7][1],   ;
 ;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[7][0],   ;
@@ -1569,7 +1562,6 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[10][6],  ;
 ;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[10][5],  ;
 ;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[10][4],  ;
-;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[10][3],  ;
 ;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[10][2],  ;
 ;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[10][1],  ;
 ;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[10][0],  ;
@@ -1601,7 +1593,6 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[11][6],  ;
 ;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[11][5],  ;
 ;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[11][4],  ;
-;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[11][3],  ;
 ;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[11][2],  ;
 ;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[11][1],  ;
 ;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[11][0],  ;
@@ -1633,7 +1624,6 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[12][6],  ;
 ;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[12][5],  ;
 ;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[12][4],  ;
-;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[12][3],  ;
 ;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[12][2],  ;
 ;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[12][1],  ;
 ;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[12][0],  ;
@@ -1665,7 +1655,6 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[13][6],  ;
 ;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[13][5],  ;
 ;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[13][4],  ;
-;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[13][3],  ;
 ;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[13][2],  ;
 ;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[13][1],  ;
 ;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[13][0],  ;
@@ -1697,7 +1686,6 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[14][6],  ;
 ;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[14][5],  ;
 ;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[14][4],  ;
-;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[14][3],  ;
 ;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[14][2],  ;
 ;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[14][1],  ;
 ;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[14][0],  ;
@@ -1729,7 +1717,6 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[15][6],  ;
 ;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[15][5],  ;
 ;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[15][4],  ;
-;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[15][3],  ;
 ;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[15][2],  ;
 ;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[15][1],  ;
 ;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[15][0],  ;
@@ -1761,7 +1748,6 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[16][6],  ;
 ;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[16][5],  ;
 ;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[16][4],  ;
-;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[16][3],  ;
 ;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[16][2],  ;
 ;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[16][1],  ;
 ;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[16][0],  ;
@@ -1793,7 +1779,6 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[17][6],  ;
 ;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[17][5],  ;
 ;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[17][4],  ;
-;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[17][3],  ;
 ;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[17][2],  ;
 ;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[17][1],  ;
 ;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[17][0],  ;
@@ -1825,7 +1810,6 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[18][6],  ;
 ;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[18][5],  ;
 ;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[18][4],  ;
-;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[18][3],  ;
 ;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[18][2],  ;
 ;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[18][1],  ;
 ;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[18][0],  ;
@@ -1857,7 +1841,6 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[19][6],  ;
 ;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[19][5],  ;
 ;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[19][4],  ;
-;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[19][3],  ;
 ;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[19][2],  ;
 ;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[19][1],  ;
 ;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[19][0],  ;
@@ -1889,7 +1872,6 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[20][6],  ;
 ;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[20][5],  ;
 ;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[20][4],  ;
-;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[20][3],  ;
 ;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[20][2],  ;
 ;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[20][1],  ;
 ;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[20][0],  ;
@@ -1921,7 +1903,6 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[21][6],  ;
 ;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[21][5],  ;
 ;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[21][4],  ;
-;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[21][3],  ;
 ;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[21][2],  ;
 ;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[21][1],  ;
 ;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[21][0],  ;
@@ -1953,7 +1934,6 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[22][6],  ;
 ;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[22][5],  ;
 ;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[22][4],  ;
-;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[22][3],  ;
 ;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[22][2],  ;
 ;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[22][1],  ;
 ;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[22][0],  ;
@@ -1985,7 +1965,6 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[23][6],  ;
 ;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[23][5],  ;
 ;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[23][4],  ;
-;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[23][3],  ;
 ;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[23][2],  ;
 ;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[23][1],  ;
 ;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[23][0],  ;
@@ -2017,7 +1996,6 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[24][6],  ;
 ;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[24][5],  ;
 ;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[24][4],  ;
-;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[24][3],  ;
 ;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[24][2],  ;
 ;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[24][1],  ;
 ;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[24][0],  ;
@@ -2049,7 +2027,6 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[25][6],  ;
 ;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[25][5],  ;
 ;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[25][4],  ;
-;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[25][3],  ;
 ;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[25][2],  ;
 ;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[25][1],  ;
 ;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[25][0],  ;
@@ -2081,7 +2058,6 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[26][6],  ;
 ;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[26][5],  ;
 ;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[26][4],  ;
-;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[26][3],  ;
 ;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[26][2],  ;
 ;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[26][1],  ;
 ;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[26][0],  ;
@@ -2113,7 +2089,6 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[27][6],  ;
 ;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[27][5],  ;
 ;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[27][4],  ;
-;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[27][3],  ;
 ;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[27][2],  ;
 ;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[27][1],  ;
 ;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[27][0],  ;
@@ -2145,7 +2120,6 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[28][6],  ;
 ;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[28][5],  ;
 ;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[28][4],  ;
-;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[28][3],  ;
 ;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[28][2],  ;
 ;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[28][1],  ;
 ;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[28][0],  ;
@@ -2177,7 +2151,6 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[29][6],  ;
 ;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[29][5],  ;
 ;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[29][4],  ;
-;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[29][3],  ;
 ;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[29][2],  ;
 ;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[29][1],  ;
 ;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[29][0],  ;
@@ -2209,7 +2182,6 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[30][6],  ;
 ;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[30][5],  ;
 ;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[30][4],  ;
-;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[30][3],  ;
 ;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[30][2],  ;
 ;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[30][1],  ;
 ;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[30][0],  ;
@@ -2241,10 +2213,8 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[31][6],  ;
 ;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[31][5],  ;
 ;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[31][4],  ;
-;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[31][3],  ;
 ;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[31][2],  ;
 ;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[31][1],  ;
-;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[1][3],   ;
 ;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[1][2],   ;
 ;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[1][0],   ;
 ;                                                   ;                           ; processador:processador_placa|bancoRegistradores:bReg|registradores[1][1],   ;
@@ -2289,7 +2259,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; Number of registers using Synchronous Load   ; 24    ;
 ; Number of registers using Asynchronous Clear ; 95    ;
 ; Number of registers using Asynchronous Load  ; 0     ;
-; Number of registers using Clock Enable       ; 640   ;
+; Number of registers using Clock Enable       ; 639   ;
 ; Number of registers using Preset             ; 0     ;
 +----------------------------------------------+-------+
 
@@ -2302,7 +2272,8 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 ; processador:processador_placa|bancoRegistradores:bReg|registradores[9][0] ; 1       ;
 ; processador:processador_placa|bancoRegistradores:bReg|registradores[9][3] ; 1       ;
 ; processador:processador_placa|bancoRegistradores:bReg|registradores[8][3] ; 1       ;
-; Total number of inverted registers = 3                                    ;         ;
+; processador:processador_placa|memoriaDados:memoria|memory[16][2]          ; 3       ;
+; Total number of inverted registers = 4                                    ;         ;
 +---------------------------------------------------------------------------+---------+
 
 
@@ -2311,79 +2282,79 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +--------------------+-----------+---------------+----------------------+------------------------+------------+--------------------------------------------------------------------------------+
 ; Multiplexer Inputs ; Bus Width ; Baseline Area ; Area if Restructured ; Saving if Restructured ; Registered ; Example Multiplexer Output                                                     ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+--------------------------------------------------------------------------------+
-; 3:1                ; 8 bits    ; 16 LEs        ; 8 LEs                ; 8 LEs                  ; Yes        ; |pratica8_top|processador:processador_placa|memoriaDados:memoria|memory[1][6]  ;
-; 4:1                ; 8 bits    ; 16 LEs        ; 16 LEs               ; 0 LEs                  ; Yes        ; |pratica8_top|processador:processador_placa|memoriaDados:memoria|memory[2][1]  ;
-; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |pratica8_top|processador:processador_placa|memoriaDados:memoria|memory[63][2] ;
-; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |pratica8_top|processador:processador_placa|memoriaDados:memoria|memory[62][3] ;
-; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |pratica8_top|processador:processador_placa|memoriaDados:memoria|memory[61][3] ;
+; 3:1                ; 8 bits    ; 16 LEs        ; 8 LEs                ; 8 LEs                  ; Yes        ; |pratica8_top|processador:processador_placa|memoriaDados:memoria|memory[1][0]  ;
+; 4:1                ; 8 bits    ; 16 LEs        ; 16 LEs               ; 0 LEs                  ; Yes        ; |pratica8_top|processador:processador_placa|memoriaDados:memoria|memory[2][0]  ;
+; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |pratica8_top|processador:processador_placa|memoriaDados:memoria|memory[63][4] ;
+; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |pratica8_top|processador:processador_placa|memoriaDados:memoria|memory[62][4] ;
+; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |pratica8_top|processador:processador_placa|memoriaDados:memoria|memory[61][4] ;
 ; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |pratica8_top|processador:processador_placa|memoriaDados:memoria|memory[60][4] ;
 ; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |pratica8_top|processador:processador_placa|memoriaDados:memoria|memory[59][4] ;
 ; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |pratica8_top|processador:processador_placa|memoriaDados:memoria|memory[58][4] ;
 ; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |pratica8_top|processador:processador_placa|memoriaDados:memoria|memory[57][4] ;
-; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |pratica8_top|processador:processador_placa|memoriaDados:memoria|memory[56][4] ;
-; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |pratica8_top|processador:processador_placa|memoriaDados:memoria|memory[55][4] ;
+; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |pratica8_top|processador:processador_placa|memoriaDados:memoria|memory[56][2] ;
+; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |pratica8_top|processador:processador_placa|memoriaDados:memoria|memory[55][6] ;
 ; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |pratica8_top|processador:processador_placa|memoriaDados:memoria|memory[54][4] ;
 ; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |pratica8_top|processador:processador_placa|memoriaDados:memoria|memory[53][4] ;
-; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |pratica8_top|processador:processador_placa|memoriaDados:memoria|memory[52][0] ;
-; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |pratica8_top|processador:processador_placa|memoriaDados:memoria|memory[51][6] ;
-; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |pratica8_top|processador:processador_placa|memoriaDados:memoria|memory[50][2] ;
-; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |pratica8_top|processador:processador_placa|memoriaDados:memoria|memory[49][1] ;
-; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |pratica8_top|processador:processador_placa|memoriaDados:memoria|memory[48][2] ;
-; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |pratica8_top|processador:processador_placa|memoriaDados:memoria|memory[47][0] ;
-; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |pratica8_top|processador:processador_placa|memoriaDados:memoria|memory[46][2] ;
-; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |pratica8_top|processador:processador_placa|memoriaDados:memoria|memory[45][2] ;
-; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |pratica8_top|processador:processador_placa|memoriaDados:memoria|memory[44][4] ;
-; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |pratica8_top|processador:processador_placa|memoriaDados:memoria|memory[43][4] ;
-; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |pratica8_top|processador:processador_placa|memoriaDados:memoria|memory[42][4] ;
+; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |pratica8_top|processador:processador_placa|memoriaDados:memoria|memory[52][4] ;
+; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |pratica8_top|processador:processador_placa|memoriaDados:memoria|memory[51][4] ;
+; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |pratica8_top|processador:processador_placa|memoriaDados:memoria|memory[50][4] ;
+; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |pratica8_top|processador:processador_placa|memoriaDados:memoria|memory[49][4] ;
+; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |pratica8_top|processador:processador_placa|memoriaDados:memoria|memory[48][4] ;
+; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |pratica8_top|processador:processador_placa|memoriaDados:memoria|memory[47][4] ;
+; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |pratica8_top|processador:processador_placa|memoriaDados:memoria|memory[46][4] ;
+; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |pratica8_top|processador:processador_placa|memoriaDados:memoria|memory[45][0] ;
+; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |pratica8_top|processador:processador_placa|memoriaDados:memoria|memory[44][3] ;
+; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |pratica8_top|processador:processador_placa|memoriaDados:memoria|memory[43][3] ;
+; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |pratica8_top|processador:processador_placa|memoriaDados:memoria|memory[42][2] ;
 ; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |pratica8_top|processador:processador_placa|memoriaDados:memoria|memory[41][4] ;
-; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |pratica8_top|processador:processador_placa|memoriaDados:memoria|memory[40][4] ;
-; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |pratica8_top|processador:processador_placa|memoriaDados:memoria|memory[39][4] ;
-; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |pratica8_top|processador:processador_placa|memoriaDados:memoria|memory[38][4] ;
-; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |pratica8_top|processador:processador_placa|memoriaDados:memoria|memory[37][4] ;
+; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |pratica8_top|processador:processador_placa|memoriaDados:memoria|memory[40][3] ;
+; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |pratica8_top|processador:processador_placa|memoriaDados:memoria|memory[39][6] ;
+; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |pratica8_top|processador:processador_placa|memoriaDados:memoria|memory[38][0] ;
+; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |pratica8_top|processador:processador_placa|memoriaDados:memoria|memory[37][1] ;
 ; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |pratica8_top|processador:processador_placa|memoriaDados:memoria|memory[36][1] ;
-; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |pratica8_top|processador:processador_placa|memoriaDados:memoria|memory[35][4] ;
+; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |pratica8_top|processador:processador_placa|memoriaDados:memoria|memory[35][3] ;
 ; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |pratica8_top|processador:processador_placa|memoriaDados:memoria|memory[34][1] ;
-; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |pratica8_top|processador:processador_placa|memoriaDados:memoria|memory[33][2] ;
-; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |pratica8_top|processador:processador_placa|memoriaDados:memoria|memory[32][0] ;
-; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |pratica8_top|processador:processador_placa|memoriaDados:memoria|memory[31][6] ;
-; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |pratica8_top|processador:processador_placa|memoriaDados:memoria|memory[30][3] ;
-; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |pratica8_top|processador:processador_placa|memoriaDados:memoria|memory[29][3] ;
-; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |pratica8_top|processador:processador_placa|memoriaDados:memoria|memory[28][4] ;
-; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |pratica8_top|processador:processador_placa|memoriaDados:memoria|memory[27][0] ;
-; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |pratica8_top|processador:processador_placa|memoriaDados:memoria|memory[26][1] ;
+; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |pratica8_top|processador:processador_placa|memoriaDados:memoria|memory[33][4] ;
+; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |pratica8_top|processador:processador_placa|memoriaDados:memoria|memory[32][2] ;
+; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |pratica8_top|processador:processador_placa|memoriaDados:memoria|memory[31][7] ;
+; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |pratica8_top|processador:processador_placa|memoriaDados:memoria|memory[30][1] ;
+; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |pratica8_top|processador:processador_placa|memoriaDados:memoria|memory[29][1] ;
+; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |pratica8_top|processador:processador_placa|memoriaDados:memoria|memory[28][2] ;
+; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |pratica8_top|processador:processador_placa|memoriaDados:memoria|memory[27][3] ;
+; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |pratica8_top|processador:processador_placa|memoriaDados:memoria|memory[26][3] ;
 ; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |pratica8_top|processador:processador_placa|memoriaDados:memoria|memory[25][3] ;
-; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |pratica8_top|processador:processador_placa|memoriaDados:memoria|memory[24][2] ;
-; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |pratica8_top|processador:processador_placa|memoriaDados:memoria|memory[23][5] ;
-; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |pratica8_top|processador:processador_placa|memoriaDados:memoria|memory[22][0] ;
-; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |pratica8_top|processador:processador_placa|memoriaDados:memoria|memory[21][3] ;
-; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |pratica8_top|processador:processador_placa|memoriaDados:memoria|memory[20][0] ;
-; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |pratica8_top|processador:processador_placa|memoriaDados:memoria|memory[19][2] ;
+; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |pratica8_top|processador:processador_placa|memoriaDados:memoria|memory[24][5] ;
+; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |pratica8_top|processador:processador_placa|memoriaDados:memoria|memory[23][1] ;
+; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |pratica8_top|processador:processador_placa|memoriaDados:memoria|memory[22][3] ;
+; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |pratica8_top|processador:processador_placa|memoriaDados:memoria|memory[21][5] ;
+; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |pratica8_top|processador:processador_placa|memoriaDados:memoria|memory[20][7] ;
+; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |pratica8_top|processador:processador_placa|memoriaDados:memoria|memory[19][4] ;
 ; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |pratica8_top|processador:processador_placa|memoriaDados:memoria|memory[18][6] ;
-; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |pratica8_top|processador:processador_placa|memoriaDados:memoria|memory[17][0] ;
-; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |pratica8_top|processador:processador_placa|memoriaDados:memoria|memory[16][2] ;
+; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |pratica8_top|processador:processador_placa|memoriaDados:memoria|memory[17][4] ;
+; 5:1                ; 7 bits    ; 21 LEs        ; 14 LEs               ; 7 LEs                  ; Yes        ; |pratica8_top|processador:processador_placa|memoriaDados:memoria|memory[16][0] ;
 ; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |pratica8_top|processador:processador_placa|memoriaDados:memoria|memory[15][3] ;
-; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |pratica8_top|processador:processador_placa|memoriaDados:memoria|memory[14][2] ;
-; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |pratica8_top|processador:processador_placa|memoriaDados:memoria|memory[13][7] ;
-; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |pratica8_top|processador:processador_placa|memoriaDados:memoria|memory[12][5] ;
-; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |pratica8_top|processador:processador_placa|memoriaDados:memoria|memory[11][2] ;
-; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |pratica8_top|processador:processador_placa|memoriaDados:memoria|memory[10][4] ;
+; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |pratica8_top|processador:processador_placa|memoriaDados:memoria|memory[14][1] ;
+; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |pratica8_top|processador:processador_placa|memoriaDados:memoria|memory[13][1] ;
+; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |pratica8_top|processador:processador_placa|memoriaDados:memoria|memory[12][1] ;
+; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |pratica8_top|processador:processador_placa|memoriaDados:memoria|memory[11][1] ;
+; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |pratica8_top|processador:processador_placa|memoriaDados:memoria|memory[10][2] ;
 ; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |pratica8_top|processador:processador_placa|memoriaDados:memoria|memory[9][6]  ;
-; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |pratica8_top|processador:processador_placa|memoriaDados:memoria|memory[8][5]  ;
+; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |pratica8_top|processador:processador_placa|memoriaDados:memoria|memory[8][1]  ;
 ; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |pratica8_top|processador:processador_placa|memoriaDados:memoria|memory[7][7]  ;
-; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |pratica8_top|processador:processador_placa|memoriaDados:memoria|memory[6][7]  ;
-; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |pratica8_top|processador:processador_placa|memoriaDados:memoria|memory[5][7]  ;
+; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |pratica8_top|processador:processador_placa|memoriaDados:memoria|memory[6][1]  ;
+; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |pratica8_top|processador:processador_placa|memoriaDados:memoria|memory[5][3]  ;
 ; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |pratica8_top|processador:processador_placa|memoriaDados:memoria|memory[4][7]  ;
 ; 5:1                ; 8 bits    ; 24 LEs        ; 16 LEs               ; 8 LEs                  ; Yes        ; |pratica8_top|processador:processador_placa|memoriaDados:memoria|memory[3][7]  ;
 ; 7:1                ; 8 bits    ; 32 LEs        ; 32 LEs               ; 0 LEs                  ; Yes        ; |pratica8_top|processador:processador_placa|memoriaDados:memoria|readData[2]   ;
-; 7:1                ; 8 bits    ; 32 LEs        ; 32 LEs               ; 0 LEs                  ; Yes        ; |pratica8_top|processador:processador_placa|memoriaDados:memoria|readData[29]  ;
-; 4:1                ; 32 bits   ; 64 LEs        ; 64 LEs               ; 0 LEs                  ; No         ; |pratica8_top|processador:processador_placa|bancoRegistradores:bReg|Mux34      ;
+; 7:1                ; 8 bits    ; 32 LEs        ; 32 LEs               ; 0 LEs                  ; Yes        ; |pratica8_top|processador:processador_placa|memoriaDados:memoria|readData[27]  ;
+; 4:1                ; 32 bits   ; 64 LEs        ; 64 LEs               ; 0 LEs                  ; No         ; |pratica8_top|processador:processador_placa|bancoRegistradores:bReg|Mux48      ;
 ; 4:1                ; 24 bits   ; 48 LEs        ; 48 LEs               ; 0 LEs                  ; No         ; |pratica8_top|processador:processador_placa|memoriaDados:memoria|Mux0          ;
 ; 5:1                ; 8 bits    ; 24 LEs        ; 24 LEs               ; 0 LEs                  ; No         ; |pratica8_top|processador:processador_placa|memoriaDados:memoria|Mux0          ;
-; 5:1                ; 8 bits    ; 24 LEs        ; 24 LEs               ; 0 LEs                  ; No         ; |pratica8_top|processador:processador_placa|memoriaDados:memoria|Mux0          ;
-; 6:1                ; 8 bits    ; 32 LEs        ; 32 LEs               ; 0 LEs                  ; No         ; |pratica8_top|processador:processador_placa|memoriaDados:memoria|Mux3          ;
+; 5:1                ; 8 bits    ; 24 LEs        ; 24 LEs               ; 0 LEs                  ; No         ; |pratica8_top|processador:processador_placa|memoriaDados:memoria|Mux29         ;
+; 6:1                ; 8 bits    ; 32 LEs        ; 32 LEs               ; 0 LEs                  ; No         ; |pratica8_top|processador:processador_placa|memoriaDados:memoria|Mux1          ;
 ; 6:1                ; 8 bits    ; 32 LEs        ; 32 LEs               ; 0 LEs                  ; No         ; |pratica8_top|processador:processador_placa|memoriaDados:memoria|Mux28         ;
-; 8:1                ; 24 bits   ; 120 LEs       ; 120 LEs              ; 0 LEs                  ; No         ; |pratica8_top|processador:processador_placa|memoriaDados:memoria|Mux3          ;
-; 16:1               ; 8 bits    ; 80 LEs        ; 80 LEs               ; 0 LEs                  ; No         ; |pratica8_top|processador:processador_placa|memoriaDados:memoria|Mux0          ;
+; 8:1                ; 24 bits   ; 120 LEs       ; 120 LEs              ; 0 LEs                  ; No         ; |pratica8_top|processador:processador_placa|memoriaDados:memoria|Mux1          ;
+; 16:1               ; 8 bits    ; 80 LEs        ; 80 LEs               ; 0 LEs                  ; No         ; |pratica8_top|processador:processador_placa|memoriaDados:memoria|Mux1          ;
 +--------------------+-----------+---------------+----------------------+------------------------+------------+--------------------------------------------------------------------------------+
 
 
@@ -2785,12 +2756,14 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +------------------------+--------+----------+-------------------------------------------------------------------------------------+
 ; Port                   ; Type   ; Severity ; Details                                                                             ;
 +------------------------+--------+----------+-------------------------------------------------------------------------------------+
-; pcout_out[31..4]       ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; pcout_out[31..3]       ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
 ; instruction_out        ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
 ; ULA_result_out[31..16] ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
 ; reg1_data_out[31..4]   ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
 ; reg2_data_out[31..4]   ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
 ; immediate_out[31..4]   ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; WriteData_out[31..4]   ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
+; MemRead_out            ; Output ; Info     ; Connected to dangling logic. Logic that only feeds a dangling port will be removed. ;
 +------------------------+--------+----------+-------------------------------------------------------------------------------------+
 
 
@@ -2799,7 +2772,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 +----------------+--------------+
 ; Partition Name ; Elapsed Time ;
 +----------------+--------------+
-; Top            ; 00:00:15     ;
+; Top            ; 00:00:10     ;
 +----------------+--------------+
 
 
@@ -2809,7 +2782,7 @@ Note: For table entries with two numbers listed, the numbers in parentheses indi
 Info: *******************************************************************
 Info: Running Quartus II 64-Bit Analysis & Synthesis
     Info: Version 13.0.1 Build 232 06/12/2013 Service Pack 1 SJ Web Edition
-    Info: Processing started: Tue Nov 18 14:55:56 2025
+    Info: Processing started: Tue Nov 18 20:36:55 2025
 Info: Command: quartus_map --read_settings_files=on --write_settings_files=off caminhoDados -c caminhoDados
 Warning (20028): Parallel compilation is not licensed and has been disabled
 Info (12021): Found 1 design units, including 1 entities, in source file valor_absoluto.v
@@ -2869,6 +2842,7 @@ Info (12021): Found 1 design units, including 1 entities, in source file and1bit
 Info (12021): Found 1 design units, including 1 entities, in source file pratica8_top.v
     Info (12023): Found entity 1: pratica8_top
 Info (12127): Elaborating entity "pratica8_top" for the top level hierarchy
+Warning (10230): Verilog HDL assignment warning at pratica8_top.v(62): truncated value with size 9 to match size of target (8)
 Info (12128): Elaborating entity "divisor_frequencia" for hierarchy "divisor_frequencia:divisor_clock"
 Warning (10230): Verilog HDL assignment warning at divisor_frequencia.v(17): truncated value with size 32 to match size of target (26)
 Info (12128): Elaborating entity "processador" for hierarchy "processador:processador_placa"
@@ -2901,7 +2875,6 @@ Warning (13024): Output pins are stuck at VCC or GND
     Warning (13410): Pin "HEX6[2]" is stuck at GND
     Warning (13410): Pin "HEX6[1]" is stuck at GND
     Warning (13410): Pin "HEX6[0]" is stuck at GND
-    Warning (13410): Pin "HEX7[5]" is stuck at GND
     Warning (13410): Pin "LEDR[3]" is stuck at GND
     Warning (13410): Pin "LEDR[4]" is stuck at GND
     Warning (13410): Pin "LEDR[5]" is stuck at GND
@@ -2923,7 +2896,7 @@ Warning (13024): Output pins are stuck at VCC or GND
     Warning (13410): Pin "LEDG[4]" is stuck at GND
     Warning (13410): Pin "LEDG[5]" is stuck at GND
     Warning (13410): Pin "LEDG[6]" is stuck at GND
-    Warning (13410): Pin "LEDG[7]" is stuck at GND
+Info (144001): Generated suppressed messages file C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/output_files/caminhoDados.map.smsg
 Info (16010): Generating hard_block partition "hard_block:auto_generated_inst"
     Info (16011): Adding 0 node(s), including 0 DDIO, 0 PLL, 0 transceiver and 0 LCELL
 Warning (21074): Design contains 17 input pin(s) that do not drive logic
@@ -2944,14 +2917,20 @@ Warning (21074): Design contains 17 input pin(s) that do not drive logic
     Warning (15610): No output dependent on input pin "SW[14]"
     Warning (15610): No output dependent on input pin "SW[15]"
     Warning (15610): No output dependent on input pin "SW[16]"
-Info (21057): Implemented 2360 device resources after synthesis - the final resource count might be different
+Info (21057): Implemented 2365 device resources after synthesis - the final resource count might be different
     Info (21058): Implemented 19 input pins
     Info (21059): Implemented 82 output pins
-    Info (21061): Implemented 2259 logic cells
-Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 49 warnings
-    Info: Peak virtual memory: 4612 megabytes
-    Info: Processing ended: Tue Nov 18 14:56:19 2025
-    Info: Elapsed time: 00:00:23
-    Info: Total CPU time (on all processors): 00:00:21
+    Info (21061): Implemented 2264 logic cells
+Info: Quartus II 64-Bit Analysis & Synthesis was successful. 0 errors, 48 warnings
+    Info: Peak virtual memory: 4615 megabytes
+    Info: Processing ended: Tue Nov 18 20:37:10 2025
+    Info: Elapsed time: 00:00:15
+    Info: Total CPU time (on all processors): 00:00:14
+
+
++------------------------------------------+
+; Analysis & Synthesis Suppressed Messages ;
++------------------------------------------+
+The suppressed messages can be found in C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/output_files/caminhoDados.map.smsg.
 
 

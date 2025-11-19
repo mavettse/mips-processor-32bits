@@ -13,6 +13,8 @@ entity processador is
         reg2_data_out   : out    vl_logic_vector(31 downto 0);
         immediate_out   : out    vl_logic_vector(31 downto 0);
         op_out          : out    vl_logic_vector(2 downto 0);
-        ULASrc_out      : out    vl_logic
+        ULASrc_out      : out    vl_logic;
+        WriteData_out   : out    vl_logic_vector(31 downto 0);
+        MemRead_out     : out    vl_logic
     );
 end processador;

@@ -2,34 +2,34 @@ m255
 K3
 13
 cModel Technology
-Z0 dC:\Users\gioes\Documents\GitHub-Projects\university-coursework\2025-2\computer-organization-and-architecture\pratica8_GiovanniEstevam_JoaoVitorLopes\caminhoDados\simulation\modelsim
+Z0 dC:\Users\gioes\Documents\GitHub-Projects\lab_aoc\pratica8_GiovanniEstevam_JoaoVitorLopes\caminhoDados\simulation\modelsim
 vand1bit
-I7V@V;Q1JDc[6d9LYWf=Na3
+IX?TnOf_3G3CY9ZgCbAD8:2
 VoAchGLAJ=@z];OCljkORI2
-Z1 dC:\Users\gioes\Documents\GitHub-Projects\university-coursework\2025-2\computer-organization-and-architecture\pratica8_GiovanniEstevam_JoaoVitorLopes\caminhoDados\simulation\modelsim
+Z1 dC:\Users\gioes\Documents\GitHub-Projects\lab_aoc\pratica8_GiovanniEstevam_JoaoVitorLopes\caminhoDados\simulation\modelsim
 Z2 w1763054076
-8C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/and1bit.v
-FC:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/and1bit.v
+8C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/and1bit.v
+FC:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/and1bit.v
 L0 1
 Z3 OV;L;10.1d;51
 r1
 31
 Z4 o-vlog01compat -work work -O0
-Z5 !s92 -vlog01compat -work work +incdir+C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados -O0
+Z5 !s92 -vlog01compat -work work +incdir+C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados -O0
 !i10b 1
-!s100 WL7N_P7KaB6oS<?bKzA983
+!s100 0dgCQ?0X9T>UU1AoK9TjC3
 !s85 0
-!s108 1763488669.259000
-!s107 C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/and1bit.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados|C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/and1bit.v|
+!s108 1763510247.323000
+!s107 C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/and1bit.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados|C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/and1bit.v|
 !s101 -O0
 vand32bits
-I_eHezW33Scf05n6GV[B5n1
+I^9nZEW9cY3QL7B[TS=S2=1
 V3TR?j[dbb^M<TaT79[i^h0
 R1
 R2
-8C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/and32bits.v
-FC:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/and32bits.v
+8C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/and32bits.v
+FC:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/and32bits.v
 L0 1
 R3
 r1
@@ -37,19 +37,19 @@ r1
 R4
 R5
 !i10b 1
-!s100 I]Dd=D7b`GD_f<ZY^hKi41
+!s100 oc8EAP^0Z?>k@GIdMHJNW1
 !s85 0
-!s108 1763488669.043000
-!s107 C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/and32bits.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados|C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/and32bits.v|
+!s108 1763510247.055000
+!s107 C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/and32bits.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados|C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/and32bits.v|
 !s101 -O0
 vbancoRegistradores
-IKbAj4M;]mYkz<CE_31ko[2
+IjUb37finMa@6agXEb9id52
 VLMP3;hZ1PL7GlhNU44C]D3
 R1
 w1763487042
-8C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/bancoRegistradores.v
-FC:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/bancoRegistradores.v
+8C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/bancoRegistradores.v
+FC:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/bancoRegistradores.v
 L0 1
 R3
 r1
@@ -58,19 +58,19 @@ R4
 R5
 nbanco@registradores
 !i10b 1
-!s100 LcX>a<YkO>aAFMz_n:X0Q0
+!s100 >Fmg1^U<cOVB:YlhMTmeU3
 !s85 0
-!s108 1763488668.819000
-!s107 C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/bancoRegistradores.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados|C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/bancoRegistradores.v|
+!s108 1763510246.811000
+!s107 C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/bancoRegistradores.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados|C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/bancoRegistradores.v|
 !s101 -O0
 vcountPC
-IRKl4a:E6i3ognVzjcPT7>3
+IzZ28e`E]@eDlZSX:lWDQ[3
 V6;a[0Il:;0mPdg;6J]]033
 R1
 R2
-8C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/countPC.v
-FC:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/countPC.v
+8C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/countPC.v
+FC:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/countPC.v
 L0 1
 R3
 r1
@@ -79,19 +79,19 @@ R4
 R5
 ncount@p@c
 !i10b 1
-!s100 e?fA_935WU?e5kmGBBP2i1
+!s100 JmQ15Q3BM]`[;GNf;V]BQ1
 !s85 0
-!s108 1763488668.608000
-!s107 C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/countPC.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados|C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/countPC.v|
+!s108 1763510246.559000
+!s107 C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/countPC.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados|C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/countPC.v|
 !s101 -O0
 vdecodificador_operacao_hex
-Ik=afi34]@o`CG_94Z^nZL2
+IL6o^L?kK>]8e8WafcQ?5I0
 Vhlo06gh29<gb6JcJKo5DV0
 R1
 R2
-8C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/decodificador_operacao_hex.v
-FC:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/decodificador_operacao_hex.v
+8C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/decodificador_operacao_hex.v
+FC:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/decodificador_operacao_hex.v
 L0 1
 R3
 r1
@@ -99,19 +99,19 @@ r1
 R4
 R5
 !i10b 1
-!s100 GT^Vnj?ma_G5Y>7IfOHKd2
+!s100 A`0M>K9LO:^Ai`o1QL;Ph2
 !s85 0
-!s108 1763488668.389000
-!s107 C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/decodificador_operacao_hex.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados|C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/decodificador_operacao_hex.v|
+!s108 1763510246.296000
+!s107 C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/decodificador_operacao_hex.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados|C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/decodificador_operacao_hex.v|
 !s101 -O0
 vdivisor_frequencia
-IlGJ]IW8V4;XBZl]?e>WVl2
+IToaEOl1`kMHUC3Z]MEm5J3
 V`z:1L5e?V?Z<b04S2jE5<3
 R1
 R2
-8C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/divisor_frequencia.v
-FC:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/divisor_frequencia.v
+8C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/divisor_frequencia.v
+FC:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/divisor_frequencia.v
 L0 4
 R3
 r1
@@ -119,19 +119,19 @@ r1
 R4
 R5
 !i10b 1
-!s100 8S>mj9oNiAOR[h49m>>Dc3
+!s100 04YDU5=6RHFU<K4>3?nEV3
 !s85 0
-!s108 1763488668.158000
-!s107 C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/divisor_frequencia.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados|C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/divisor_frequencia.v|
+!s108 1763510246.039000
+!s107 C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/divisor_frequencia.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados|C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/divisor_frequencia.v|
 !s101 -O0
 vextensor_sinal
-ILMSe5Q0ihg]l7UG0=GB:o0
+IQBoGUYfg9dL1eCMzNG2N?0
 VC@iO_S4<f^5^]_k6jeGM>0
 R1
 R2
-8C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/extensor_sinal.v
-FC:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/extensor_sinal.v
+8C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/extensor_sinal.v
+FC:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/extensor_sinal.v
 L0 1
 R3
 r1
@@ -139,19 +139,19 @@ r1
 R4
 R5
 !i10b 1
-!s100 iT15X=VV`YA1UCnES@Q1h1
+!s100 zKT4hY_[Q5HR_LEY=iM[K3
 !s85 0
-!s108 1763488667.906000
-!s107 C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/extensor_sinal.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados|C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/extensor_sinal.v|
+!s108 1763510245.789000
+!s107 C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/extensor_sinal.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados|C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/extensor_sinal.v|
 !s101 -O0
 vhex_display
-I:oEdUTI`AODLFG6l0IhXj1
+IT[a^FE7_G8oXRBGGGoEa;1
 VO76bGU`]D]^aW=zO<L`fC0
 R1
 R2
-8C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/hex_display.v
-FC:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/hex_display.v
+8C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/hex_display.v
+FC:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/hex_display.v
 L0 1
 R3
 r1
@@ -159,19 +159,19 @@ r1
 R4
 R5
 !i10b 1
-!s100 I>cYC6BHzUc<N5gV[maQM2
+!s100 <a=T1RA=e^]8kGQKOc?^F0
 !s85 0
-!s108 1763488667.683000
-!s107 C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/hex_display.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados|C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/hex_display.v|
+!s108 1763510245.533000
+!s107 C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/hex_display.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados|C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/hex_display.v|
 !s101 -O0
 vmemoriaDados
-InQ`Mh3_[dhY@4zBS1HR1h2
+IC7dcR@WS8h96D__ANkb353
 Vk[Xe?IBjH3m@1oO4M@o7A3
 R1
-R2
-8C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/memoriaDados.v
-FC:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/memoriaDados.v
+w1763503659
+8C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/memoriaDados.v
+FC:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/memoriaDados.v
 L0 1
 R3
 r1
@@ -180,19 +180,19 @@ R4
 R5
 nmemoria@dados
 !i10b 1
-!s100 >`hE2ZgZho^nRmgdLeUZL1
+!s100 UMm>gljT=Q1TYE@JlLOXa0
 !s85 0
-!s108 1763488667.450000
-!s107 C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/memoriaDados.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados|C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/memoriaDados.v|
+!s108 1763510245.263000
+!s107 C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/memoriaDados.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados|C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/memoriaDados.v|
 !s101 -O0
 vmemoriaInstrucao
-IP[B=W<J0RF8e><YX>Hn[i0
+II3W]<j>`F[GZ^BTn@EKMh2
 V0QdciQ9D>1`c^zD>goRf;2
 R1
-w1763488543
-8C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/memoriaInstrucao.v
-FC:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/memoriaInstrucao.v
+w1763502740
+8C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/memoriaInstrucao.v
+FC:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/memoriaInstrucao.v
 L0 1
 R3
 r1
@@ -201,19 +201,19 @@ R4
 R5
 nmemoria@instrucao
 !i10b 1
-!s100 6G@BC7:mYHcinbORF[Hd72
+!s100 0P]cBN8ho]I92[;?C1N@`3
 !s85 0
-!s108 1763488667.237000
-!s107 C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/memoriaInstrucao.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados|C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/memoriaInstrucao.v|
+!s108 1763510244.988000
+!s107 C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/memoriaInstrucao.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados|C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/memoriaInstrucao.v|
 !s101 -O0
 vmux2por1
-I6<VG_kI9eX:n5z?89lSjc1
+IYfI=4GYl5kBUEV3oBCO4Y1
 VdW6i69e;3m@>O[E@8A75d0
 R1
 Z6 w1763054077
-8C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/mux2por1.v
-FC:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/mux2por1.v
+8C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/mux2por1.v
+FC:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/mux2por1.v
 L0 1
 R3
 r1
@@ -221,19 +221,19 @@ r1
 R4
 R5
 !i10b 1
-!s100 2`4Z_?=[YG15cg3NeTXHI2
+!s100 b3M8:f14gJ`JjlV7oJHJn1
 !s85 0
-!s108 1763488667.025000
-!s107 C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/mux2por1.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados|C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/mux2por1.v|
+!s108 1763510244.744000
+!s107 C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/mux2por1.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados|C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/mux2por1.v|
 !s101 -O0
 vmux2por1_32bits
-ICzIC4>;=LjDX;KZo7bJW42
+IH<lNfMH]GUNco40U53mc?2
 VnARNSc6mbE_LB8_IgNeIH3
 R1
 R6
-8C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/mux2por1_32bits.v
-FC:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/mux2por1_32bits.v
+8C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/mux2por1_32bits.v
+FC:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/mux2por1_32bits.v
 L0 1
 R3
 r1
@@ -241,19 +241,19 @@ r1
 R4
 R5
 !i10b 1
-!s100 `Wji:Z58>bN6K<b;F9UJ?1
+!s100 G3Wn;dQanTi5`6EFLR=Mm3
 !s85 0
-!s108 1763488666.803000
-!s107 C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/mux2por1_32bits.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados|C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/mux2por1_32bits.v|
+!s108 1763510244.480000
+!s107 C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/mux2por1_32bits.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados|C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/mux2por1_32bits.v|
 !s101 -O0
 vmux2por1_5bits
-I9>nzzS2KRNha>m^Y02jnb1
+I4kKkaP6j73n`nnalI9Jjo2
 VSO;@R115A=F^dfBeiSzT]3
 R1
 R6
-8C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/mux2por1_5bits.v
-FC:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/mux2por1_5bits.v
+8C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/mux2por1_5bits.v
+FC:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/mux2por1_5bits.v
 L0 1
 R3
 r1
@@ -261,19 +261,19 @@ r1
 R4
 R5
 !i10b 1
-!s100 WT:]4ae3U30QV9YHI1k9U3
+!s100 A[THR><0@_Xe8GYZO5D1Y1
 !s85 0
-!s108 1763488666.581000
-!s107 C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/mux2por1_5bits.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados|C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/mux2por1_5bits.v|
+!s108 1763510244.236000
+!s107 C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/mux2por1_5bits.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados|C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/mux2por1_5bits.v|
 !s101 -O0
 vmux8por1_1bit
-I;`o9[70BnnZo5_=n^nz_R1
+IeT9e0>RYJfIZ>>PBk=SPl2
 V:CkSnGmZPi;8Jh]QKzLDW0
 R1
 R6
-8C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/mux8por1_1bit.v
-FC:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/mux8por1_1bit.v
+8C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/mux8por1_1bit.v
+FC:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/mux8por1_1bit.v
 L0 1
 R3
 r1
@@ -281,19 +281,19 @@ r1
 R4
 R5
 !i10b 1
-!s100 R;QMO`6nDKaH^6PJQ9E_V0
+!s100 d;a;2P_fo1]=KXWeVTQQ13
 !s85 0
-!s108 1763488666.363000
-!s107 C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/mux8por1_1bit.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados|C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/mux8por1_1bit.v|
+!s108 1763510244.001000
+!s107 C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/mux8por1_1bit.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados|C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/mux8por1_1bit.v|
 !s101 -O0
 vmux8por1_32bits
-IB1:YLZY5@ef`F0E<g`S6k1
+I7K@]H@h=YM:l[:M:?>?J?3
 VBN>]XFgORRBaZ41SGL20_0
 R1
 R6
-8C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/mux8por1_32bits.v
-FC:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/mux8por1_32bits.v
+8C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/mux8por1_32bits.v
+FC:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/mux8por1_32bits.v
 L0 1
 R3
 r1
@@ -301,19 +301,19 @@ r1
 R4
 R5
 !i10b 1
-!s100 Z^kQXKSZPI5`CaTK>Admc0
+!s100 aFBhV:;g0J^kg_8Z2ogYd3
 !s85 0
-!s108 1763488666.149000
-!s107 C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/mux8por1_32bits.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados|C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/mux8por1_32bits.v|
+!s108 1763510243.729000
+!s107 C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/mux8por1_32bits.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados|C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/mux8por1_32bits.v|
 !s101 -O0
 vor1bit
-IIgIZLRRd9n@EfFUAi`ePV2
+IJ>oF@4dm:^k4TIoZY1[QN1
 VP747XISBV>iYUV3Y5jm=`0
 R1
 R6
-8C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/or1bit.v
-FC:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/or1bit.v
+8C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/or1bit.v
+FC:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/or1bit.v
 L0 1
 R3
 r1
@@ -321,19 +321,19 @@ r1
 R4
 R5
 !i10b 1
-!s100 fBEke]f9mjZ7bWNFQe3_l3
+!s100 ]LX4Ze[L=3FHGobfFlQiL2
 !s85 0
-!s108 1763488665.944000
-!s107 C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/or1bit.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados|C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/or1bit.v|
+!s108 1763510243.416000
+!s107 C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/or1bit.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados|C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/or1bit.v|
 !s101 -O0
 vor32bits
-I;?E7m@ZP6K5P@0LZRmTZ03
+I6c3T5OH`MD^OTaB?SU4Um1
 Vg`<Z8:hk>PVNW]@HN:DL>1
 R1
 R6
-8C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/or32bits.v
-FC:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/or32bits.v
+8C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/or32bits.v
+FC:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/or32bits.v
 L0 1
 R3
 r1
@@ -341,39 +341,39 @@ r1
 R4
 R5
 !i10b 1
-!s100 gIR2E7]B5Z[G:OghNj;??2
+!s100 7z5HH1_d4JVi1j:aDY;1S1
 !s85 0
-!s108 1763488665.720000
-!s107 C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/or32bits.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados|C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/or32bits.v|
+!s108 1763510243.108000
+!s107 C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/or32bits.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados|C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/or32bits.v|
 !s101 -O0
 vpratica8_top
-IR@3AmSzdKYicizXbciW933
+I<N@S?<19VjdkTH838ZV=93
 VS10:M=`D9Xfk0]_k5[ilW1
 R1
-R6
-8C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/pratica8_top.v
-FC:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/pratica8_top.v
-L0 20
+w1763508915
+8C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/pratica8_top.v
+FC:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/pratica8_top.v
+L0 21
 R3
 r1
 31
 R4
 R5
 !i10b 1
-!s100 X40WDb5[B9fZLQ6PJC?L33
+!s100 <ni>D>9@jRZ:?=QkZkQ:`0
 !s85 0
-!s108 1763488669.469000
-!s107 C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/pratica8_top.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados|C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/pratica8_top.v|
+!s108 1763510247.576000
+!s107 C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/pratica8_top.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados|C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/pratica8_top.v|
 !s101 -O0
 vprocessador
-Ioj8]HL3aUkFIWQOMMWhIF2
-Va][0_PJeSdSHR3;j_:[R[1
+Iicfc29RFXel[lUb6KLXB`2
+V2_a]kn]0J;h8@J6fECACa2
 R1
-w1763484774
-8C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/processador.v
-FC:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/processador.v
+w1763509013
+8C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/processador.v
+FC:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/processador.v
 L0 1
 R3
 r1
@@ -381,39 +381,39 @@ r1
 R4
 R5
 !i10b 1
-!s100 ZI11OckA?1@FSUOe?]6;d0
+!s100 Hl8Q0m6@9NQoMhK:SNbzS0
 !s85 0
-!s108 1763488665.436000
-!s107 C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/processador.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados|C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/processador.v|
+!s108 1763510242.808000
+!s107 C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/processador.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados|C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/processador.v|
 !s101 -O0
 vprocessador_tb
 !i10b 1
-!s100 3N4g_2RHccYhQD4TAA3G;0
-Ieg[FJ5NbdmE89`dSl32G23
+!s100 B1WeJNX`=ejZg9z<Y]z3z2
+IYI>HLQ>zCb7eLYMiJ1S=E2
 VYV9<D=fn?^A7jQ5_WNcT?1
 R1
-R6
-8C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/processador_tb.v
-FC:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/processador_tb.v
+w1763509806
+8C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/processador_tb.v
+FC:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/processador_tb.v
 L0 1
 R3
 r1
 !s85 0
 31
-!s108 1763488669.688000
-!s107 C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/processador_tb.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados|C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/processador_tb.v|
+!s108 1763510247.850000
+!s107 C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/processador_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados|C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/processador_tb.v|
 !s101 -O0
 R4
 R5
 vsomador1bit
-IJ57Z^>7BS_JIe182_A_BT1
+InI3ce]ilAV@oOVKSP3MI30
 V2;P?gG?kJQGGPVA5FZgYl3
 R1
 R6
-8C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/somador1bit.v
-FC:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/somador1bit.v
+8C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/somador1bit.v
+FC:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/somador1bit.v
 L0 1
 R3
 r1
@@ -421,19 +421,19 @@ r1
 R4
 R5
 !i10b 1
-!s100 JOnRCj>a]U8DY6bC6daK40
+!s100 8mZ9>FL5d<^4V`YbZ`ZZQ3
 !s85 0
-!s108 1763488665.214000
-!s107 C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/somador1bit.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados|C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/somador1bit.v|
+!s108 1763510242.462000
+!s107 C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/somador1bit.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados|C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/somador1bit.v|
 !s101 -O0
 vsomador32bits
-IT=]BCkc6`NLbQ6gYJ:JnG1
+IB?3^_jNQ0UaB`8a`o[:K70
 VP9@CNo1flC0Fb`zd_K1XT2
 R1
 R6
-8C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/somador32bits.v
-FC:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/somador32bits.v
+8C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/somador32bits.v
+FC:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/somador32bits.v
 L0 1
 R3
 r1
@@ -441,19 +441,19 @@ r1
 R4
 R5
 !i10b 1
-!s100 4h4SD2M2I0zXWXYQE6AnT3
+!s100 9^UoBYmP>]EmmBUo6j1de0
 !s85 0
-!s108 1763488664.991000
-!s107 C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/somador32bits.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados|C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/somador32bits.v|
+!s108 1763510242.117000
+!s107 C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/somador32bits.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados|C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/somador32bits.v|
 !s101 -O0
 vULA32bits
-IQFgD;1TcDnP:b3eB4F5Rb0
+IQ>aPk66RmedI1kFOVFbKB3
 VJD6V>nZMC5U9b5n6?mMQG3
 R1
 R6
-8C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/ULA32bits.v
-FC:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/ULA32bits.v
+8C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/ULA32bits.v
+FC:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/ULA32bits.v
 L0 1
 R3
 r1
@@ -462,19 +462,19 @@ R4
 R5
 n@u@l@a32bits
 !i10b 1
-!s100 >`JC03jSY40N=KNzHYlgF0
+!s100 GR<AW`g_W=2<YM_;11dF50
 !s85 0
-!s108 1763488664.769000
-!s107 C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/ULA32bits.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados|C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/ULA32bits.v|
+!s108 1763510241.822000
+!s107 C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/ULA32bits.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados|C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/ULA32bits.v|
 !s101 -O0
 vunidadeControlePrincipal
-InO5JcEGh9;5AeeiHlVU`Y2
+I<jVW=D3SYanW9UJ5KDVe;0
 VOonc[>6F=^HJ;15ZlPiWB2
 R1
 R6
-8C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/unidadeControlePrincipal.v
-FC:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/unidadeControlePrincipal.v
+8C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/unidadeControlePrincipal.v
+FC:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/unidadeControlePrincipal.v
 L0 1
 R3
 r1
@@ -483,19 +483,19 @@ R4
 R5
 nunidade@controle@principal
 !i10b 1
-!s100 LFmF<;H2hX8C8U=iJC8g41
+!s100 A]fM^2NXgM15YQea]6<jT2
 !s85 0
-!s108 1763488664.545000
-!s107 C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/unidadeControlePrincipal.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados|C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/unidadeControlePrincipal.v|
+!s108 1763510241.497000
+!s107 C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/unidadeControlePrincipal.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados|C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/unidadeControlePrincipal.v|
 !s101 -O0
 vunidadeControleULA
-IzbJ1Yno@Gg6]NI;iKcG393
+I5m0]ZZC=hSKTgC[ioT`U62
 V^B1gS1YMZz4L6fimz6>0=0
 R1
 R6
-8C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/unidadeControleULA.v
-FC:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/unidadeControleULA.v
+8C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/unidadeControleULA.v
+FC:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/unidadeControleULA.v
 L0 1
 R3
 r1
@@ -504,9 +504,9 @@ R4
 nunidade@controle@u@l@a
 R5
 !i10b 1
-!s100 Gmz`V7:kHe9iQ_K5@UoX=3
+!s100 IBVT`g`fD3;TPn<]ORCI:0
 !s85 0
-!s108 1763488664.290000
-!s107 C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/unidadeControleULA.v|
-!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados|C:/Users/gioes/Documents/GitHub-Projects/university-coursework/2025-2/computer-organization-and-architecture/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/unidadeControleULA.v|
+!s108 1763510241.091000
+!s107 C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/unidadeControleULA.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados|C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica8_GiovanniEstevam_JoaoVitorLopes/caminhoDados/unidadeControleULA.v|
 !s101 -O0
