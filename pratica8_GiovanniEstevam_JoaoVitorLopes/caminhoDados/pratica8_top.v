@@ -59,7 +59,7 @@ module pratica8_top(SW, CLOCK_50, HEX0, HEX1, HEX2, HEX3, HEX4, HEX5, HEX6, HEX7
 	
 	// LOGICA SAIDA
 	assign LEDR = {15'b0, zero_flag, reset, clock};
-	assign LEDG = {pc_valor[3:0], 4'b0, overflow_flag};
+	assign LEDG = {pc_valor[5:2], 3'b0, overflow_flag}; // divide pc por 4 pra mostrar 1, 2, 3, ...
 		
 	// resultado da ula nos HEX3 - HEX0
 	hex_display disp0 (ULA_valor[3:0], HEX0);
@@ -83,7 +83,7 @@ module pratica8_top(SW, CLOCK_50, HEX0, HEX1, HEX2, HEX3, HEX4, HEX5, HEX6, HEX7
 	
 	// MemRead = 1 => HEX 3 = WriteData; MemRead = 0 => HEX 3 APAGADO
 	wire[31:0] hex3_data;
-	assign hex3_data = (MemRead_out == 1'b1) ? WriteData_out : 32'bx;
+	assign hex3_data = (MemRead_out == 1'b1) ? WriteData_out : 32'bx; // SE O DISPLAY BUGAR, ACREDITO QUE O PROBLEMA SERA 32'bx
 	hex_display disp7 (hex3_data[3:0], HEX7);	
 	
 endmodule
