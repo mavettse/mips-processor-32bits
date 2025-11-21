@@ -19,7 +19,7 @@ Z5 !s92 -vlog01compat -work work +incdir+C:/Users/gioes/Documents/GitHub-Project
 !i10b 1
 !s100 S6VmA5fS0diU?S`n_>VdQ1
 !s85 0
-!s108 1763573750.014000
+!s108 1763681519.604000
 !s107 C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica9_GiovanniEstevam_JoaoVitorLopes/instrucaoDesvio/and1bit.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica9_GiovanniEstevam_JoaoVitorLopes/instrucaoDesvio|C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica9_GiovanniEstevam_JoaoVitorLopes/instrucaoDesvio/and1bit.v|
 !s101 -O0
@@ -39,7 +39,7 @@ R5
 !i10b 1
 !s100 ]2_KJ<^J61nXC>iRXE2IA3
 !s85 0
-!s108 1763573749.801000
+!s108 1763681519.274000
 !s107 C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica9_GiovanniEstevam_JoaoVitorLopes/instrucaoDesvio/and32bits.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica9_GiovanniEstevam_JoaoVitorLopes/instrucaoDesvio|C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica9_GiovanniEstevam_JoaoVitorLopes/instrucaoDesvio/and32bits.v|
 !s101 -O0
@@ -60,7 +60,7 @@ nbanco@registradores
 !i10b 1
 !s100 azjVdlhZ9O;cmbVeY8ZB<2
 !s85 0
-!s108 1763573749.588000
+!s108 1763681518.923000
 !s107 C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica9_GiovanniEstevam_JoaoVitorLopes/instrucaoDesvio/bancoRegistradores.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica9_GiovanniEstevam_JoaoVitorLopes/instrucaoDesvio|C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica9_GiovanniEstevam_JoaoVitorLopes/instrucaoDesvio/bancoRegistradores.v|
 !s101 -O0
@@ -81,7 +81,7 @@ ncount@p@c
 !i10b 1
 !s100 `i`3cRO_go@29Z5zX=[W]1
 !s85 0
-!s108 1763573749.364000
+!s108 1763681518.590000
 !s107 C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica9_GiovanniEstevam_JoaoVitorLopes/instrucaoDesvio/countPC.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica9_GiovanniEstevam_JoaoVitorLopes/instrucaoDesvio|C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica9_GiovanniEstevam_JoaoVitorLopes/instrucaoDesvio/countPC.v|
 !s101 -O0
@@ -101,7 +101,7 @@ R5
 !i10b 1
 !s100 fz@:39=DlkUDJg`Ehd17T0
 !s85 0
-!s108 1763573749.158000
+!s108 1763681518.226000
 !s107 C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica9_GiovanniEstevam_JoaoVitorLopes/instrucaoDesvio/decodificador_operacao_hex.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica9_GiovanniEstevam_JoaoVitorLopes/instrucaoDesvio|C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica9_GiovanniEstevam_JoaoVitorLopes/instrucaoDesvio/decodificador_operacao_hex.v|
 !s101 -O0
@@ -121,7 +121,7 @@ R5
 !i10b 1
 !s100 67KkXz8GZ<cOb=m9;6YXF1
 !s85 0
-!s108 1763573748.921000
+!s108 1763681517.860000
 !s107 C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica9_GiovanniEstevam_JoaoVitorLopes/instrucaoDesvio/divisor_frequencia.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica9_GiovanniEstevam_JoaoVitorLopes/instrucaoDesvio|C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica9_GiovanniEstevam_JoaoVitorLopes/instrucaoDesvio/divisor_frequencia.v|
 !s101 -O0
@@ -141,7 +141,7 @@ R5
 !i10b 1
 !s100 IJdNmlm_T_4298CSn2KgE2
 !s85 0
-!s108 1763573748.712000
+!s108 1763681517.540000
 !s107 C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica9_GiovanniEstevam_JoaoVitorLopes/instrucaoDesvio/extensor_sinal.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica9_GiovanniEstevam_JoaoVitorLopes/instrucaoDesvio|C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica9_GiovanniEstevam_JoaoVitorLopes/instrucaoDesvio/extensor_sinal.v|
 !s101 -O0
@@ -161,7 +161,7 @@ R5
 !i10b 1
 !s100 j191<L5gIO>KMO1za_k>S3
 !s85 0
-!s108 1763573748.505000
+!s108 1763681517.175000
 !s107 C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica9_GiovanniEstevam_JoaoVitorLopes/instrucaoDesvio/hex_display.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica9_GiovanniEstevam_JoaoVitorLopes/instrucaoDesvio|C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica9_GiovanniEstevam_JoaoVitorLopes/instrucaoDesvio/hex_display.v|
 !s101 -O0
@@ -182,7 +182,7 @@ nmemoria@dados
 !i10b 1
 !s100 aAP@QhMmCLD1VH:V?;cWl0
 !s85 0
-!s108 1763573748.281000
+!s108 1763681516.822000
 !s107 C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica9_GiovanniEstevam_JoaoVitorLopes/instrucaoDesvio/memoriaDados.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica9_GiovanniEstevam_JoaoVitorLopes/instrucaoDesvio|C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica9_GiovanniEstevam_JoaoVitorLopes/instrucaoDesvio/memoriaDados.v|
 !s101 -O0
@@ -203,7 +203,7 @@ nmemoria@instrucao
 !i10b 1
 !s100 gK6jHBY<KA_Nfl@Me]@D[2
 !s85 0
-!s108 1763573748.100000
+!s108 1763681516.488000
 !s107 C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica9_GiovanniEstevam_JoaoVitorLopes/instrucaoDesvio/memoriaInstrucao.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica9_GiovanniEstevam_JoaoVitorLopes/instrucaoDesvio|C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica9_GiovanniEstevam_JoaoVitorLopes/instrucaoDesvio/memoriaInstrucao.v|
 !s101 -O0
@@ -223,7 +223,7 @@ R5
 !i10b 1
 !s100 9Ib:9ed?DD5_iZL0lAQIc3
 !s85 0
-!s108 1763573747.870000
+!s108 1763681516.164000
 !s107 C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica9_GiovanniEstevam_JoaoVitorLopes/instrucaoDesvio/mux2por1.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica9_GiovanniEstevam_JoaoVitorLopes/instrucaoDesvio|C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica9_GiovanniEstevam_JoaoVitorLopes/instrucaoDesvio/mux2por1.v|
 !s101 -O0
@@ -243,7 +243,7 @@ R5
 !i10b 1
 !s100 3zS10SAM2Dl4e:0kz_InA0
 !s85 0
-!s108 1763573747.655000
+!s108 1763681515.829000
 !s107 C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica9_GiovanniEstevam_JoaoVitorLopes/instrucaoDesvio/mux2por1_32bits.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica9_GiovanniEstevam_JoaoVitorLopes/instrucaoDesvio|C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica9_GiovanniEstevam_JoaoVitorLopes/instrucaoDesvio/mux2por1_32bits.v|
 !s101 -O0
@@ -263,7 +263,7 @@ R5
 !i10b 1
 !s100 hg;ij`RhT6bGgJI@fR7I`1
 !s85 0
-!s108 1763573747.425000
+!s108 1763681515.451000
 !s107 C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica9_GiovanniEstevam_JoaoVitorLopes/instrucaoDesvio/mux2por1_5bits.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica9_GiovanniEstevam_JoaoVitorLopes/instrucaoDesvio|C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica9_GiovanniEstevam_JoaoVitorLopes/instrucaoDesvio/mux2por1_5bits.v|
 !s101 -O0
@@ -283,7 +283,7 @@ R5
 !i10b 1
 !s100 TA]lm1_22gZgS2N;M74]Y3
 !s85 0
-!s108 1763573747.219000
+!s108 1763681515.129000
 !s107 C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica9_GiovanniEstevam_JoaoVitorLopes/instrucaoDesvio/mux8por1_1bit.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica9_GiovanniEstevam_JoaoVitorLopes/instrucaoDesvio|C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica9_GiovanniEstevam_JoaoVitorLopes/instrucaoDesvio/mux8por1_1bit.v|
 !s101 -O0
@@ -303,7 +303,7 @@ R5
 !i10b 1
 !s100 L1zYo61=cmgDL`V]A8ARW3
 !s85 0
-!s108 1763573746.997000
+!s108 1763681514.784000
 !s107 C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica9_GiovanniEstevam_JoaoVitorLopes/instrucaoDesvio/mux8por1_32bits.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica9_GiovanniEstevam_JoaoVitorLopes/instrucaoDesvio|C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica9_GiovanniEstevam_JoaoVitorLopes/instrucaoDesvio/mux8por1_32bits.v|
 !s101 -O0
@@ -323,7 +323,7 @@ R5
 !i10b 1
 !s100 I85;jQ;T[NlX?nmb7:aY11
 !s85 0
-!s108 1763573746.759000
+!s108 1763681514.450000
 !s107 C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica9_GiovanniEstevam_JoaoVitorLopes/instrucaoDesvio/or1bit.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica9_GiovanniEstevam_JoaoVitorLopes/instrucaoDesvio|C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica9_GiovanniEstevam_JoaoVitorLopes/instrucaoDesvio/or1bit.v|
 !s101 -O0
@@ -343,7 +343,7 @@ R5
 !i10b 1
 !s100 ASU;z8AGW[kaL`n@^<;gh1
 !s85 0
-!s108 1763573746.555000
+!s108 1763681514.117000
 !s107 C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica9_GiovanniEstevam_JoaoVitorLopes/instrucaoDesvio/or32bits.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica9_GiovanniEstevam_JoaoVitorLopes/instrucaoDesvio|C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica9_GiovanniEstevam_JoaoVitorLopes/instrucaoDesvio/or32bits.v|
 !s101 -O0
@@ -363,7 +363,7 @@ R5
 !i10b 1
 !s100 >e;50X@<]_k:]L3VN`Oo52
 !s85 0
-!s108 1763573746.314000
+!s108 1763681513.783000
 !s107 C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica9_GiovanniEstevam_JoaoVitorLopes/instrucaoDesvio/pratica9_top.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica9_GiovanniEstevam_JoaoVitorLopes/instrucaoDesvio|C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica9_GiovanniEstevam_JoaoVitorLopes/instrucaoDesvio/pratica9_top.v|
 !s101 -O0
@@ -383,17 +383,17 @@ R5
 !i10b 1
 !s100 al=mIWEa>fd69_JlH]P^S2
 !s85 0
-!s108 1763573746.106000
+!s108 1763681513.393000
 !s107 C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica9_GiovanniEstevam_JoaoVitorLopes/instrucaoDesvio/processador.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica9_GiovanniEstevam_JoaoVitorLopes/instrucaoDesvio|C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica9_GiovanniEstevam_JoaoVitorLopes/instrucaoDesvio/processador.v|
 !s101 -O0
 vprocessador_tb
 !i10b 1
-!s100 Ti71T7gKYc3?6GDISd9<J2
-I8HARInXl@Enkz3eDg>Ri=3
+!s100 7mn^YMi=]3^^Ajcb8BNf30
+I59;;H6H:m``4l8BJ]?^:^2
 VYV9<D=fn?^A7jQ5_WNcT?1
 R1
-w1763573710
+w1763681455
 8C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica9_GiovanniEstevam_JoaoVitorLopes/instrucaoDesvio/processador_tb.v
 FC:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica9_GiovanniEstevam_JoaoVitorLopes/instrucaoDesvio/processador_tb.v
 L0 1
@@ -401,7 +401,7 @@ R3
 r1
 !s85 0
 31
-!s108 1763573750.203000
+!s108 1763681519.969000
 !s107 C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica9_GiovanniEstevam_JoaoVitorLopes/instrucaoDesvio/processador_tb.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica9_GiovanniEstevam_JoaoVitorLopes/instrucaoDesvio|C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica9_GiovanniEstevam_JoaoVitorLopes/instrucaoDesvio/processador_tb.v|
 !s101 -O0
@@ -423,7 +423,7 @@ R5
 !i10b 1
 !s100 `NZObJfnhjZajFM=NGNWW0
 !s85 0
-!s108 1763573745.900000
+!s108 1763681513.038000
 !s107 C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica9_GiovanniEstevam_JoaoVitorLopes/instrucaoDesvio/somador1bit.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica9_GiovanniEstevam_JoaoVitorLopes/instrucaoDesvio|C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica9_GiovanniEstevam_JoaoVitorLopes/instrucaoDesvio/somador1bit.v|
 !s101 -O0
@@ -443,7 +443,7 @@ R5
 !i10b 1
 !s100 g1:@HSFUGD0JIbZ[oiNe=1
 !s85 0
-!s108 1763573745.688000
+!s108 1763681512.721000
 !s107 C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica9_GiovanniEstevam_JoaoVitorLopes/instrucaoDesvio/somador32bits.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica9_GiovanniEstevam_JoaoVitorLopes/instrucaoDesvio|C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica9_GiovanniEstevam_JoaoVitorLopes/instrucaoDesvio/somador32bits.v|
 !s101 -O0
@@ -464,7 +464,7 @@ n@u@l@a32bits
 !i10b 1
 !s100 k]Vm?Q8TzO4Xa<[27B<F_2
 !s85 0
-!s108 1763573745.513000
+!s108 1763681512.386000
 !s107 C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica9_GiovanniEstevam_JoaoVitorLopes/instrucaoDesvio/ULA32bits.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica9_GiovanniEstevam_JoaoVitorLopes/instrucaoDesvio|C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica9_GiovanniEstevam_JoaoVitorLopes/instrucaoDesvio/ULA32bits.v|
 !s101 -O0
@@ -485,7 +485,7 @@ nunidade@controle@principal
 !i10b 1
 !s100 =Nc6BGMlbA38D[d7Fb7Q]2
 !s85 0
-!s108 1763573745.275000
+!s108 1763681512.057000
 !s107 C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica9_GiovanniEstevam_JoaoVitorLopes/instrucaoDesvio/unidadeControlePrincipal.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica9_GiovanniEstevam_JoaoVitorLopes/instrucaoDesvio|C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica9_GiovanniEstevam_JoaoVitorLopes/instrucaoDesvio/unidadeControlePrincipal.v|
 !s101 -O0
@@ -506,7 +506,7 @@ R5
 !i10b 1
 !s100 HPeo]o0`_`=UJ7G=PaJOb3
 !s85 0
-!s108 1763573745.038000
+!s108 1763681511.697000
 !s107 C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica9_GiovanniEstevam_JoaoVitorLopes/instrucaoDesvio/unidadeControleULA.v|
 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica9_GiovanniEstevam_JoaoVitorLopes/instrucaoDesvio|C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica9_GiovanniEstevam_JoaoVitorLopes/instrucaoDesvio/unidadeControleULA.v|
 !s101 -O0

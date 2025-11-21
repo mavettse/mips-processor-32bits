@@ -192,6 +192,6 @@
 # view signals
 # .main_pane.objects.interior.cs.body.tree
 # run -all
-# Break in Module processador_tb at C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica9_GiovanniEstevam_JoaoVitorLopes/instrucaoDesvio/processador_tb.v line 58
-# Simulation Breakpoint: Break in Module processador_tb at C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica9_GiovanniEstevam_JoaoVitorLopes/instrucaoDesvio/processador_tb.v line 58
+# Break in Module processador_tb at C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica9_GiovanniEstevam_JoaoVitorLopes/instrucaoDesvio/processador_tb.v line 60
+# Simulation Breakpoint: Break in Module processador_tb at C:/Users/gioes/Documents/GitHub-Projects/lab_aoc/pratica9_GiovanniEstevam_JoaoVitorLopes/instrucaoDesvio/processador_tb.v line 60
 # MACRO ./instrucaoDesvio_run_msim_rtl_verilog.do PAUSED at line 40
