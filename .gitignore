@@ -8,6 +8,7 @@ greybox_tmp/
 simulation/
 
 # arquivos de relatorio e logs
+*.qdf
 *.bak
 *.qws
 *.rpt
