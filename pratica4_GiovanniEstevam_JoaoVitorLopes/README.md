@@ -1,17 +1,19 @@
-# Prática 4: Blocos Lógicos, ULA e Memória de Dados
+English | [Português-BR](README.pt-br.md)
 
-Esta prática foca na implementação de componentes fundamentais da arquitetura MIPS em Verilog, servindo como base para a construção do processador.
+# Practice 1: Logic Blocks, ALU, and Data Memory
 
-## Objetivos
+This assignment focuses on implementing fundamental components of the MIPS architecture in Verilog, serving as the foundation for building the processor.
 
-O objetivo é projetar, implementar e simular os seguintes módulos:
+## Objectives
 
-* **Somador Completo (32 bits):** Um somador construído a partir de somadores completos de 1 bit (Full-Adders). 
-* **Unidade Lógica e Aritmética (ULA) de 32 bits:** Uma ULA capaz de executar as cinco operações básicas do MIPS, selecionadas por um sinal de controle `ALUop` :
+The goal is to design, implement, and simulate the following modules:
+
+* **Full Adder (32-bit):** An adder built from 1-bit full adders.
+* **32-bit Arithmetic Logic Unit (ALU):** An ALU capable of executing the five basic MIPS operations:
     * `000`: and
     * `001`: or
     * `010`: add
     * `110`: subtract
     * `111`: slt (set less than)
-* **Extensor de Sinal:** Um módulo que converte um sinal de entrada de 16 bits para um sinal de saída de 32 bits (extensão de sinal). 
-* **Memória de Dados:** Uma memória de dados com capacidade de 32 bytes, suportando operações de leitura (`memRead`) e escrita (`memWrite`) sincronizadas com o clock.
+* **Sign Extender:** A module that converts a 16-bit input signal into a 32-bit output signal (sign extension).
+* **Data Memory:** A data memory with a storage capacity of 64 bytes, supporting read (`memRead`) and write (`memWrite`) operations synchronized with the clock.

@@ -1,4 +1,6 @@
-﻿# Prática 9: Caminho de Dados das Instruções de Desvio
+﻿English | [Português-BR](README.pt-br.md)
+
+# Prática 6: Caminho de Dados das Instruções de Desvio
 
 Esta prática foca na expansão da arquitetura do processador MIPS monociclo para suportar instruções de controle de fluxo, permitindo a execução de desvios condicionais e incondicionais.
 
@@ -13,4 +15,3 @@ As principais tarefas incluem:
 * **Atualização da Unidade de Controle:** Modificar a Unidade de Controle Principal para incluir o sinal de controle "Jump" necessário para o multiplexador do endereço de desvio.
 
 * **Validação em FPGA:** Implementar e validar um programa de teste que inicializa registradores específicos ($8, $9, $10, $12) e executa uma sequência de instruções (`beq`, `addi`, `sw`, `lw`, `sub`, `j`) para comprovar o funcionamento dos saltos e a integridade dos dados nos displays.
-
