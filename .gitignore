@@ -1,0 +1,22 @@
+# pastas de compilacao e banco de dados do quartus
+db/
+incremental_db/
+output_files/
+greybox_tmp/
+
+# pastas de simulacao geradas automaticamente
+simulation/
+
+# arquivos de relatorio e logs
+*.bak
+*.qws
+*.rpt
+*.smsg
+*.summary
+*.done
+*.pin
+*.jdi
+*.sld
+*.sci
+*.db_info
+*.qmsg
