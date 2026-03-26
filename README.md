@@ -47,4 +47,3 @@ The main file (`processador.v`) integrates all instances built throughout the pr
 * **João Vitor Lopes** - [https://github.com/joaovitorf4]
 
 ---
-*Project developed for academic purposes - Computer Engineering / 2025.*
